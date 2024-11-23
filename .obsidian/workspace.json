@@ -134,17 +134,17 @@
             }
           },
           {
-            "id": "10323fab4537ff04",
+            "id": "9aa86eb20237291e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Soldi/Gestione soldi.md",
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Metodi di barriera.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gestione soldi"
+              "title": "Metodi di barriera"
             }
           },
           {
@@ -218,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 460,
+    "collapsed": true
   },
   "right": {
     "id": "c7e9c6b5cde9c4d5",
@@ -278,10 +279,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Soldi/Gestione soldi.md"
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Metodi di barriera.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Gestione soldi"
+              "title": "Outline of Metodi di barriera"
             }
           },
           {
@@ -309,7 +310,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -328,13 +329,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8f5f59337948ec0",
+  "active": "9aa86eb20237291e",
   "lastOpenFiles": [
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Funzioni di penalità quandratiche.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Metodi di barriera.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Cenni sugli algoritmi di ottimizzazione vincolata.md",
+    "Soldi/Gestione soldi.md",
     "Università/Università.md",
     "Università/Home università.md",
-    "Università/Anno 2/Sessione 1/Ricerca operativa/Metodi di barriera.md",
-    "Università/Anno 2/Sessione 1/Ricerca operativa/Funzioni di penalità quandratiche.md",
-    "Università/Anno 2/Sessione 1/Ricerca operativa/Cenni sugli algoritmi di ottimizzazione vincolata.md",
     "Università/Anno 2/Sessione 1/Ricerca operativa/ARGOMENTI TRATTATI.md",
     "Università/Anno 2/Sessione 1/Sessione 1.md",
     "Home.md",
@@ -356,7 +358,6 @@
     "Artificial Intelligence/TensorFlow.md",
     "Artificial Intelligence/Tensor.md",
     "Artificial Intelligence/Supervised Learning.md",
-    "Artificial Intelligence/Reinforcement Learning.md",
     "Università/Anno 2/Sessione 1/Fisica II/Pasted image 20241110164623.png",
     "Università/Anno 2/Sessione 1/Fisica II/Cariche disposte in linea.pdf",
     "Università/Anno 1/Sessione 2/Untitled.canvas",
