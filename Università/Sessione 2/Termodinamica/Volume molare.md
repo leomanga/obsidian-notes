@@ -1,1 +1,0 @@
-$v_{m}=\frac{V}{n}[\frac{m^{3}}{mol}]$ è il volume molare, con il quale si può esprimere una quantità di gas) 

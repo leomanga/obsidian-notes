@@ -13,3 +13,4 @@
 [[Direzione di discesa]]
 [[Condizioni di ottimalità nell’ottimizzazione non vincolata]]
 [[Ottimizzazione vincolata]]
+[[Cenni sugli algoritmi di ottimizzazione vincolata]]

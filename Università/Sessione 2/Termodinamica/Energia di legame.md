@@ -1,1 +1,0 @@
-L'energia di legame è caratteristica di una specifica fase fisica del sistema.

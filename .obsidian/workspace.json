@@ -4,11 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "ee519829d55cae7b",
         "type": "tabs",
         "children": [
           {
-            "id": "9e3a99dc686414b6",
+            "id": "97656ccc0c5bf8f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Ottimizzazione vincolata.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ottimizzazione vincolata"
+            }
+          },
+          {
+            "id": "eaf0234f85769a28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Condizioni di Karush-Kuhn-Tucker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Condizioni di Karush-Kuhn-Tucker"
+            }
+          },
+          {
+            "id": "e2e56d008fcf120f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Ottimizzazione vincolata.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ottimizzazione vincolata"
+            }
+          },
+          {
+            "id": "90ca989e62af4a29",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +62,107 @@
               "icon": "lucide-file",
               "title": "ARGOMENTI TRATTATI"
             }
+          },
+          {
+            "id": "514f3b1eb77bfc9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Cenni sugli algoritmi di ottimizzazione vincolata.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cenni sugli algoritmi di ottimizzazione vincolata"
+            }
+          },
+          {
+            "id": "a2c21a173e662440",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Funzioni di penalità quandratiche.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Funzioni di penalità quandratiche"
+            }
+          },
+          {
+            "id": "798e0fa41f694663",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Ottimizzazione vincolata.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ottimizzazione vincolata"
+            }
+          },
+          {
+            "id": "8cea167e20e6eeae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Ottimizzazione vincolata.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ottimizzazione vincolata"
+            }
+          },
+          {
+            "id": "113f81716603270f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Cenni sugli algoritmi di ottimizzazione vincolata.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cenni sugli algoritmi di ottimizzazione vincolata"
+            }
+          },
+          {
+            "id": "10323fab4537ff04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Soldi/Gestione soldi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gestione soldi"
+            }
+          },
+          {
+            "id": "6e8ebcc396f5db6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/Funzioni di penalità quandratiche.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Funzioni di penalità quandratiche"
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -77,7 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5110321044922
+    "width": 200
   },
   "right": {
     "id": "c7e9c6b5cde9c4d5",
@@ -137,290 +278,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Università/Anno 2/Sessione 1/Ricerca operativa/ARGOMENTI TRATTATI.md"
+                "file": "Soldi/Gestione soldi.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ARGOMENTI TRATTATI"
-            }
-          },
-          {
-            "id": "f205a8296b0f6345",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "11cd61c0edf29ec2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "e279e81dca3cb443",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "f2c0d4ceadcc83e8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "007df8751f0e511c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "53d00ee8f62e3b54",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "f76e9805e3a44ea3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "2ec3e8618268af16",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "8796f0ee8f104ba4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "35be72831f58c804",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "23597d33b23992c8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "875d4172335073c6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "398f4e0620fb24de",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "ca70212f50d5701d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "7dbcda9b39e9f2ef",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "f5c19821a34d62c3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "815c03443db85a38",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "b8dbb1b30823a9c6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "70e593b24cfa8d3e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "2ce7b374c19fa23c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "2a24b384981dbfb0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "fe1375575f6e36a1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "8bd17845fe9a2103",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "6a5046892e0e6c3b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "6279430930e2dbfd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "d0bc84da910877ae",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "4e81e62bf46a3b4f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "ea2c80d02a3d947f",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "title": "Outline of Gestione soldi"
             }
           },
           {
@@ -432,13 +293,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "5b01f5207e7dc762",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 32
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 482.5
+    "width": 465.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -451,19 +322,32 @@
       "publish:Publish changes...": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
-      "remotely-save:Remotely Save": false,
       "omnisearch:Omnisearch": false,
       "webpage-html-export:Export Vault to HTML": false,
       "3d-graph:3D Graph": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e3a99dc686414b6",
+  "active": "c8f5f59337948ec0",
   "lastOpenFiles": [
-    "Algoritmi/Algoritmo di Horner.md",
+    "Università/Università.md",
+    "Università/Home università.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Metodi di barriera.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Funzioni di penalità quandratiche.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Cenni sugli algoritmi di ottimizzazione vincolata.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/ARGOMENTI TRATTATI.md",
     "Università/Anno 2/Sessione 1/Sessione 1.md",
-    "Nuovo Documento di testo.txt",
     "Home.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Ottimizzazione vincolata.md",
+    "Università/Anno 1/Sessione 2/Analisi II/Massimi e minimi di funzioni su curve o superfici.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Condizioni di Karush-Kuhn-Tucker.md",
+    "Università/Anno 2/Sessione 1/Ricerca operativa/Programmazione non lineare.md",
+    "Università/Sessione 2/Sessione 2.md",
+    "Università/Anno 1/Sessione 1/Analisi I/Tabella di marcia.md",
+    "Università/Anno 1/Sessione 1/Sessione 1.md",
+    "Università/Sessione 2/Analisi II/Massimi e minimi di funzioni su curve o superfici.md",
+    "Algoritmi/Algoritmo di Horner.md",
+    "Nuovo Documento di testo.txt",
     "Algoritmi/Massimo comune divisore.md",
     "Algoritmi/Minimo comune divisore.md",
     "Algoritmi/Algoritmi.md",
@@ -473,19 +357,6 @@
     "Artificial Intelligence/Tensor.md",
     "Artificial Intelligence/Supervised Learning.md",
     "Artificial Intelligence/Reinforcement Learning.md",
-    "Artificial Intelligence/Machine Learning.md",
-    "Artificial Intelligence/LinearClassifier.md",
-    "Artificial Intelligence/Linear Regression.md",
-    "Artificial Intelligence/DNNClassifier.md",
-    "Artificial Intelligence/Deep Learning.md",
-    "Artificial Intelligence/Clustering.md",
-    "Artificial Intelligence/Classification.md",
-    "Artificial Intelligence/Artificial Intelligence.md",
-    "Clean code/Things....md",
-    "Università/Anno 2/Sessione 1/Ricerca operativa/Ottimizzazione vincolata.md",
-    "Università/Anno 2/Sessione 1/Ricerca operativa/ARGOMENTI TRATTATI.md",
-    "Università/Anno 2/Sessione 1/Fisica II/Campo elettrostatico.md",
-    "Università/Anno 2/Sessione 1/Fisica II/Campo vettoriale.md",
     "Università/Anno 2/Sessione 1/Fisica II/Pasted image 20241110164623.png",
     "Università/Anno 2/Sessione 1/Fisica II/Cariche disposte in linea.pdf",
     "Università/Anno 1/Sessione 2/Untitled.canvas",

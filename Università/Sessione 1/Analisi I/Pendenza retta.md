@@ -1,1 +1,0 @@
-$$m = \frac{altezza}{base}$$

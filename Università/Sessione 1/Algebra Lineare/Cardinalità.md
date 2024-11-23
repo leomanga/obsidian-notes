@@ -1,1 +1,0 @@
-Con cardinalità si intende il numero di elementi che costituiscono un insieme.

@@ -1,1 +1,0 @@
-$$EO_n{\mathbb{K}} = \{(a_1x_{1}+ \ldots+a_nx_{n)}= 0 : a_1,\ldots,a_{n}\in \mathbb{K}\}$$
