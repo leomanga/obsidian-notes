@@ -1,0 +1,1 @@
+We only have features(informations). It group the informations if they are similar and determine in what group another informations is.

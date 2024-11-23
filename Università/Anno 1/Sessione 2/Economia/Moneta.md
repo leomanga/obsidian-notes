@@ -1,0 +1,2 @@
+L'unità di misura di un sistema economico ed il suo mezzo di scambio.
+La gestione adeguata dell'offerta di moneta è uno dei principali problemi di politica [[Macroeconomia|macroeconomica]] del governo in tutti i Paesi.

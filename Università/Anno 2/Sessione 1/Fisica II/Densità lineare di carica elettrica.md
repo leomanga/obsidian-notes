@@ -1,0 +1,2 @@
+La densità lineare di [[Carica elettrica]] rappresenta la distribuzione lineare delle cariche elettriche:
+$$ \lambda(x,y,z)=\frac{\mbox{n cariche}}{\mbox{lunghezza}} = \lim_{\Delta l\to 0}\frac{\sum q_{i}}{\Delta l}\quad [\frac{c}{m}]$$

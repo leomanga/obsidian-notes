@@ -1,0 +1,12 @@
+{
+  "defaultViewMode": "preview",
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true,
+  "rightToLeft": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "foldHeading": true
+}

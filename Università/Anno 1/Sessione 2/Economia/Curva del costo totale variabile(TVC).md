@@ -1,0 +1,1 @@
+La curva del costo totale variabile $TVC(Q)$ mostra la spesa in input variabili, come il lavoro e le materie prime, in corrispondenza della combinazione di input che minimizza i costi nel breve periodo.

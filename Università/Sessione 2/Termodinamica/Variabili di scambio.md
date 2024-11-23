@@ -1,0 +1,2 @@
+Sono quelle proprietà che determinano la variazione di energia di un [[Sistema termodinamico]] e che quindi ne determinano una trasformazione fino al raggiungimento di un nuovo stato di equilibrio.
+Tra le variabili di scambio troviamo il [[Calore]] e il [[Lavoro]], oltre agli scambi di massa.

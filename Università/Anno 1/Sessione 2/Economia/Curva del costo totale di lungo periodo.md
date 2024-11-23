@@ -1,0 +1,2 @@
+La curva del costo totale di lungo periodo mostra come varia il costo totale minimo per diversi livelli di quantità prodotta, supposti costanti i prezzi dei [[Fattori di produzione]] e che l'impresa scelga gli input in modo da minimizzare i costi.
+![[Curva del costo totale di lungo periodo.png]]

@@ -1,0 +1,11 @@
+{
+	"id": "mathematica-plot",
+	"name": "Mathematica Plot",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Render graphs using Wolfram Mathematica code!",
+	"author": "Marcos Nicolau",
+	"authorUrl": "https://github.com/MarcosNicolau",
+	"fundingUrl": "https://www.buymeacoffee.com/marcosnicolau",
+	"isDesktopOnly": true
+}

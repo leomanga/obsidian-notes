@@ -1,0 +1,1 @@
+Il TAN è il tasso di interesse composto annualmente.

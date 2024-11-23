@@ -1,0 +1,1 @@
+Il soggetto economico è la persona che detiene il potere formale di governo dell’impresa, conferente e/o proprietario del capitale di rischio.

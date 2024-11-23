@@ -1,0 +1,3 @@
+$$U=\frac{k_{e}}{2}\sum_{i=1}^{n}\sum_{j=1, j\not=i}^{n}\frac{Q_{i}Q_{j}}{|\vec{r}_{j}-\vec{r}_{i}|} = \frac{1}{2}\sum_{i=1}^{n}V_{i}(\vec{r_{i}})q_{i}$$
+Dove $n$ è il numero di cariche nello spazio e $V_{i}$ è il [[Potenziale elettrostatico]] generato da tutte le cariche nella posizione $\vec{r}_{i}$
+$U$ rappresenta il lavoro che devo compiere per mantenere e portare le cariche nella loro posizione.

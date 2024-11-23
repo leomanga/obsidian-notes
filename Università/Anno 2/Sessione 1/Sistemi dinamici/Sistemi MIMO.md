@@ -1,0 +1,1 @@
+Sistemi multiple-input-multiple-output
