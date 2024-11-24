@@ -1,0 +1,2 @@
+The effort to automate intellectual tasks normally performed by human.
+A predefined set of rules(algorithm) that the computer follow. There aren't necessarily [[Deep Learning]] or [[Machine Learning]], in fact they are a subset of the Artificial Intelligence.Q

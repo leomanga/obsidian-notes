@@ -1,0 +1,6 @@
+# Rettangolo
+
+# Plurirettangolo
+
+# Partizione
+

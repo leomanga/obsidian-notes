@@ -1,0 +1,14 @@
+{
+  "accentColor": "",
+  "baseFontSize": 21,
+  "baseFontSizeAction": true,
+  "showViewHeader": true,
+  "translucency": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "style"
+  ],
+  "cssTheme": "Minimal",
+  "textFontFamily": "Calibri,Bahnschrift,Arial",
+  "theme": "obsidian"
+}

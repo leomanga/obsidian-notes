@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiCalculator",
+      "LiPersonStanding",
+      "LiHome",
+      "LiHomepage",
+      "LiTornado"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "Università": "LiUniversity",
+  "Università/Anno 1": "1️⃣",
+  "Università/Anno 2": "2️⃣",
+  "Scuola": "LiSchool",
+  "Progetti": "LiWorkflow",
+  "Life": "LiPersonStanding",
+  "Impostazioni obsidian": "LiSettings",
+  "Excalidraw": "LiExcalidrawIcon",
+  "Artificial Intelligence": "LiCalculator",
+  "Clean code": "LiBook",
+  "Algoritmi": "LiTornado",
+  "Home.md": {
+    "iconName": "LiHome",
+    "iconColor": "#ffffff"
+  },
+  "Università/Università.md": "LiHome"
+}

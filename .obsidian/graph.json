@@ -1,0 +1,114 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Artificial Intelligence\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:Life  ",
+      "color": {
+        "a": 1,
+        "rgb": 9294351
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 1/Sessione 1/Algebra Lineare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 1/Sessione 1/Analisi I\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 18176
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 1/Sessione 2/Analisi II\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 1/Sessione 2/Economia\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 1/Sessione 2/Meccanica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 1/Sessione 2/Termodinamica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 2/Sessione 1/Telecomunicazioni\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 2/Sessione 1/Fisica II\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 3213063
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 2/Sessione 1/Ricerca operativa\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 2/Sessione 1/Sistemi dinamici\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431511
+      }
+    },
+    {
+      "query": "path:\"Università/Anno 2/Sessione 1/Calcolo numerico\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6554503
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.10701305960095496,
+  "close": false
+}

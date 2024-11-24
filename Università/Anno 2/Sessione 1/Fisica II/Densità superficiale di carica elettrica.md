@@ -1,0 +1,2 @@
+La densità superficiale di [[Carica elettrica]] rappresenta la distribuzione superficiale delle cariche elettriche:
+$$ \sigma(x,y,z)=\frac{\mbox{n cariche}}{\mbox{superficie}} = \lim_{\Delta l\to 0}\frac{\sum q_{i}}{\Delta s}\quad [\frac{c}{m^{2}}]$$

@@ -1,0 +1,47 @@
+.mathematica-plot-modal {
+	width: 50%;
+}
+
+.mathematica-plot-modal .mathematica-plot-modal-settings {
+	max-height: 60vh;
+	overflow-y: auto;
+	width: 100%;
+}
+
+.mathematica-plot-modal .mathematica-plot-modal-preview {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	overflow: auto;
+}
+
+.mathematica-plot-modal .mathematica-plot-modal-content-container {
+	display: flex;
+	gap: 16px;
+}
+
+.mathematica-plot {
+	position: relative;
+}
+
+.mathematica-plot-edit-btn {
+	padding-bottom: var(--size-2-2);
+	padding-right: var(--size-2-3);
+	position: absolute;
+	right: var(--size-2-2);
+	bottom: var(--size-2-2);
+	opacity: 0;
+}
+
+.mathematica-plot:hover .mathematica-plot-edit-btn {
+	transition: 0s;
+	opacity: 1;
+}
+
+@media only screen and (max-width: 1550px) {
+	.mathematica-plot-modal {
+		width: 75%;
+	}
+}

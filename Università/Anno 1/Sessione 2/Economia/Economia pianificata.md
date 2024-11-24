@@ -1,0 +1,1 @@
+Nell'economia pianificata lo stato prende la maggior parte delle decisioni economiche. Tramite il possesso dei [[Fattori di produzione]] impone le proprie decisioni.
