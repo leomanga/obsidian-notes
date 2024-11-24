@@ -33,9 +33,9 @@ v^{*}\ge 0\\
 
 A questo punto possiamo chiudere il cerchio. Infatti, dato un problema di PL (primale)
 in forma standard:
-1. Se $ x^*$ `e una soluzione ottima del problema primale, allora (Teorema 4) deve soddis-
-fare le KKT;
-2. Se un punto x∗ soddisfa le KKT, allora il vettore u∗ dei moltiplicatori `e ammissibile
+1. Se $x^*$ e una soluzione ottima del problema primale, allora da [[Programmazione lineare#^41dcfd]], deve soddis-
+fare le [[Condizioni di Karush-Kuhn-Tucker|KKT]]
+2. Se un punto $x^*$ soddisfa le [[Condizioni di Karush-Kuhn-Tucker|KKT]], allora il vettore $u^∗$ dei moltiplicatori è ammissibile
 per il problema duale (Teorema 6) ed `e tale che cTx∗ = bTu∗ (Teorema 5);
 3. Se x∗ e u∗ sono ammissibili per i rispettivi problemi e si ha che cTx∗ = bTu∗, allora
 x∗ e u∗ sono una coppia di soluzioni ottime per i rispettivi problemi (Teorema 9).

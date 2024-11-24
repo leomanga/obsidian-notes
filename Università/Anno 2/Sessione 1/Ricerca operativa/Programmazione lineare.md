@@ -40,8 +40,12 @@ c^{T}-u^{*T}A\ge 0\\
 >[!thm]
 >Dato un problema di PL [[#^0dd399]], se $x^{*}$ è un punto di minimo, allora esistono vettori $u^{*}$ e $s^{*}$ tali da soddisfare ![[#^533680]]
 
+^41dcfd
+
 >[!thm]
 >Se $x^{*}$ e $u^{*}$ soddisfano [[#^533680]], allora $c^{T}x^{*}=b^{T}u^{*}$
+
+^d35126
 
 [[Problema duale]]
  
