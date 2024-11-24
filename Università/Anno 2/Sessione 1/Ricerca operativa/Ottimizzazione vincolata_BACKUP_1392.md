@@ -14,13 +14,21 @@
 \frac{\partial q_{1}}{\partial x_n} & \frac{\partial q_{2}}{\partial x_n} & \ldots & \frac{\partial q_{m}}{\partial x_n}
 \end{bmatrix}$$
 
+<<<<<<< HEAD
+=======
 ^7f57d1
+
+>>>>>>> origin/master
 >[!thm]
 >Date due funzioni $f(x)$ e $h_{1}(x)$, se in un punto $x$ si ha che $\nabla f(x)$ e $\nabla{h_1}(x)$ non sono paralleli, allora esiste un vettore $\bar d$ che soddisfa 
 >$$\nabla h_{1}(x)^{T}d = 0\mbox{ e}\ \nabla{f(x)}^{T}d < 0$$
 >(Se entrambi non sono paralleli, $x$ non è un punto di minimo, anche se rispetta il vincolo)
 
+<<<<<<< HEAD
 ![[Massimi e minimi di funzioni su curve o superfici#^ffc5a3]]
+=======
+![[Università/Sessione 2/Analisi II/Massimi e minimi di funzioni su curve o superfici#^a07680|Massimi e minimi di funzioni su curve o superfici]]
+>>>>>>> origin/master
 
 >[!prp] Caso di una disequazione
 >Nel caso di una disequazione $g_{1}(\bar{x})\ge 0$, supponendo $\nabla g_{1}(\bar x)\not = 0$, per essere al minimo, vogliamo che per il punto $\bar x$, $\nabla f(\bar {x})^{T}d \ge 0$.(se non lo fosse avremmo una [[Direzione di discesa]] negativa).
@@ -44,6 +52,8 @@
 >[!def ] Punto regolare
 >Un punto $x$ per il quale vale la [[#^6a428a|condizione di qualificazione]] dei vincoli attivi prende il nome di punto regolare.
 >Se un punto è regolare, nessuno dei gradienti dei vincoli attivi si può annullare.
+<<<<<<< HEAD
+=======
 
 ^020857
 
@@ -58,3 +68,4 @@ Si possono riassumere tutte queste condizioni in [[Condizioni di Karush-Kuhn-Tuc
 >(L’Hessiana del lagrangiano deve essere [[Matrice definita positiva|semidefinita positiva]] sullo spazio nullo della matrice jacobiana dei vincoli attivi in $x^{*}$)
 
 Scrivere sensibilità alle variazioni dei parametri
+>>>>>>> origin/master

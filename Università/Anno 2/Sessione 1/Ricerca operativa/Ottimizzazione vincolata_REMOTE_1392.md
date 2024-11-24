@@ -15,12 +15,13 @@
 \end{bmatrix}$$
 
 ^7f57d1
+
 >[!thm]
 >Date due funzioni $f(x)$ e $h_{1}(x)$, se in un punto $x$ si ha che $\nabla f(x)$ e $\nabla{h_1}(x)$ non sono paralleli, allora esiste un vettore $\bar d$ che soddisfa 
 >$$\nabla h_{1}(x)^{T}d = 0\mbox{ e}\ \nabla{f(x)}^{T}d < 0$$
 >(Se entrambi non sono paralleli, $x$ non è un punto di minimo, anche se rispetta il vincolo)
 
-![[Massimi e minimi di funzioni su curve o superfici#^ffc5a3]]
+![[Università/Sessione 2/Analisi II/Massimi e minimi di funzioni su curve o superfici#^a07680|Massimi e minimi di funzioni su curve o superfici]]
 
 >[!prp] Caso di una disequazione
 >Nel caso di una disequazione $g_{1}(\bar{x})\ge 0$, supponendo $\nabla g_{1}(\bar x)\not = 0$, per essere al minimo, vogliamo che per il punto $\bar x$, $\nabla f(\bar {x})^{T}d \ge 0$.(se non lo fosse avremmo una [[Direzione di discesa]] negativa).
