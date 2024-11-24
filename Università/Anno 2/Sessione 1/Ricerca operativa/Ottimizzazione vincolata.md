@@ -58,3 +58,9 @@ Si possono riassumere tutte queste condizioni in [[Condizioni di Karush-Kuhn-Tuc
 >(L’Hessiana del lagrangiano deve essere [[Matrice definita positiva|semidefinita positiva]] sullo spazio nullo della matrice jacobiana dei vincoli attivi in $x^{*}$)
 
 Scrivere sensibilità alle variazioni dei parametri
+
+>[!thm]
+> Dato un problema di ottimizzazione vincolata, se le funzioni $h_{i}(x)=a_{i}^{T}+b_{i}$ sono lineari e tutte le $-g_{j}$ sono convesse, allora la regione ammissibile $X$ è convessa.
+
+^a41736
+
