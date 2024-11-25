@@ -3,6 +3,7 @@ $$\begin{split}
 \max b^{T}y\\
 A^{T}y\le c
 \end{split}$$
+dove $b$ è il vettore per cui $g_{j}\le b_{j}$ ecc.. nel caso primale.
 Se uniamo di due problemi avremo la lagrangiana
 $$L(y,v)=-b^{T}y-v^{T}(c-A^{T}y)$$
 dove la funzione obiettivo è cambiata di segno data la massimizzazione.
