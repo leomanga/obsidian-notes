@@ -27,7 +27,7 @@ v^{*}\ge 0\\
 
 ^a1029e
 
->[!thm]
+>[!thm] Teorema della dualità debole
 >Si consideri una coppia primale-duale di problemi di PL, e siano $\bar x$ e $\bar y$ soluzioni ammissibili dei problemi rispettivamente, allora
 >$$c^{T}\bar x\ge b^{T}\bar y$$
 >(il valore della funzione obiettivo del problema primale è sempre maggiore o uguale del valore della funzione obiettivo del problema duale)
