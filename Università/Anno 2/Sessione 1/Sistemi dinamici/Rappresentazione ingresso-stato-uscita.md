@@ -31,8 +31,8 @@ $y$ sono le [[variabili di uscita]]
 >$$
 
 >[!prp] Trasformata di Laplace
->$$X(s)=\underbrace{(sI-A)^{-1}x(0)}_{X_{l},\ risposta\ libera\ nello\ stato}+\underbrace{(sI-A)^{-1}U(S)}_{Y_{f},\ risposta\ forzata\ nello\ stato}$$
->$$Y(s)=CX(s)+DU(s)=\underbrace{C(sI-A)^{-1}Bx(0)}_{Y_{l},\ risposta\ libera}+\underbrace{[C(sI-A)^{-1}B+D]U(s)}_{Y_{f},\ risposta\ forzata}$$
+>$$X(s)=\underbrace{(sI-A)^{-1}x(0)}_{X_{l},\ risposta\ libera\ nello\ stato}+\underbrace{(sI-A)^{-1}BU(S)}_{Y_{f},\ risposta\ forzata\ nello\ stato}$$
+>$$Y(s)=CX(s)+DU(s)=\underbrace{C(sI-A)^{-1}x(0)}_{Y_{l},\ risposta\ libera}+\underbrace{[C(sI-A)^{-1}B+D]U(s)}_{Y_{f},\ risposta\ forzata}$$
 >- $X_{l}$ e $Y_{l}$ sono le **risposte libere** nello stato e nell’uscita, le quali sono influenzate solo dai dati iniziali.
 >- $X_{f}$ e $Y_{f}$ sono le **[[Risposta forzata|risposte forzate]]** nello stato e nell’uscita.
 >  $Y_{f}=G(s)\cdot U(s)$, dove $U(s)$ è la trasformata della funzione di ingresso, mentre $G(s)=C(sI-A)^{-1}B+D$ viene chiamata **funzione di trasferimento del sistema**. 
