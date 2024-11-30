@@ -3,6 +3,7 @@ aliases:
   - Delta di Dirac
   - delta di Dirac
 ---
+# Tempo continuo
 Data $\delta_{\epsilon}(t)=\begin{cases}  \frac{1}{\epsilon}\mbox{ se }0\le t\le \epsilon\\ 0\mbox{ altrimenti}   \end{cases}$
 
 
@@ -32,4 +33,9 @@ Allora si può vedere l’impulso come derivata del [[Gradino unitario]].
 >**L’impulso è l’elemento unitario nella trasformata di Laplace**
 >[[Trasformata di Laplace]]
 
+# Tempo discreto
+$$\delta(k)=\begin{cases}  1\mbox{ se }k=0\\ 0\mbox{ altrimenti}   \end{cases}$$
 
+>[!prp] Trasformata Zeta dell’impulso
+>$$\mathcal{Z}[\mathbb{1}(t)]=\frac{z}{z-1}\qquad z\in \mathbb{C}$$
+>[[Trasformata Zeta]]

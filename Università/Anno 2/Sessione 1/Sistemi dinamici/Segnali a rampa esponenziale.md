@@ -3,6 +3,7 @@ collegamenti:
   - "[[Segnali esponenziali]]"
   - "[[Segnali canonici]]"
 ---
+# Tempo continuo
 In generale $$f_{k}(t)=\frac{t^{k}}{k!}\cdot e^{\alpha t}\cdot \mathbb{1}(t)$$
 
 ```functionplot
@@ -21,4 +22,5 @@ f(x) = x<0? 0 : x * 2.71828^(-1 * x)
 >$$\mathcal{L}[f_{k}(t)]=\frac{1}{(s-\alpha)^{k+1}}\qquad s\in \mathbb{C}$$
 >[[Trasformata di Laplace]]
 
-
+# Tempo discreto
+$$f(k)=\rho^{k}\binom{k}{n}\mathbb{1}(k)$$

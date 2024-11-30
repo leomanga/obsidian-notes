@@ -1,6 +1,7 @@
+# Tempo continuo
 In generale $$r_{k}(t)=\frac{t^{k}}{k!}\cdot \mathbb{1}(t)\quad k=0,1,\ldots$$
 Dove $\mathbb{1}(t)$ è il [[Gradino unitario]].
-# Rampa lineare
+## Rampa lineare
 $$r_{1}(t)=t\cdot \mathbb{1}(t)$$
 
 ```functionplot
@@ -14,7 +15,7 @@ grid: true
 ---
 f(x)=x<0? 0: x
 ```
-# Rampa parabolica
+## Rampa parabolica
 $$r_{2}(t)=\frac{t^{2}}{2}\cdot \mathbb{1}(t)$$
 
 ```functionplot
@@ -33,3 +34,5 @@ f(x)=x<0? 0: x^2
 >$$\mathcal{L}[r_{k}(t)]=\frac{1}{s^{k+1}}\qquad s\in \mathbb{C}$$
 >[[Trasformata di Laplace]]
 
+# Tempo discreto
+$$r_{n}(k)=\binom{k}{n}\mathbb{1}(k)$$

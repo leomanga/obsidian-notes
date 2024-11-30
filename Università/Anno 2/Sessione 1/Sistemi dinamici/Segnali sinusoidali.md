@@ -2,6 +2,7 @@
 collegamenti:
   - "[[Funzioni complesse#Formule di Eulero]]"
 ---
+# Tempo continuo
 In generale
 $$
 f(t)=\cos(\omega t)=\frac{e^{j\omega t}+e^{-j\omega t}}{2}
@@ -25,3 +26,6 @@ Dove $\omega$ è la pulsazione.
 >$$\mathcal{L}[\sin(\omega t)\cdot\mathbb{1}(t)]=\frac{\omega}{s^{2}+\omega^{2}}\qquad s\in \mathbb{C}$$
 >[[Trasformata di Laplace]]
 
+# Tempo discreto
+$$f(k)=\cos(\omega k)\mathbb{1}(k)$$
+$$f(k)=\sin(\omega k)\mathbb{1}(k)$$
