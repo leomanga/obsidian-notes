@@ -27,5 +27,12 @@ Dove $\omega$ è la pulsazione.
 >[[Trasformata di Laplace]]
 
 # Tempo discreto
-$$f(k)=\cos(\omega k)\mathbb{1}(k)$$
-$$f(k)=\sin(\omega k)\mathbb{1}(k)$$
+$$f(k)=\cos(\omega k)\mathbb{1}(k)=\frac{1}{2}(e^{j\omega})^{k}+\frac{1}{2}(e^{-j\omega})^{k}$$
+$$f(k)=\sin(\omega k)\mathbb{1}(k)=\frac{1}{2j}(e^{j\omega})^k-\frac{1}{2j}(e^{-j\omega})^k$$
+>[!prp] Trasformata Zeta del coseno
+>$$\mathcal{Z}[\cos(\omega z)]=\frac{z(z-\cos(\omega))}{z^{2}+w\cos(\omega)z+1}\qquad z\in \mathbb{C}$$
+>[[Trasformata Zeta]]
+
+>[!prp] Trasformata Zeta del seno
+>$$\mathcal{Z}[\sin(\omega z)]=\frac{z\sin(\omega)}{z^{2}+w\cos(\omega)z+1}\qquad z\in \mathbb{C}$$
+>[[Trasformata Zeta]]

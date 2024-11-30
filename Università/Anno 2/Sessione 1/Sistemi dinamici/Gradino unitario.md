@@ -35,5 +35,5 @@ $$
 \end{cases}
 $$
 >[!prp] Trasformata Zeta del gradino unitario
->$$\mathcal{Z}[\mathbb{1}(t)]=\frac{z}{z-1}\qquad z\in \mathbb{C}$$
+>$$\mathcal{Z}[\mathbb{1}(z)]=\frac{z}{z-1}\qquad z\in \mathbb{C}$$
 >[[Trasformata Zeta]]

@@ -37,5 +37,5 @@ Allora si può vedere l’impulso come derivata del [[Gradino unitario]].
 $$\delta(k)=\begin{cases}  1\mbox{ se }k=0\\ 0\mbox{ altrimenti}   \end{cases}$$
 
 >[!prp] Trasformata Zeta dell’impulso
->$$\mathcal{Z}[\mathbb{1}(t)]=\frac{z}{z-1}\qquad z\in \mathbb{C}$$
+>$$\mathcal{Z}[\delta(z)]=1\qquad z\in \mathbb{C}$$
 >[[Trasformata Zeta]]

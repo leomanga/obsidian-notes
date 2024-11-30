@@ -18,3 +18,7 @@
 [[Interconnessione di sistemi dinamici]]
 [[Studio delle radici di un polinomio]]
 
+
+
+---
+Sistemare dalla trasformata Zeta in poi

@@ -23,4 +23,7 @@ f(x) = x<0? 0 : x * 2.71828^(-1 * x)
 >[[Trasformata di Laplace]]
 
 # Tempo discreto
-$$f(k)=\rho^{k}\binom{k}{n}\mathbb{1}(k)$$
+$$f_{n}(k)=\rho^{k}\binom{k}{n}\mathbb{1}(k)$$
+>[!prp] Trasformata Zeta della rampa esponenziale
+>$$\mathcal{Z}[f_{n}(k)]=\frac{\rho^{n}\cdot z}{(z-\rho)^{n+1}}\qquad z\in \mathbb{C}$$
+>[[Trasformata Zeta]]

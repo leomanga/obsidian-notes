@@ -5,3 +5,16 @@
 >$$F(z)=\sum_{k=0}^{+\infty}f(k)z^{-k}=\mathcal{Z}[F(z)]$$
 
 Le ipotesi sono necessarie per far convergere la [[Serie numeriche|serie]].
+# Proprietà
+1) Linearità
+2) Trasformata dei segnali con ritardo $\frac{1}{z^{\Delta}}$
+3) Moltiplicazione per esponenziale $\frac{z}{z-\rho}$
+4) Moltiplicazione per $k$, $-z\frac{d}{dz}F(z)$→ si può vedere come un anticipazione teoricamente
+
+---
+
+>[!thm] Teorema del valore finale
+>$$\lim_{k\to \infty}f(k)\mbox{ esiste finito} \Rightarrow\lim_{k\to \infty}f(k)=\lim_{z\to1}(z-1)F(z)$$
+>(Esiste finito se $F(z)$ ha poli interni al cerchio unitario tranne al più un polo in $z=1$)
+
+
