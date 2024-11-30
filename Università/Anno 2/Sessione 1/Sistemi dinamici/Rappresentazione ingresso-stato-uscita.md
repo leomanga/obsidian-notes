@@ -37,4 +37,11 @@ $y$ sono le [[variabili di uscita]]
 >- $X_{f}$ e $Y_{f}$ sono le **[[Risposta forzata|risposte forzate]]** nello stato e nell’uscita.
 >  $Y_{f}=G(s)\cdot U(s)$, dove $U(s)$ è la trasformata della funzione di ingresso, mentre $G(s)=C(sI-A)^{-1}B+D$ viene chiamata **funzione di trasferimento del sistema**. 
 >  Grazie a $G(s)$ si passa facilmente alla rappresentazione [[Rappresentazione ingresso-uscita|IO]]].
->
+
+# Tempo discreto
+#TODO 
+$X_{l}(z)=(zI-A)^{-1}zx(0)$
+$X_{f}(z)=(zI-A)^{-1}BU(z)$
+
+$Y_{l}(z)=C(zI-A)^{-1}zx(0)$
+$Y_{f}(z)=[C(zI-A)^{-1}B+D]U(z)$

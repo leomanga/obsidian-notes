@@ -30,4 +30,6 @@ $y$ sono le variabili di uscita
 >[[Trasformata di Laplace]]
 
 ^84e975
-
+# Tempo discreto
+#TODO 
+$$G(z)=\frac{b_{0}z^{m}+b_{1}z^{m-1}+\ldots + b_{m}z^{n-m}}{z^{n}+a_{1}z^{n-1}+\ldots+a_{n}}$$
