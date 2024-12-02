@@ -8,7 +8,7 @@ There’s no need to begin at the “start” of a subject; every note is part o
 
 Thanks to Obsidian's linking system, knowledge here is not linear but interconnected, constantly expanding as new insights emerge.  
 
-![[Screenshot.png]]
+![Screenshot](./Impostazioni%20obsidian/Screenshot.png)
 
 ---
 ![Static Badge](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&link=https%3A%2F%2Fobsidian.md%2F)
