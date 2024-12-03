@@ -32,7 +32,7 @@ Dove $Q$ e $D$ sono i resti dalla scomposizione in fratti semplici.
 Abbiamo avuto come ipotesi che $G(s)$ avesse poli a parte reale negativa.
 - Se ha almeno un polo maggiore di 0, avremo che $y_{p}(t)$ sarà divergente.
 - Se ha un polo in 0, allora $y_{t}$ tenderà ad una costante e $y_{p}$ tenderà ad una sinusoide con media non nulla.
-- Se contiene i poli immaginari $\pm j\alpha$, con $\alpha\not = 0$, allora $y_{t}$ conterrà i modi $\cos$ e $\sin$. Questo fenomeno si chiama **BATTIMENTO**. In base ad $\alpha$, è possibile che $y_{p}$ si annulli.
+- Se contiene i poli immaginari $\pm j\alpha$, con $\alpha\not = \omega$, allora $y_{t}$ conterrà i modi $\cos$ e $\sin$. Questo fenomeno si chiama **BATTIMENTO**. In base ad $\alpha$, è possibile che $y_{p}$ si annulli.
 - Se contiene i poli immaginari $\pm j\omega$, allora i conti fatti non sono più veri dato che abbiamo molteplicità 2. Avremo che la [[Risposta forzata]] conterrà i modi $t\cos$ e $t\sin$. Questo fenomeno si chiama **RISONANZA**.
 
 
