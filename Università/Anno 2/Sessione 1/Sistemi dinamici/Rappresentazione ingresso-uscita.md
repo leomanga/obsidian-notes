@@ -18,7 +18,7 @@ $y$ sono le variabili di uscita
 ^2ade95
 
 >[!prp] Trasformata di Laplace
->$$Y(s)=\underbrace{\frac{c_{n-1}s^{n-1}+c_{n-2}s^{n-2}+\ldots + c_{0}}{s^{n}+a_{n-1s^{n-1}+\ldots+a_1s+a_{0}}}}_{Y_{l}(s),\ risposta\ libera}+\underbrace{\frac{b_{m}s^{m}+b_{m-1}s_{m-1}+\ldots+b_{1}s+b_{0}}{s^{n}+a_{n-1}s^{n-1}+\ldots+a_{1}s+a_{0}}}_{Y_{f(s)},\ risposta\ fissa}$$
+>$$Y(s)=\underbrace{\frac{c_{n-1}s^{n-1}+c_{n-2}s^{n-2}+\ldots + c_{0}}{s^{n}+a_{n-1s^{n-1}+\ldots+a_1s+a_{0}}}}_{Y_{l}(s),\ risposta\ libera}+\underbrace{\frac{b_{m}s^{m}+b_{m-1}s_{m-1}+\ldots+b_{1}s+b_{0}}{s^{n}+a_{n-1}s^{n-1}+\ldots+a_{1}s+a_{0}}}_{Y_{f(s)},\ risposta\ fissa}U(s)$$
 >Dove $c_{i}$ sono combinazioni lineari di $y(0), \dot{y}(0),\ldots,y^{n-1}(0)$
 >
 >- $Y_{l}(s)$ viene chiamata **risposta libera**, la quale è influenzata solo dai dati iniziali.
