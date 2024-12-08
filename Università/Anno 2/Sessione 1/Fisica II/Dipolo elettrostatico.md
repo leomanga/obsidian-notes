@@ -11,9 +11,32 @@ $$|\vec{r^{+}}|=\sqrt{r^{2}+ \frac{\delta^{2}}{4}-r\delta\cos{\theta}}=r^{2}\sqr
 $$|\vec{r^{-}}|=r^{2}\sqrt{q+\frac{\delta^2}{4r^2}+\frac{\delta}{r}\cos{\theta}}$$
 Facendo un po’ di approssimazioni, immaginando $r>> \delta$, otteniamo
 $$V(P)\simeq\frac{k_{e}Q\delta\cos{\theta}}{r^{2}}$$
-Chiamiamo $\vec{P} = Q\cdot \vec{\delta}$ **momento di dipolo**.
-Allora $$V(P)=k_{e}\cdot \vec{P}\vec{r}\cdot \frac{1}{r^3}$$
-Possiamo inoltre calcolare il momento meccanico come 
-$$\vec{M}=\vec{P}\times\vec{E}$$
-Se le due cariche opposte non sono uguali, la forza risultante di un dipolo su un campo elettrostatico è
+Chiamiamo 
+>[!def] Momento di dipolo
+>$$\vec{P} = Q\cdot \vec{\delta}$$
+
+^ac2828
+
+Allora 
+>[!prp] Potenziale a grandi distanze
+>Se la distanza fra le cariche è molto più piccola di quella in un punto $\vec{r}$, si ha
+>$$V(P)=k_{e}\cdot \vec{P}\vec{r}\cdot \frac{1}{r^3}\quad[V]$$
+>Dove $\vec{P}$ è il [[#^ac2828|momento di dipolo]]
+
+Possiamo inoltre calcolare il momento meccanico 
+>[!prp] Momento meccanico
+>
+$$\vec{M}=\vec{P}\times\vec{E}\quad [N\cdot m]$$
+Dove $\vec{P}$ è il [[#^ac2828|momento di dipolo]] e $\vec{E}$ è il [[Campo elettrostatico]]
+
+Inoltre abbiamo
+>[!prp] Forza risultante se le due cariche sono diverse
+Se le due cariche opposte non sono uguali, la forza risultante (applicata al baricentro) di un dipolo su un campo elettrostatico è
+>
 $$\vec{R}=(\vec{P}\cdot \nabla)\vec{E}$$
+
+Possiamo anche calcolare l’energia potenziale
+>[!def] Energia potenziale del dipolo
+>$$U=-\vec{P}\cdot \vec{E}(r)\quad [J]$$
+>Dove $\vec{P}$ è il [[#^ac2828|momento di dipolo]] e $\vec{E}$ è il [[Campo elettrostatico]]
+
