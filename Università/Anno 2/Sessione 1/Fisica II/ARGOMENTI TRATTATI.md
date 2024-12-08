@@ -15,3 +15,5 @@
 - [[Lavoro totale]]
 - [[Teorema di Culomb]]
 - [[Condensatori]]
+- [[Dipolo elettrostatico]]
+- [[Molecole polari e non polari]]
