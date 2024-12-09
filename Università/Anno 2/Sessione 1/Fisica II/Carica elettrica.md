@@ -1,5 +1,5 @@
 Tutte le cariche sono multipli interi di quella dell’elettrone, dato che è la più piccola carica mai identificata.
-$$e = 1.6902\cdot 10^{-19}\ c$$
+$$e = 1.6902\cdot 10^{-19}\ c$$ ^8b0f88
 
 >[!def] Carica elettrica puntiforme
 >Si può calcolare la carica elettrica puntiforme come 
