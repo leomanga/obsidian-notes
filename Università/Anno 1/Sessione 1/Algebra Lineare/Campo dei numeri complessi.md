@@ -89,7 +89,7 @@ $z=a+b\cdot i$
 Ogni numero complesso $z\not = 0$ può essere scritto come 
 $$z=\underbrace{e^{t}}_{modulo}\cdot e^{i\underbrace{\theta}_{argomento}}$$
 $$e^{t+i\theta}:=e^{t}(\cos\theta+i\sin\theta)$$
-# Formula di De Monroe
+# Formula di De Moivre
 Se $z=\rho(\cos\theta+i\sin\theta)$
 Allora $z^{n}=\rho^{n}(\cos n\theta+i\sin n\theta)$ 
 
