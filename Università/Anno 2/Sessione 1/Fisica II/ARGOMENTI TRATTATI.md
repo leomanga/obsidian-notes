@@ -17,3 +17,4 @@
 - [[Condensatori]]
 - [[Dipolo elettrostatico]]
 - [[Molecole polari e non polari]]
+- Continua da Polarizzazione per deformazione
