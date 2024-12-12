@@ -15,6 +15,8 @@
 - [[Lavoro totale]]
 - [[Teorema di Culomb]]
 - [[Condensatori]]
+- 
 - [[Dipolo elettrostatico]]
+- [[Polarizzazione per deformazione]]
 - [[Molecole polari e non polari]]
-- Continua da Polarizzazione per deformazione
+- [[Vettore polarizzazione]]
