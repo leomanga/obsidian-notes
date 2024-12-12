@@ -14,6 +14,7 @@ $$V(P)\simeq\frac{k_{e}Q\delta\cos{\theta}}{r^{2}}$$
 Chiamiamo 
 >[!def] Momento di dipolo
 >$$\vec{p} = Q\cdot \vec{\delta}$$
+>Successivamente abbiamo visto anche che $\vec{p}=\alpha\cdot \vec{E}_{l}$ dove $\alpha$ è la polarizzabilità di ogni elemento e $\vec{E}_{l}$ è il campo locale che agisce sull’elemento.
 
 ^ac2828
 
