@@ -43,4 +43,8 @@ Se ipotizziamo di avere un [[Materiali conduttori|conduttore]] con una carica $Q
 Avremo allora dal [[Teorema di Gauss]] in forma differenziale che $$\nabla \cdot \epsilon_{0}\vec{E}(\vec{r})= \rho_{f}(\vec{r}) +\rho_{p}(\vec{r})$$
 Da [[#^6a35b4]], possiamo scrivere 
 $$\nabla\cdot [\epsilon_{0}\vec{E}(\vec{r})+\vec{P}(\vec{r})]=\rho_{f}(\vec{r})$$
-[[Induzione elettrica]]
+Definendo l’[[Induzione elettrica]] $\vec{D}(\vec{r})=\epsilon_{0}\vec{E}(\vec{r})+\vec{P}(\vec{r})$, possiamo scrivere che $\nabla\cdot \vec{D}(\vec{r}))=\rho_{f}(\vec{r})$
+Integrando ora sul volume $V$ racchiuso dalla superficie di Gauss ed applicando il [[Flusso di un campo vettoriale#^6d04f9|teorema della divergenza]] avremo che
+$$Q_{f}=\oint_{S}\vec{D}(\vec{r})\cdot \hat nds=\iiint_{V}\rho_{f}(\vec{r})dv$$
+dove $S$ e $V$ sono le misure della superficie di Gauss.
+
