@@ -23,7 +23,12 @@ Allora nel dielettrico si presenterà una densità di carica $\vec{\rho}_{p}$ vo
 
 Avremo
 $$\sigma_{p}(\vec{r})=P(\vec{r})\cdot \hat n$$
-$$\rho_{p}(\vec{r})=-\sigma\cdot \vec{P}(\vec{r})$$
+$$
+\rho_{p}(\vec{r})=-\nabla\cdot \vec{P}(\vec{r})
+$$
+
+^6a35b4
+
 dove $\vec{P}$ è il [[Vettore polarizzazione]] e $P$ il suo modulo. Mentre $\hat n$ rappresenta il versore normale alla superficie (diretto verso l’esterno).
 
 Il [[Potenziale elettrostatico]] dovuto alle cariche diventerà
@@ -32,3 +37,10 @@ Il [[Campo elettrostatico]] diventerà
 $$\vec{E}_{p}(\vec{r})=k_{e}\oint_{S}\frac{\sigma_{p}(\vec{r})}{|\vec{r}- \vec{r}^{'}|^{3}}ds^{'}+k_{e}\iiint_{V}\frac{\rho_{p}(\vec{r})}{|\vec{r}-\vec{r}^{'}|^{3}}dv^{'}$$
 
 Scrivere suscettività dielettrica pag 19 slides.
+# Gauss nei dielettrici
+Se ipotizziamo di avere un [[Materiali conduttori|conduttore]] con una carica $Q_{f}$ distribuita sulla sua superficie all’interno di un dielettrico, possiamo racchiudere il tutto con una superficie di Gauss.
+
+Avremo allora dal [[Teorema di Gauss]] in forma differenziale che $$\nabla \cdot \epsilon_{0}\vec{E}(\vec{r})= \rho_{f}(\vec{r}) +\rho_{p}(\vec{r})$$
+Da [[#^6a35b4]], possiamo scrivere 
+$$\nabla\cdot [\epsilon_{0}\vec{E}(\vec{r})+\vec{P}(\vec{r})]=\rho_{f}(\vec{r})$$
+[[Induzione elettrica]]
