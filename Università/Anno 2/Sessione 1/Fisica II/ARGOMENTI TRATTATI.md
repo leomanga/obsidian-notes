@@ -21,3 +21,4 @@
 - [[Molecole polari e non polari]]
 - [[Vettore polarizzazione]]
 - [[Corrente elettrica]]
+- Continua da pag 36

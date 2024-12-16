@@ -13,4 +13,8 @@ Se però applichiamo al conduttore un campo elettrostatico esterno, ogni elettro
 Se indichiamo con $\vec{v}_{i+1}$ la velocità prima del successivo urto, allora
 $$\vec{v}_{i+1}=\vec{v}_{i}-\frac{e\vec{E}}{m_{e}}\tau$$
 Se effettuiamo nuovamente la media avremo
-$$\frac{1}{N}\sum_{i}^{N}\vec{v}_{i+1}=-\frac{e\vec{E}}{}$$
+$$\frac{1}{N}\sum_{i}^{N}\vec{v}_{i+1}=-\frac{e\vec{E}}{m_{e}}\tau$$
+Allora possiamo dire che se guardiamo globalmente, gli elettroni avranno un carattere di moto uniforme, con una velocità media, che prende il nome di **velocità di deriva** $\vec{v}_{d}=-\frac{e\vec{E}}{m_{e}}\tau$.
+Gli elettroni allora avranno un moto ordinato.
+
+
