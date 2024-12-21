@@ -26,5 +26,7 @@ Sappiamo che la [[Potenza]], da [[Corrente elettrica#^9163ff|link]] può essere 
 $$P= (V_{A}-V_{B})I=RI^{2}=\frac{(\Delta V)^{2}}{R}\quad [W]$$
 > La potenza generata viene dissipata attraverso calore e questo fenomeno prende il nome di **effetto Joule**.
 
+^2b0c5c
+
 
 
