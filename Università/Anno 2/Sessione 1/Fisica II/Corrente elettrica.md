@@ -38,4 +38,4 @@ Si genera allora una **corrente elettrica di conduzione**.
 >Allora possiamo scrivere che $$\frac{dL}{dt}=I(V_{A}-V_{B})\quad [V\cdot A][W]$$ che, essendo un lavoro nel tempo è proprio la [[Potenza]] elettrica.
 . 
 
-
+[[Densità di corrente elettrica]]
