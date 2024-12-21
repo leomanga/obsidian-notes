@@ -20,5 +20,5 @@
 - [[Polarizzazione per deformazione]]
 - [[Molecole polari e non polari]]
 - [[Vettore polarizzazione]]
-- [[Corrente elettrica]]
-- Continua da pag 38
+- [[Corrente elettrica]] e [[Densità di corrente elettrica]]
+- 
