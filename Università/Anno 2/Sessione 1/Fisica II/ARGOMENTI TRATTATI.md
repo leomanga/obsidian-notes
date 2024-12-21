@@ -21,4 +21,5 @@
 - [[Molecole polari e non polari]]
 - [[Vettore polarizzazione]]
 - [[Corrente elettrica]] e [[Densità di corrente elettrica]]
-- [[Legge di Ohm]]
+- [[Resistenze]]
+- [[Generatore di forza elettromotrice]]
