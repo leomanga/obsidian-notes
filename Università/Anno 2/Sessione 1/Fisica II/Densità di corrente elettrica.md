@@ -26,6 +26,8 @@ Definiamo così
 >$$\sigma = \frac{Ne^{2}\tau}{m_{e}}$$
 >dove $N$ è il numero di portatori di cariche, $e$ è la carica di un elettrone, $m_{e}$ è massa dell’elettrone e $\tau$ è il tempo medio tra un urto ed un altro fra gli elettroni.
 
+^c5f9e4
+
 Ora possiamo definire l’**equazione di continuità della carica elettrica**.
 >[!def] Equazione di continuità della carica
 >Sapendo che $$Q(t)=\iiint_V\rho({r,t})dv$$
