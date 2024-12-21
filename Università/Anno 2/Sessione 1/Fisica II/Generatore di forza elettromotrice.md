@@ -14,5 +14,25 @@ Possiamo definire ora
 
 Possiamo quindi trovare la caduta di potenziale totale attraverso il circuito chiuso
 Abbiamo che
-$$\oint_{C}\vec{E}\cdot d\vec{l}=RI+rI\Rightarrow f=RI+rI=\Delta V-rI$$
+$$\oint_{C}\vec{E}\cdot d\vec{l}=RI+rI\Rightarrow f=RI+rI=\Delta V+rI$$
 Dove $R$ è la [[Resistenze|resistenza]] esterna (del circuito) e $r$ è quella interna al generatore.
+La caduta di potenziale del circuito sarà allora 
+$$
+\Delta V_{AB}=f+rI=\epsilon+rI
+$$
+
+^862722
+
+$f$ talvolta viene scritta come $\epsilon$ che rappresenta la tensione ideale.
+
+Possiamo schematizzare un circuito composto da un generatore di tensione e da una resistenza come
+
+![[Circuito con generatore.excalidraw]]
+
+Supponiamo di avere questo ramo di un circuito
+
+![[Ramo di un circuito.excalidraw]]
+
+Posso calcolare la differenza di potenziale ai capi del circuito, usando [[#^862722]]
+$$V_{A}-V_{B}=R_{1}I -\epsilon_{1} +R_{2}I+R_{3}I+\epsilon_{2}$$
+
