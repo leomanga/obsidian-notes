@@ -8,14 +8,28 @@ Sove $dS_{n}=dS\cos \theta$
 
 ![[Densità di corrente.excalidraw]]
 
-Abbiamo allora che $\frac{dQ}{dt}=dI=Nqv_{d}dS$
+Abbiamo allora che $\frac{dQ}{dt}=\vec{dI}=Nqv_{d}dS$
 Definiamo
 
 >[!def] Densità di corrente
->$$\vec{J}=Nq\vec{v}_{d}\quad [\frac{A}{m^{2}}]$$
+>$$\vec{J}=\frac{dQ}{dt}=\vec{dI}=Nq\vec{v}_{d}\quad [\frac{A}{m^{2}}]$$
+
+^cd6c08
 
 Allora $$I = \iint_{S}\vec{J}(\vec{r})\cdot \vec{n}dS$$
 
 
-In un [[Materiali conduttori|conduttore]] metallico, avremo
-$$\vec{J}=\frac{N(-e)(-e)\vec{E}\tau}{m_{e}}$$
+In un [[Materiali conduttori|conduttore]] metallico, avremo, da [[Corrente elettrica#^3a4386]]
+$$\vec{J}=\frac{N(-e)(-e)\vec{E}\tau}{m_{e}}=\underbrace{\frac{Ne^{2}\tau}{m_{e}}}_{conducibilità\ elettrica}\vec{E}$$
+Definiamo così
+>[!def] Conducibilità elettrica
+>$$\sigma = \frac{Ne^{2}\tau}{m_{e}}$$
+>dove $N$ è il numero di portatori di cariche, $e$ è la carica di un elettrone, $m_{e}$ è massa dell’elettrone e $\tau$ è il tempo medio tra un urto ed un altro fra gli elettroni.
+
+Ora possiamo definire l’**equazione di continuità della carica elettrica**.
+>[!def] Equazione di continuità della carica
+>Sapendo che $$Q(t)=\iiint_V\rho({r,t})dv$$
+>dove $\rho$ è la [[Densità volumetrica di carica elettrica|densità volumetrica di carica elettrica]].
+>Allora, da [[#^cd6c08]], in una superficie chiusa, dato che la carica non si può distruggere e deve necessariamente passare dal bordo della superficie chiusa
+>$$-\frac{dQ}{dt}=\oint \vec{J}(\vec{r},t)\cdot \hat n\cdot ds=I(t)$$
+>(Il segno è negativo perchè rappresentiamo la carica uscente)

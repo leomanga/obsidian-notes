@@ -15,10 +15,10 @@
 - [[Lavoro totale]]
 - [[Teorema di Culomb]]
 - [[Condensatori]]
-- 
+
 - [[Dipolo elettrostatico]]
 - [[Polarizzazione per deformazione]]
 - [[Molecole polari e non polari]]
 - [[Vettore polarizzazione]]
 - [[Corrente elettrica]] e [[Densità di corrente elettrica]]
-- 
+- [[Legge di Ohm]]
