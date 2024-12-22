@@ -12,6 +12,8 @@ Possiamo definire ora
 >La forza elettromotrice rappresenta il lavoro fatto dal campo elettromotore per  spostare una carica positiva unitaria dal morsetto negativo a quello positivo.
 >
 
+^6d2e46
+
 Possiamo quindi trovare la caduta di potenziale totale attraverso il circuito chiuso
 Abbiamo che
 $$
