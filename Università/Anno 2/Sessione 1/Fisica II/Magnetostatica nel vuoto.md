@@ -7,6 +7,7 @@ Ad esempio se facciamo scorrere una [[Corrente elettrica]] in un filo ed avvicin
 
 Ipotizziamo che i circuiti percorsi da corrente generino nel loro intorno un [[Campo vettoriale]] $\vec{B}(r)$ che prende il nome di **campo di induzione magnetica**.
 Consideriamo un filo metallico di sezione costante $S$ e lunghezza $L$, percorso da una [[Corrente stazionaria]] $I$ e posto in una regione dello spazio dove esiste un campo magnetico uniforme di induzione $\vec{B}$.
+Le dimensioni di $\vec{B}$ sono $[\frac{N}{C}\frac{m}{s}][T]$ dove $T$ sta per “Tesla”.
 
 ![[Induzione magnetica.excalidraw]]
 
@@ -25,4 +26,14 @@ La forza complessiva che agisce su un tratto di un circuito $I$ percorso da [[Co
 $$\vec{F}=\int_{L}Id\vec{l}(\vec{r})\times\vec{B}(\vec{r})$$
 Inoltre la quantità $Id\vec{l}$ può essere scritta da [[Densità di corrente elettrica#^cd6c08]] come
 $$Id\vec{l}=\vec{J}Sdl=Nq\vec{v}_{d}Sdl$$
-dove $N$ indica il numero di portatori di carica per unità di volume, $\vec{v}_{d}$ la loro velocità di deriva e $q$ la carica di ciascuno di essi
+dove $N$ indica il numero di portatori di carica per unità di volume, $\vec{v}_{d}$ la loro velocità di deriva e $q$ la carica di ciascuno di essi.
+Se chiamiamo $n=NSdl$ il numero di portatori totali contenuti all’interno del tratto $dl$ e sostituiamo alla [[#^6d31e9]]
+$$d\vec{F}=nq\vec{v}_{d}\times \vec{B}$$
+Allora ci aspettiamo che ogni singola carica puntiforme $q$ che si muove con velocità $\vec{v}$ in un campo di induzione magnetica $\vec{B}(\vec{r})$ subisca una forza $\vec{F}(\vec{r})$ data da
+>[!def] Forza di Lorentz
+>$$\vec{F}=q\vec{v}\times \vec{B}$$
+>Dove $q$ è la [[Carica elettrica]], $\vec{v}$ la sua velocità e $\vec{B}$ il campo di induzione magnetica.
+>La forza di Lorentz è ortogonale alla direzione della velocità, quindi non compie alcun lavoro, modifica il moto di una particella che si muove ad una certa velocità ma non varia la sua energia cinetica.
+
+Nel caso in cui in una regione dello spazio agisce oltre al campo di induzione magnetica, anche un [[Campo elettrostatico]], allora una particella è sottoposta alla forza totale
+$$\vec{F}(\vec{r})=q(\vec{E}(\vec{r})+\vec{v}\times \vec{B}(\vec{r}))$$
