@@ -23,3 +23,5 @@
 - [[Corrente elettrica]] e [[Densità di corrente elettrica]]
 - [[Resistenze]]
 - [[Generatore di forza elettromotrice]]
+
+- [[Magnetostatica nel vuoto]]
