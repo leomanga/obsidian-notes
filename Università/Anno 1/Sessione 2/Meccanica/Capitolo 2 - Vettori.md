@@ -25,7 +25,9 @@ $$\begin{split}&\vec{a}\times\vec{b}=\\ &(a_{x}\textbf{i}+a_{y}\textbf{j}+a_{z}\
 # Momento polare
 Per calcolare il momento, si fa uso del prodotto vettoriale.
 $M(O)=(A-O)\times\vec{a}=\vec{r}_{OA}\times \vec{a}$
+
 ![[Momento polare.png]]
+
 Il modulo del momento è pari all'area del parallelogramma individuato dai vettori $\vec{a}$ e $(A-O)$, che può essere espressa come $|\vec{a}|d$.
 
 d = $|(A-O)|\sin\varphi$ indica il ==braccio== o distanza di $O$ dalla retta $\vec{a}$.
