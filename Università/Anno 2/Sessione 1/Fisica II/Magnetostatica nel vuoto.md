@@ -7,7 +7,7 @@ Ad esempio se facciamo scorrere una [[Corrente elettrica]] in un filo ed avvicin
 
 Ipotizziamo che i circuiti percorsi da corrente generino nel loro intorno un [[Campo vettoriale]] $\vec{B}(r)$ che prende il nome di **campo di induzione magnetica**.
 Consideriamo un filo metallico di sezione costante $S$ e lunghezza $L$, percorso da una [[Corrente stazionaria]] $I$ e posto in una regione dello spazio dove esiste un campo magnetico uniforme di induzione $\vec{B}$.
-Le dimensioni di $\vec{B}$ sono $[\frac{N}{C}\frac{m}{s}][T]$ dove $T$ sta per “Tesla”.
+Le dimensioni di $\vec{B}$ sono $[\frac{N}{C}\frac{m}{s}][T]$ dove $T$ sta per “Tesla”. Un’altra dimensione è quella dei $\left[\frac{W_{b}}{m^{2}}\right]= [V\cdot s]$ dove $W_{b}$ è l’unità di misura del flusso magnetico e sta per “Weber”.
 
 ![[Induzione magnetica.excalidraw]]
 
@@ -37,3 +37,8 @@ Allora ci aspettiamo che ogni singola carica puntiforme $q$ che si muove con vel
 
 Nel caso in cui in una regione dello spazio agisce oltre al campo di induzione magnetica, anche un [[Campo elettrostatico]], allora una particella è sottoposta alla forza totale
 $$\vec{F}(\vec{r})=q(\vec{E}(\vec{r})+\vec{v}\times \vec{B}(\vec{r}))$$
+# Caso di una spira quadrata
+Abbiamo per ipotesi che la spira sia piana e rigida, la [[Corrente elettrica]] sia [[Corrente stazionaria|stazionaria]] e che il [[Campo di induzione magnetica]] sia uniforme,
+$$\vec{B}=B_{x}\hat{x}+B_{z}\hat{z}$$
+
+![[Spira quadrata.excalidraw|500]]
