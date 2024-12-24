@@ -68,9 +68,11 @@ Enunciamo ora la prima formula di Laplace.
 >[!prp] Prima formula di Laplace
 >Questa formula è stata trovata sperimentalmente.
 >$$d\vec{B}(\vec{r})=k_{m}\frac{Id\vec{l}(\vec{r}^{'})\times(\vec{r}-\vec {r^{'}})}{|\vec{r}-\vec{r^{'}}|^{3}}$$
->Dove $k_{m}=\frac{\mu_{0}}{4\pi}$, $\mu_{0}$ è la [[Permeabilità magnetica nel vuoto]]
+>Dove $k_{m}=\frac{\mu_{0}}{4\pi}$, $\mu_{0}$ è la [[Permeabilità magnetica nel vuoto]], $I$ la [[Corrente elettrica]], $d\vec{l}$ il percorso fatto in un istante infinitesimo.
+>
 >
 
 ^5d6aab
+
 
 
