@@ -50,7 +50,16 @@ $$\begin{split}&dF_{SP}=Idx\hat{x}\times\vec{B}=Idx\hat{x}\times(B_{x}\hat{x}+B_
 Con lo stesso sistema otteniamo che 
 $$F_{QR} = IaB_{z}\hat y$$
 Essendo le due forze uguali ed opposte, allora si annullano.
-Inoltre possiamo calcolare
+Inoltre possiamo calcolare, sempre nello stesso modo
 $$\begin{split}
-\vec{F}_{PQ}=Ia\hat{y}\times(B_{x}\hat x +B_{z}\hat{z})
+&\vec{F}_{PQ}=Ia\hat{y}\times(B_{x}\hat x +B_{z}\hat{z})=-IaB_{x}\hat{z}+IaB_{z}\hat x\\
+&\vec{F}_{QS}=I(-a\hat{y})\times(B_{x}\hat x +B_{z}\hat{z})=IaB_{x}\hat z-IaB_{z}\hat x
 \end{split}$$
+Le forze, essendo uguali ed opposte si annullano ma danno vita ad un [[Momento di una forza]].
+$$\vec{M}=Ia^{2}|\vec{B}|\sin{\alpha}\hat{y}$$
+Se definiamo ora il **momento di dipolo** come
+$$\vec{m} = Ia^{2}\hat{n}\quad [A\cdot m^{2}]$$
+dove $\hat{n}$ è la normale della spira che segue il verso antiorario, quindi in questo caso $\hat n = \hat z$.
+
+Allora possiamo scrivere 
+$$\vec{M}=\vec{m}\times \vec{B}=Ia^{2}\hat{n}\times \vec{{B}}$$
