@@ -73,6 +73,9 @@ Enunciamo ora la prima formula di Laplace.
 >
 
 ^5d6aab
-
+# Casi canonici
+## Filo infinito
+Abbiamo che $d\vec{l}(\vec{r}^{'})=dz\vec{z}^{'}$, $\vec{r}^{'}=z^{'}\hat{z}$
+$d\vec{l}(\vec{r}^{'})\times (\vec{r}-\vec{r}^{'}) = d\ve{z}^{'}|\vec{r}-\vec{r^{'}}|\sin(\theta)\hat{\phi}$ 
 
 
