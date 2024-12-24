@@ -41,4 +41,11 @@ $$\vec{F}(\vec{r})=q(\vec{E}(\vec{r})+\vec{v}\times \vec{B}(\vec{r}))$$
 Abbiamo per ipotesi che la spira sia piana e rigida, la [[Corrente elettrica]] sia [[Corrente stazionaria|stazionaria]] e che il [[Campo di induzione magnetica]] sia uniforme,
 $$\vec{B}=B_{x}\hat{x}+B_{z}\hat{z}$$
 
-![[Spira quadrata.excalidraw|500]]
+![[Spira quadrata.excalidraw]]
+
+Possiamo calcolare ora le forze nei vari rami della spira con [[#^6d31e9]].
+Allora 
+$$\begin{split}&dF_{SP}=Idx\hat{x}\times\vec{B}=Idx\hat{x}\times(B_{x}\hat{x}+B_{z}\hat{z})=-IdxB_{z}\hat{y}\\
+&\Rightarrow F_{SP}=\int_{0}^{a}dF_{SP}=-IaB_{z}\hat{y}\end{split}$$
+Con lo stesso sistema otteniamo che 
+$$F_{QR} = IaB_{z}\hat y$$
