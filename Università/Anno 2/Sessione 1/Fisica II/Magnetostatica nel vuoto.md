@@ -37,7 +37,7 @@ Allora ci aspettiamo che ogni singola carica puntiforme $q$ che si muove con vel
 
 Nel caso in cui in una regione dello spazio agisce oltre al campo di induzione magnetica, anche un [[Campo elettrostatico]], allora una particella è sottoposta alla forza totale
 $$\vec{F}(\vec{r})=q(\vec{E}(\vec{r})+\vec{v}\times \vec{B}(\vec{r}))$$
-# Caso di una spira quadrata
+Studiamo ora una spira quadrata.
 Abbiamo per ipotesi che la spira sia piana e rigida, la [[Corrente elettrica]] sia [[Corrente stazionaria|stazionaria]] e che il [[Campo di induzione magnetica]] sia uniforme,
 $$\vec{B}=B_{x}\hat{x}+B_{z}\hat{z}$$
 
@@ -63,3 +63,14 @@ dove $\hat{n}$ è la normale della spira che segue il verso antiorario, quindi i
 
 Allora possiamo scrivere 
 $$\vec{M}=\vec{m}\times \vec{B}=Ia^{2}\hat{n}\times \vec{{B}}$$
+
+Enunciamo ora la prima formula di Laplace.
+>[!prp] Prima formula di Laplace
+>Questa formula è stata trovata sperimentalmente.
+>$$d\vec{B}(\vec{r})=k_{m}\frac{Id\vec{l}(\vec{r}^{'})\times(\vec{r}-\vec {r^{'}})}{|\vec{r}-\vec{r^{'}}|^{3}}$$
+>Dove $k_{m}=\frac{\mu_{0}}{4\pi}$, $\mu_{0}$ è la [[Permeabilità magnetica nel vuoto]]
+>
+
+^5d6aab
+
+
