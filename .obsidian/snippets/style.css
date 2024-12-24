@@ -9,14 +9,11 @@
 	text-align: justify;
 	text-justify: inter-word;	
 }
-
 img {
         display: block !important;
         margin-left: auto !important;
         margin-right: auto !important;
-	max-height: 500px !important;
 }
-    
  .markdown-source-view.mod-cm6 .cm-content > * {
         margin: auto auto !important;
 }
