@@ -49,3 +49,8 @@ $$\begin{split}&dF_{SP}=Idx\hat{x}\times\vec{B}=Idx\hat{x}\times(B_{x}\hat{x}+B_
 &\Rightarrow F_{SP}=\int_{0}^{a}dF_{SP}=-IaB_{z}\hat{y}\end{split}$$
 Con lo stesso sistema otteniamo che 
 $$F_{QR} = IaB_{z}\hat y$$
+Essendo le due forze uguali ed opposte, allora si annullano.
+Inoltre possiamo calcolare
+$$\begin{split}
+\vec{F}_{PQ}=Ia\hat{y}\times(B_{x}\hat x +B_{z}\hat{z})
+\end{split}$$
