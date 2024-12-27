@@ -13,7 +13,7 @@ Possiamo allora calcolare la [[Materiali conduttori#Capacità]]
 $$c =4\pi\epsilon_{0}(\frac{R_{1}R_{2}}{R_{2}-R_{1}})$$
 ## Condensatore piano
 ![[Condensatore piano.excalidraw]]
-Dato che in $V_{2}$ go carica negativa, allora la differenza di [[Potenziale elettrostatico]] $\Delta V = V_{1}-V_{2}>0$.
+Dato che in $V_{2}$ ho carica negativa, allora la differenza di [[Potenziale elettrostatico]] $\Delta V = V_{1}-V_{2}>0$.
 Si ha uno sfrangiamento ai bordi, ma lo approssimiamo nullo, più $d<< a$, meno sfrangiamento avviene.
 Abbiamo che 
 $$\Delta V=\int_{0}^{d}\frac{\sigma}{\epsilon_{0}}(-\hat{z})\hat{z}\cdot dz=\frac{\sigma}{\epsilon_{0}}d$$

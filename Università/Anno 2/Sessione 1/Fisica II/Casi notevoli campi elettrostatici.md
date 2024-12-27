@@ -10,7 +10,9 @@ Dove $\lambda$ è la [[Densità lineare di carica elettrica]] e $r$ la distanza 
 ![[Cariche disposte in linea.pdf]]
 
 # Caso di cariche elettriche disposte in un piano
+
 ![[Simmetria piano di cariche.excalidraw]]
+
 Se le [[Carica elettrica|cariche elettriche]] sono disposte in un piano, avranno simmetria con il piano.
 Si può procedere con il calcolo che porta a: (si fa uso delle coordinate sferiche)
 $$\vec{E}(\vec{r})=\frac{\sigma}{2\epsilon_{0}}\hat{z}$$
