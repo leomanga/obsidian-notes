@@ -72,10 +72,23 @@ Enunciamo ora la prima formula di Laplace.
 >
 >
 
+^ce79a3
+
 ^5d6aab
 # Casi canonici
-## Filo infinito
-Abbiamo che $d\vec{l}(\vec{r}^{'})=dz\vec{z}^{'}$, $\vec{r}^{'}=z^{'}\hat{z}$
-$d\vec{l}(\vec{r}^{'})\times (\vec{r}-\vec{r}^{'}) = d\ve{z}^{'}|\vec{r}-\vec{r^{'}}|\sin(\theta)\hat{\phi}$ 
+## Filo infinito | Legge di Biot-Savart
 
+![[Induzione nel filo.excalidraw]]
+
+Abbiamo che $d\vec{l}(\vec{r}^{'})=dz\vec{z}^{'}$, $\vec{r}^{'}=z^{'}\hat{z}$
+$d\vec{l}(\vec{r}^{'})\times (\vec{r}-\vec{r}^{'}) = d\vec{z}^{'}|\vec{r}-\vec{r^{'}}|\sin(\theta)\hat{\phi}$ 
+Allora da [[#^ce79a3]]
+$$d\vec{B}(\vec{r})=k_{m}\frac{Idz^{'}|\vec{r}-\vec{r^{'}}|\sin(\phi)}{|\vec{r}-\vec{r^{'}|^{3}}}$$
+Se facciamo il cambio variabili, $\tan\alpha= \frac{\rho}{z^{'}}$ allora
+$$z^{'}=\frac{\rho}{\tan \alpha}=-\frac{\rho}{\tan \theta}$$
+Allora $$\frac{dz^{'}}{d\theta}=\frac{\rho}{\sin^{2}\theta}\Rightarrow dz^{'}=\frac{\rho}{\sin^{2}\theta}d\theta$$
+Inoltre 
+$\rho=|\vec{r}-\vec{r}^{'}|\sin\alpha=\rho=|\vec{r}-\vec{r}^{'}|\sin(\pi-\theta)=|\vec{r}-\vec{r}^{'}|\sin(\theta)$
+Allora 
+$$\vec{B}(\vec{r})=k_{m}I[\int_{0}^{\pi}\frac{\rho}{\sin^{2}\theta}\sin(\theta)\cdot \frac{\sin^{2}\theta}{\rho^{2}}]\hat \phi=\frac{\mu_{0}}{2\pi}\frac{I}{\rho}\hat \phi$$
 
