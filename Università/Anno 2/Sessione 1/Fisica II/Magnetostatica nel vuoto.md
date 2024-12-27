@@ -5,7 +5,7 @@ I poli magnetici, ovvero le estremità degli oggetti capaci di attrarre o repell
 Grazie anche all’utilizzo della [pila di volta](https://it.wikipedia.org/wiki/Pila_di_Volta)  si è potuto comprendere che esiste una relazione tra il magnetismo e l’elettricità.
 Ad esempio se facciamo scorrere una [[Corrente elettrica]] in un filo ed avviciniamo un ago magnetico, vedremo come si orienterà parallelamente al campo magnetico.
 
-Ipotizziamo che i circuiti percorsi da corrente generino nel loro intorno un [[Campo vettoriale]] $\vec{B}(r)$ che prende il nome di **campo di induzione magnetica**.
+Ipotizziamo che i circuiti percorsi da corrente generino nel loro intorno un [[Campo vettoriale]] $\vec{B}(r)$ che prende il nome di [[Campo di induzione magnetica]].
 Consideriamo un filo metallico di sezione costante $S$ e lunghezza $L$, percorso da una [[Corrente stazionaria]] $I$ e posto in una regione dello spazio dove esiste un campo magnetico uniforme di induzione $\vec{B}$.
 Le dimensioni di $\vec{B}$ sono $[\frac{N}{C}\frac{m}{s}][T]$ dove $T$ sta per “Tesla”. Un’altra dimensione è quella dei $\left[\frac{W_{b}}{m^{2}}\right]= [V\cdot s]$ dove $W_{b}$ è l’unità di misura del flusso magnetico e sta per “Weber”.
 
@@ -72,9 +72,8 @@ Enunciamo ora la prima formula di Laplace.
 >
 >
 
-^ce79a3
+^b6258f
 
-^5d6aab
 # Casi canonici
 ## Filo infinito | Legge di Biot-Savart
 
@@ -82,7 +81,7 @@ Enunciamo ora la prima formula di Laplace.
 
 Abbiamo che $d\vec{l}(\vec{r}^{'})=dz\vec{z}^{'}$, $\vec{r}^{'}=z^{'}\hat{z}$
 $d\vec{l}(\vec{r}^{'})\times (\vec{r}-\vec{r}^{'}) = d\vec{z}^{'}|\vec{r}-\vec{r^{'}}|\sin(\theta)\hat{\phi}$ 
-Allora da [[#^ce79a3]]
+Allora da [[#^b6258f]]
 $$d\vec{B}(\vec{r})=k_{m}\frac{Idz^{'}|\vec{r}-\vec{r^{'}}|\sin(\phi)}{|\vec{r}-\vec{r^{'}|^{3}}}$$
 Se facciamo il cambio variabili, $\tan\alpha= \frac{\rho}{z^{'}}$ allora
 $$z^{'}=\frac{\rho}{\tan \alpha}=-\frac{\rho}{\tan \theta}$$
