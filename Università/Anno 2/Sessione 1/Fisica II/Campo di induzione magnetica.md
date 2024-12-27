@@ -27,3 +27,8 @@ $$\oint \vec{B}(\vec{r})d\vec{l}=\pm\mu_{0}I$$
 Se il filo è fuori alla circuitazione
 $$\oint \vec{B}(\vec{r})d\vec{l}=0$$
 Dato che non sempre la circuitazione è pari a 0, allora il campo di induzione magnetica non è conservativo.
+
+>[!prp]
+>$$\oint_{C}\vec{B}(\vec{r})d\vec{l}=\mu_{0}\iint_{S}\vec{J}(\vec{r})\hat n ds$$
+> 
+>
