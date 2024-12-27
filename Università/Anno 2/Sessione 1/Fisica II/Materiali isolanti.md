@@ -22,7 +22,12 @@ Allora nel dielettrico si presenterà una densità di carica $\vec{\rho}_{p}$ vo
 ![[Pasted image 20241212124120.png]]
 
 Avremo
-$$\sigma_{p}(\vec{r})=P(\vec{r})\cdot \hat n$$
+$$
+\sigma_{p}(\vec{r})=P(\vec{r})\cdot \hat n
+$$
+
+^78e72d
+
 $$
 \rho_{p}(\vec{r})=-\nabla\cdot \vec{P}(\vec{r})
 $$

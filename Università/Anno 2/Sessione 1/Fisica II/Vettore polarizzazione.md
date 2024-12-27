@@ -4,3 +4,5 @@ Definiamo il vettore polarizzazione come
 >Dove $\vec{p}_{m}$ è il [[Dipolo elettrostatico#^ac2828|momento di dipolo]] in una zona del volume.
 >
 
+![[Materiali isolanti#^78e72d]]
+![[Materiali isolanti#^6a35b4]]
