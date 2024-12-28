@@ -4,5 +4,4 @@
 [[Università/Anno 2/Sessione 1/Ricerca operativa/ARGOMENTI TRATTATI|ARGOMENTI TRATTATI]] Ricerca operativa
 [[Università/Anno 2/Sessione 1/Calcolo numerico/ARGOMENTI TRATTATI|ARGOMENTI TRATTATI]] Calcolo numerico
 
-Tabella di marcia
 
