@@ -57,7 +57,7 @@ $$\begin{split}
 \end{split}$$
 Le forze, essendo uguali ed opposte si annullano ma danno vita ad un [[Momento di una forza]].
 $$\vec{M}=Ia^{2}|\vec{B}|\sin{\alpha}\hat{y}$$
-Se definiamo ora il **momento di dipolo** come
+Se definiamo ora il **momento di dipolo**(**momento magnetico**) come
 $$\vec{m} = Ia^{2}\hat{n}\quad [A\cdot m^{2}]$$
 dove $\hat{n}$ è la normale della spira che segue il verso antiorario, quindi in questo caso $\hat n = \hat z$.
 
