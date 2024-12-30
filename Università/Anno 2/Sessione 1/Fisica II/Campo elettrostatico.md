@@ -2,7 +2,7 @@ Il campo elettrostatico è un [[Campo vettoriale]], esiste a prescindere dalla p
 Solo alla presenza di una carica si può notare il campo agire come forza elettrostatica([[Elettrostatica#^e120e4|Legge di Culomb]]).
 
 $$
-\vec{E}(\vec{r})=\frac{\vec{F_{q}}(\vec{r})}{q}=\frac{k_{\epsilon}Q}{||\vec{r}||^{2}}\vec{r}\quad [\frac{N}{c}]
+\vec{E}(\vec{r})=\frac{\vec{F_{q}}(\vec{r})}{q}=\frac{k_{\epsilon}Q}{||\vec{r}||^{2}}\vec{r}\quad [\frac{N}{c}][\frac{V}{m}]
 $$
 
 ^d97f39
