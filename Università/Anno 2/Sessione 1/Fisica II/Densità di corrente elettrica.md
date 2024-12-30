@@ -35,3 +35,8 @@ Ora possiamo definire l’**equazione di continuità della carica elettrica**.
 >Allora, da [[#^cd6c08]], in una superficie chiusa, dato che la carica non si può distruggere e deve necessariamente passare dal bordo della superficie chiusa
 >$$-\frac{dQ}{dt}=\oint \vec{J}(\vec{r},t)\cdot \hat n\cdot ds=I(t)$$
 >(Il segno è negativo perchè rappresentiamo la carica uscente)
+
+---
+![[Magnetostatica nei mezzi materiali#^c2674c]]
+![[Magnetostatica nei mezzi materiali#^bc8454]]
+

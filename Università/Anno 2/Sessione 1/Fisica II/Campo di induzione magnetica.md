@@ -23,12 +23,21 @@ Allora, non essendoci dipendenza da $\rho$
 $$\int_{C}^{D}\vec{B}(\vec{r})d\vec{l}=\int_{\phi_{C}}^{\phi_{D}}\frac{\mu_{0}}{2\pi}Id\phi = \frac{\mu_{0}}{2\pi}I(\phi_{D}-\phi_{C})$$
 Se come percorso avessi $C$ e $D$ sovrapposti, quindi facessi un giro completo, allora $\phi_{D} =2\pi+\phi_{C}$
 Allora se il filo è dentro la circuitazione 
-$$\oint \vec{B}(\vec{r})d\vec{l}=\pm\mu_{0}I$$
+$$
+\oint \vec{B}(\vec{r})d\vec{l}=\pm\mu_{0}I
+$$
+
+^ff6605
+
 Se il filo è fuori alla circuitazione
 $$\oint \vec{B}(\vec{r})d\vec{l}=0$$
 Dato che non sempre la circuitazione è pari a 0, allora il campo di induzione magnetica non è conservativo.
 
 >[!prp]
->$$\oint_{C}\vec{B}(\vec{r})d\vec{l}=\mu_{0}\iint_{S}\vec{J}(\vec{r})\hat n ds$$
-> 
+>Da [[#^ff6605]] e da [[Teorema di Stokes]]
+>$$\oint_{C}\vec{B}(\vec{r})d\vec{l}=\mu_{0}\iint_{S}\vec{J}(\vec{r})\hat n ds=\iint_{S}\nabla\times \vec{B}(\vec{r}) \hat n ds$$
 >
+
+^acacd5
+
+![[Magnetostatica nei mezzi materiali#Legge di circuitazione di Ampere nei materiali magnetizzati]]
