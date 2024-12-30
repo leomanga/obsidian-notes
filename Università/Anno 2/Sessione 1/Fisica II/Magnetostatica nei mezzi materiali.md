@@ -17,6 +17,20 @@ Essendo però l’orientamento del momento dei vari atomi casuale, allora il mom
 
 # Paramagnetismo
 Nel caso dei materiali con atomi dotati di momento di dipolo atomico, se applichiamo dall’esterno un [[Campo di induzione magnetica]], allora le spire elementari tenderanno a disporsi perpendicolarmente al campo, dando origine ad un momento magnetico parallelo e concorde al campo di induzione esterno.
+
 ![[Pasted image 20241230120734.png]]
+
 # Diamagnetismo
-Nel caso dei materiali con atomi dotati di un momento magnetico atomico nullo
+Nel caso dei materiali con atomi dotati di un momento magnetico atomico nullo, se applichiamo un [[Campo di induzione magnetica]], il moto degli elettroni viene perturbato e si genera un momento magnetico che tende ad opporsi al campo esterno. Ciò è dovuto al fatto che gli elettroni sono sottoposti alla forza magnetica $q\vec{v}\times \vec{B}_{ext}$, ciò fa aumentare la velocità orbitale dell’elettrone se ha momento antiparallelo al campo, mentre la fa ridurre se ha momento parallelo al campo.
+A questo punto i momenti magnetici non si compensano più e la sostanza acquista un momento magnetico opposto a quello del campo applicato.
+Questo meccanismo è sempre presente, anche se il momento magnetico generato è piccolissimo.
+
+![[Pasted image 20241230123900.png]]
+
+# Ferromagnetismo
+Un piccolo numero di sostanze cristalline (ferro, cobalto, nichel, …) mostra fenomeni magnetici marcati.
+Tutti i materiali ferromagnetici contengono regioni microscopiche, dette **domini di Weiss**($10^{-18}:10^{-12} m^{3}$), all’interno dei quali i momenti magnetici sono tutti allineati (dovuto all’interazione quantistica degli spin).
+
+In un materiale non magnetizzato, i momenti magnetici dei domini sono orientati in modo casuale ed il momento magnetico risultante è in media nullo.
+
+Se il materiale viene posto in un campo di induzione magnetica esterno, le dimensioni dei domini aventi momenti magnetici allineati con il campo applicato crescono e la sostanza si magnetizza.

@@ -31,7 +31,8 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
-    "debugMode": false
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "Università": "LiUniversity",
   "Università/Anno 1": "1️⃣",
