@@ -35,7 +35,7 @@ In un materiale non magnetizzato, i momenti magnetici dei domini sono orientati 
 
 Se il materiale viene posto in un campo di induzione magnetica esterno, le dimensioni dei domini aventi momenti magnetici allineati con il campo applicato crescono e la sostanza si magnetizza.
 
-Rimuovendo l’induzione esterna applicata, il materiale conserva una magnetizzazione nella direzione della induzione applicata. (Solo ad alte temperature si può distruggere questa orienzazione preferenziale).
+Rimuovendo l’induzione esterna applicata, il materiale conserva una magnetizzazione nella direzione della induzione applicata. (Solo ad alte temperature si può distruggere questa orientazione preferenziale).
 
 ![[Pasted image 20241230124649.png]]
 
@@ -45,6 +45,43 @@ Se considero un punto $(x,y,z)$ e di un volumetto $\Delta V$ che contiene un num
 Allora si definisce il **vettore di magnetizzazione** $\vec{M}(x,y,z)$ come
 $$\vec{M}(x,y,z)=\frac{\sum_{i=1}^{\Delta N}\vec{m}_{i}}{\Delta V}\quad \frac{A}{m}$$
 e rappresenta per ugni punto, un momento di dipolo magnetico per unità di volume.
+# Correnti di magnetizzazione
+Se prendiamo in esame un materiale di forma cilindrica, magnetizzato lungo l’asse del cilindro stesso ($\vec{M}$ sarà parallelo all’asse del cilindro), se l’intensità di magnetizzazione è uniforme in tutto il materiale, allora il numero di spire per unità di volume sarà costante, quindi le correnti atomiche interne al cilindro si annulleranno l’una con l’altra.
 
+Sulla superficie però, $\vec{M}$ subirà una discontinuità, passando bruscamente dal valore che assume internamente, al valore zero che ha esternamente.
+Non essendoci sulla superficie compensazioni di correnti atomiche, verrà generata una [[Densità di corrente elettrica]] superficiale $\vec{J}_{ms}$.
 
-Finire slides da pag 10
+Questa corrente superficiale è in grado di produrre un campo di induzione magnetica $\vec{B}_{m}$ che si somma vettorialmente a quello applicato $\vec{B}_{0}$, sia dentro che fuori il materiale.
+![[Pasted image 20241230154400.png]]
+
+Se l’intensità di magnetizzazione non è uniforme, allora le correnti interne non si annullano. Esisterà quindi anche una [[Densità di corrente elettrica]] volumetrica $\vec{J}_{m}$ che fluisce all’interno del materiale.
+
+Si dimostra che, per un punto generico del materiale magnetizzato,
+$$
+\vec{J_{m}}=\nabla\times \vec{M}(\vec{r})\quad [\frac{A}{m^{2}}]
+$$
+
+^c2674c
+
+$$
+\vec{J}_{ms}=\vec{M}(\vec{r})\times \hat{n}\quad [\frac{A}{m}]\mbox{ con }\hat n\mbox{ la normale alla superficie}
+$$
+
+^bc8454
+
+# Legge di circuitazione di Ampere nei materiali magnetizzati
+Nel vuoto abbiamo che ![[Campo di induzione magnetica#^acacd5]]
+Nel caso in cui il campo di induzione magnetica $\vec{B}(\vec{r})$ sia generato, oltre che da correnti, anche dalle correnti di magnetizzazione presenti nei materiali magnetizzati, scriveremo
+$$
+\nabla\times \vec{B}(\vec{r}) = \mu_{0}[\vec{J}(\vec{r})+\vec{J}_m (\vec{r})]
+$$
+Dato che, da [[Magnetostatica nei mezzi materiali#^c2674c]] $\vec{J_{m}}=\nabla\times \vec{M}(\vec{r})$, si può scrivere $$\nabla \times[\frac{\vec{B}(\vec{r})}{\mu_{0}}-\vec{M}(\vec{r})]=\vec{J}(\vec{r})$$
+Si definisce ora il [[Vettore campo magnetico]] $\vec{H}(\vec{r})=\frac{\vec{B}(r )}{\mu_{0}}-\vec{M}(\vec{r})$
+
+La forma differenziale della legge di circuitazione di Ampere diventa quindi 
+$$\nabla \times \vec{H}(\vec{r})=\vec{J}(\vec{r})$$
+Nel vuoto, dove $\vec{M}=0$ si avrà $$\vec{B}(\vec{r})=\mu_{0}\vec{H}(\vec{r})$$
+>[!prp]
+>Applicando il teorema di Stokes
+>$$\iint_S\nabla\times \vec{H}(\vec{r})\hat n ds = \iint_{S}\vec{J(\ve)}$$
+
