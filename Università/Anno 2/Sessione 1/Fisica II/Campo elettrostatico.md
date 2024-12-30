@@ -12,7 +12,7 @@ Dove $$\vec{F}_{q}=\frac{k_{\epsilon}Qq}{||\vec{r}||^{2}}\cdot \vec{r}\quad [N]$
 ($Q$ è una carica grande, mentre $q$ è una carica piccola. La usiamo per pensare l’effetto che potrebbe avere il campo in essa.)
 
 Nel caso di $n$ punti:
-$$\vec{E}(\vec{r})=\sum_{i=1}^{n}E_{i}(\vec{r})=k_{\epsilon}\frac{\vec{q}_{1}}{||\vec{r}-\vec{r}_{i}||^3}(r-r_{i})\quad [\frac{N}{c}]$$
+$$\vec{E}(\vec{r})=\sum_{i=1}^{n}E_{i}(\vec{r})=k_{\epsilon}\frac{\vec{q}_{1}}{||\vec{r}-\vec{r}_{i}||^3}(r-r_{i})\quad [\frac{N}{c}][\frac{V}{m}]$$
 
 >[!prp] Utilizzo della carica elettrica puntiforme
 >Se la [[Carica elettrica]] è molto piccola, si può usare il concetto di [[Carica elettrica#^59669a|carica elettrica puntiforme]] $q = \rho(\vec{r})\cdot dv$
