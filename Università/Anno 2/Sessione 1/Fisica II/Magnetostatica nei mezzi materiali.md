@@ -34,3 +34,17 @@ Tutti i materiali ferromagnetici contengono regioni microscopiche, dette **domin
 In un materiale non magnetizzato, i momenti magnetici dei domini sono orientati in modo casuale ed il momento magnetico risultante è in media nullo.
 
 Se il materiale viene posto in un campo di induzione magnetica esterno, le dimensioni dei domini aventi momenti magnetici allineati con il campo applicato crescono e la sostanza si magnetizza.
+
+Rimuovendo l’induzione esterna applicata, il materiale conserva una magnetizzazione nella direzione della induzione applicata. (Solo ad alte temperature si può distruggere questa orienzazione preferenziale).
+
+![[Pasted image 20241230124649.png]]
+
+# Vettore magnetizzazione
+Dalle considerazioni fatte, un materiale magnetizzato può essere considerato come un insieme di atomi o molecole dotati di momento magnetico complessivo non nullo.
+Se considero un punto $(x,y,z)$ e di un volumetto $\Delta V$ che contiene un numero significativo $\Delta N$ di dipoli magnetici $\vec{m}_{i}$
+Allora si definisce il **vettore di magnetizzazione** $\vec{M}(x,y,z)$ come
+$$\vec{M}(x,y,z)=\frac{\sum_{i=1}^{\Delta N}\vec{m}_{i}}{\Delta V}\quad \frac{A}{m}$$
+e rappresenta per ugni punto, un momento di dipolo magnetico per unità di volume.
+
+
+Finire slides da pag 10
