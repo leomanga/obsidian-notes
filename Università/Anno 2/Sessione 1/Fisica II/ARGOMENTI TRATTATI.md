@@ -24,5 +24,6 @@
 - [[Resistenze]]
 - [[Generatore di forza elettromotrice]]
 
+- [[Campo di induzione magnetica]]
 - [[Magnetostatica nel vuoto]]
 - [[Magnetostatica nei mezzi materiali]]

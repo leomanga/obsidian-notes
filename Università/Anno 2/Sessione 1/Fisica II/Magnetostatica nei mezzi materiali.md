@@ -52,6 +52,7 @@ Sulla superficie però, $\vec{M}$ subirà una discontinuità, passando bruscamen
 Non essendoci sulla superficie compensazioni di correnti atomiche, verrà generata una [[Densità di corrente elettrica]] superficiale $\vec{J}_{ms}$.
 
 Questa corrente superficiale è in grado di produrre un campo di induzione magnetica $\vec{B}_{m}$ che si somma vettorialmente a quello applicato $\vec{B}_{0}$, sia dentro che fuori il materiale.
+
 ![[Pasted image 20241230154400.png]]
 
 Se l’intensità di magnetizzazione non è uniforme, allora le correnti interne non si annullano. Esisterà quindi anche una [[Densità di corrente elettrica]] volumetrica $\vec{J}_{m}$ che fluisce all’interno del materiale.
@@ -86,5 +87,13 @@ Nel vuoto, dove $\vec{M}=0$ si avrà $$\vec{B}(\vec{r})=\mu_{0}\vec{H}(\vec{r})$
 >$$\iint_S\nabla\times \vec{H}(\vec{r})\hat n ds = \iint_{S}\vec{J}(\vec{r})\hat n\hat ds=\oint_{C}\vec{H}(\vec{r})d\vec{l}=I$$
 >Dove $\vec{H}$ è il [[Vettore campo magnetico]], $\vec{J}$ è la [[Densità di corrente elettrica]] e $I$ è la [[Corrente elettrica]].
 
+# Suscettività e permeabilità magnetica
+Per i materiali omogenei, lineari e isotropi si ha 
+$$\vec{M}(\vec{r})=\chi_{m}\vec{H}(\vec{r})$$
+dove $\chi_{m}$ è detta suscettività magnetica.
 
+Avremo allora il legame
+$$\vec{B}(\vec{r})=\mu_{0}[\vec{H}(\vec{r})+\vec{M}(\vec{r})]=\mu_{0}[\vec{H}(\vec{r})+\chi_{m}\vec{H}(\vec{r})]=\mu_{0}(1+\chi_{m})\vec{H}(\vec{r})=\mu_{0}\mu_{r}\vec{H}(\vec{r})$$
+dove $\mu_{r}=1+\chi_{m}$ e prende il nome di **permeabilità magnetica relativa**.
+#da-finire(pag 17 slides magnetostatica)
 
