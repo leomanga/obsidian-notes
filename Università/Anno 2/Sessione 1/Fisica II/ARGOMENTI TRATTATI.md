@@ -25,3 +25,4 @@
 - [[Generatore di forza elettromotrice]]
 
 - [[Magnetostatica nel vuoto]]
+- [[Magnetostatica nei mezzi materiali]]

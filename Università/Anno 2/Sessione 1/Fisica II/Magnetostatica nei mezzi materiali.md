@@ -1,0 +1,2 @@
+Se seguiamo il modello classico dell’atomo, abbiamo che gli elettroni di carica $-e$ si muovono di velocità costante $v$ attorno al nucleo. Ciò equivale ad una spira di corrente $i_{a}=\frac{-e}{T}=\frac{-ev}{2\pi r}$ (es. indrogeno $I_{a}\simeq 1 mA$)
+Alla spira associamo un momento magnetico orbitale $\vec{m}_{0}$ di modulo $m_{0}=I_{a}\pi r^{2}=- \frac{1}{2}evr$ (es. idrogeno $m_{0}\simeq 9.35\cdot 10^{-24} Am^{2}$)
