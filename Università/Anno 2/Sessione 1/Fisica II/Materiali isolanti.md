@@ -41,7 +41,7 @@ $$V_{p}(\vec{r})=k_{e}\oint_{S}\frac{\sigma_{p}(\vec{r})}{|\vec{r}- \vec{r}^{'}|
 Il [[Campo elettrostatico]] diventerà
 $$\vec{E}_{p}(\vec{r})=k_{e}\oint_{S}\frac{\sigma_{p}(\vec{r})}{|\vec{r}- \vec{r}^{'}|^{3}}ds^{'}+k_{e}\iiint_{V}\frac{\rho_{p}(\vec{r})}{|\vec{r}-\vec{r}^{'}|^{3}}dv^{'}$$
 
-Scrivere suscettività dielettrica pag 19 slides.
+Scrivere suscettività dielettrica pag 19 slides. #da-finire
 # Gauss nei dielettrici
 Se ipotizziamo di avere un [[Materiali conduttori|conduttore]] con una carica $Q_{f}$ distribuita sulla sua superficie all’interno di un dielettrico, possiamo racchiudere il tutto con una superficie di Gauss.
 
