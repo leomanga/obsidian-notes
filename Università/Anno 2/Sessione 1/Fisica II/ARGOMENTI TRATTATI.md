@@ -27,3 +27,4 @@
 - [[Campo di induzione magnetica]]
 - [[Magnetostatica nel vuoto]]
 - [[Magnetostatica nei mezzi materiali]]
+- [[Convertitore lavoro meccanico-lavoro elettrico]]
