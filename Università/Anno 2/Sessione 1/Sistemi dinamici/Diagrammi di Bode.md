@@ -24,3 +24,12 @@ Ogni intervallo fra $10^i$ e $10^{i+1}$ è detto **decade**.
 Da notare che per $\omega=0$, avremo che $\log_{10}\omega=-\infty$, ovvero dove dovrebbe essere il [[Gradino unitario]].
 ## Forma di Bode
 ![[Forma di Bode]]
+
+Se abbiamo $a,b\in \mathbb{C}$
+Dato che
+$$\log|a\cdot b|=\log|a|+\log|b|$$
+e da [[Campo dei numeri complessi#Proprietà dell’argomento o fase|proprietà fase]]
+![[Campo dei numeri complessi#^fa4be1]]
+
+Avendo quindi scritto la [[Forma di Bode]] come prodotto di pezzi, posso tracciare i moduli e le fasi di ogni pezzo e poi sommarli.
+
