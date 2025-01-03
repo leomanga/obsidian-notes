@@ -1,4 +1,5 @@
-Dato un sistema iso non lineare
+# Tempo continuo
+Dato un sistema iso non lineare a tempo continuo
 ![[Sistemi non lineari#^c46d8f]]
 Sia $\bar{x}(0), \bar{y}(0)$ la soluzione relativa a $\bar x_{0}$ e $\bar{u}(t)$.
 Allora $\bar{x}(t)=f(\bar{x}(t),\bar{u}(t),t)$ e $\bar{y}(t)=h(\bar{x}(t),\bar{u}(t),t)$ 
@@ -27,3 +28,7 @@ dove $A(t)=\left[\frac{\partial f}{\partial x}\right]_{x=\bar x(t), u =\bar u(t)
 Analogamente 
 $$\Delta y(t)=C(t)\Delta x(t)+D(t)\Delta u(t)$$
 dove $C(t)=\left[\frac{\partial h}{\partial x}\right]_{x=\bar x(t), u =\bar u(t)}$ e $D(t)=\left[\frac{\partial h}{\partial u}\right]_{x=\bar x(t), u =\bar u(t)}$.
+# Tempo discreto
+In maniera molto simile al tempo continuo si ha
+$$\Delta x(k+1)=A(k)\Delta x(k)+B(k)\Delta u(k)$$
+$$\Delta y(k)=C(k)\Delta x(k)+D(k)\Delta u(k)$$
