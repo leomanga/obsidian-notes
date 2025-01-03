@@ -98,3 +98,11 @@ Le potenze si distribuiscono su vertici di un poligono regolare di centro $0$ av
 
 # Proprietà potenze
 L'equazione $x^{n}=a, \quad x,a\in\mathbb{C}$, ammette $n$ soluzioni distinte.
+
+# Proprietà dell’argomento o fase
+$$
+\measuredangle a\cdot b=\measuredangle a+\measuredangle b
+$$
+
+^fa4be1
+
