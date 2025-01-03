@@ -25,6 +25,8 @@ y_{f}(t)=M|G(j\omega)|\cos(\omega t+\measuredangle G(jw)+\phi)+y_{t}(t)
 >La risposta forzata in questo caso prende il nome di **RISPOSTA DI REGIME PERMANENTE** ed è caratterizzata da una amplificazione o da una attenuazione dell’ampiezza $M$ dal modulo di $G(j\omega)$ e da uno sfasamento $\measuredangle G(jw)$.
 >La risposta di regime transitorio $y_{t}(t)$ tenderà a 0 per $t\to \infty$.
 
+^a625cb
+
 per trovare $y_{t}$ si usa che è la parte rimanente dalla scomposizione in fratti semplici. Dato che la risposta viene da $$\frac{Q(s)}{D(s)}+\frac{R_{2}}{s-j\omega}+\frac{\overline{R_{2}}}{s+j\omega}$$
 Avremo che $$y(t)=\mathcal{L}^{-1}[\frac{Q(s)}{D(s)}]$$
 Dove $Q$ e $D$ sono i resti dalla scomposizione in fratti semplici.
