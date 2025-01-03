@@ -8,7 +8,7 @@ Per mantenere correnti stazionarie, dobbiamo poter generare un campo elettrostat
 
 Possiamo definire ora
 >[!def] Forza elettromotrice
->$$f = \int_{A}^{B}\vec{E}_{e}\cdot d\vec{l}\quad [V]$$
+>$$\epsilon =f = \int_{A}^{B}\vec{E}_{e}\cdot d\vec{l}\quad [V]$$
 >La forza elettromotrice rappresenta il lavoro fatto dal campo elettromotore per  spostare una carica positiva unitaria dal morsetto negativo a quello positivo.
 >
 
