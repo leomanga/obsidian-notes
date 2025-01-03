@@ -12,13 +12,18 @@
 [[Trasformata di Laplace]]
 [[Trasformata Zeta]]
 [[Antitrasformata di Laplace]]
+[[Antitrasformata Zeta]]
 [[Scomposizione di una funzione in fratti semplici]]
 [[Modi di un sistema dinamico lineare]]
 [[Risposta forzata]]
 [[Interconnessione di sistemi dinamici]]
 [[Studio delle radici di un polinomio]]
 
-
-
 ---
 Sistemare dalla trasformata Zeta in poi
+
+---
+
+[[Analisi modale nello spazio degli stati per sistemi a tempo continuo]]
+[[Analisi modale nello spazio degli stati per sistemi a tempo discreto]]
+[[Diagrammi di Bode]]
