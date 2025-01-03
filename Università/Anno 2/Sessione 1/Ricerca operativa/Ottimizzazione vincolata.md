@@ -14,6 +14,8 @@
 \frac{\partial q_{1}}{\partial x_n} & \frac{\partial q_{2}}{\partial x_n} & \ldots & \frac{\partial q_{m}}{\partial x_n}
 \end{bmatrix}$$
 
+^2dcc57
+
 ^7f57d1
 >[!thm]
 >Date due funzioni $f(x)$ e $h_{1}(x)$, se in un punto $x$ si ha che $\nabla f(x)$ e $\nabla{h_1}(x)$ non sono paralleli, allora esiste un vettore $\bar d$ che soddisfa 
