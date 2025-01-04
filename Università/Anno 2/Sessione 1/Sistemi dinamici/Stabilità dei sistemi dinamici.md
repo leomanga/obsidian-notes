@@ -14,5 +14,9 @@
 >Esistono stati di equilibrio [[Stati di equilibrio#^8441cb|convergenti]] ma [[#^24cae2|instabili]]. Questo accade solo nei sistemi non lineari. 
 >Nei sistemi lineari gli stati di equilibrio convergenti sono sempre stabili.
 
+>[!def] Stato di equilibrio GAS
+>Uno stato di equilibrio $\bar x$ si dice globalmente asintoticamente stabile (GAS) se
+>$$\forall x(0)\in \mathbb{R}^{n}\quad \lim_{t\to +\infty}||x(t)-\bar x||=0$$
+>
 
-
+![[Criterio ridotto di Lyapunov]]
