@@ -41,7 +41,8 @@
     "Università/Sessione 2/Termodinamica/Primo principio della termodinamica.md": {
       "ignoreMainTheoremCalloutWithoutTitle": false
     },
-    "Università/Sessione 2/Meccanica/Capitolo 5 - Dinamica del punto materiale 1.md": {}
+    "Università/Sessione 2/Meccanica/Capitolo 5 - Dinamica del punto materiale 1.md": {},
+    "Università/Anno 2/Sessione 1/Sistemi dinamici/Stabilità dei sistemi dinamici.md": {}
   },
   "extraSettings": {
     "foldDefault": "",
@@ -162,6 +163,10 @@
   },
   "excludedFiles": [
     "Università/Sessione 2/Meccanica/Moto parabolico.md",
-    "Università/Università.md"
+    "Università/Università.md",
+    "Università/Anno 2/Sessione 1/Sistemi dinamici/Matrice esponenziale.md",
+    "Università/Anno 2/Sessione 1/Sistemi dinamici/Analisi modale nello spazio degli stati per sistemi a tempo continuo.md",
+    "Excalidraw/Equilibrio stabile.excalidraw.md",
+    "Università/Anno 2/Sessione 1/Sistemi dinamici/Modi di un sistema dinamico lineare a tempo continuo.md"
   ]
 }
