@@ -1,0 +1,2 @@
+>[!def] Stato di equilibrio
+>$\$
