@@ -12,5 +12,5 @@ Siano $\lambda_{1},\lambda_{2},\ldots,\lambda_{n}$ gli [[Autovettori - autovalor
 - Se esiste $\lambda_{j}>0$, allora $\bar x$ è uno [[Stabilità dei sistemi dinamici#^24cae2|stato di equilibrio instabile]] per il sistema [[#^8c8dd1]]. 
 
 Per i sistemi a tempo discreto vale lo stesso, solo che
-- Se $\lambda_{i}<1\ \forall i=1,\ldots,n$, allora $\bar x$ è asintoticamente stabile.
-- Se esiste $\lambda_{i}>1$, allora $\bar x$ è uno stato di equilibrio instabile.
+- Se $|\lambda_{i}!<1\ \forall i=1,\ldots,n$, allora $\bar x$ è asintoticamente stabile.
+- Se esiste $|\lambda_{i}|>1$, allora $\bar x$ è uno stato di equilibrio instabile.

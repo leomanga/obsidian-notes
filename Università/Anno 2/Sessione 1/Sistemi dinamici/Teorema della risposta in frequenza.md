@@ -2,7 +2,7 @@ In ingresso ad un [[Sistemi lineari tempoinvarianti]] mettiamo $$u(t)=M\cos(\ome
 $M$ è l’ampiezza, $\omega$ la pulsazione e $\phi$ la fase.
 ==Immaginiamo la fase nulla.==
 
-Come ipotesi abbiamo che tutti i poli di $G(s)$ ([[Funzione di trasferimento]]) abbiano parte reale negativa, quindi da [[Modi di un sistema dinamico lineare#Caratteristiche di convergenza dei modi]], tutti i modi saranno convergenti.
+Come ipotesi abbiamo che tutti i poli di $G(s)$ ([[Funzione di trasferimento]]) abbiano parte reale negativa, quindi da [[Modi di un sistema dinamico lineare a tempo continuo#Caratteristiche di convergenza dei modi]], tutti i modi saranno convergenti.
 
 Intanto avremo che la [[Trasformata di Laplace]] di $u(t)$ sarà
 $$U(s)=M\frac{s}{s^{2}+\omega^2}$$
