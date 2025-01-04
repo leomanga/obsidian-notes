@@ -3,6 +3,7 @@
 >$$x(0)=\bar x\Rightarrow x(t)=\bar x\ \ \forall t>0$$
 
 L’utilità degli stati di equilibrio è quello di avere stati per cui eseguire le [[Tecniche di linearizzazione dei sistemi dinamici non lineari]].
+# Casi
 ## Caso tempo continuo
 Nel caso di un sistema tempo invariante autonomo (non influenzato da un ingresso $u$) avremo $\dot{x}(t)=f(x(t))$.
 Gli stati di equilibrio di $\bar x$ sono quelli tali che $$f(\bar x)=0$$
@@ -15,15 +16,28 @@ In entrambi i casi dobbiamo risolvere un sistema $n$ equazioni in $n$ variabili.
 Nel caso di un sistema tempo invariante avremo $x(k+1)=f(x(k),u(k))$
 Dato $u(k)=\bar u\ \ \forall k\ge 0$, gli stati di equilibrio saranno quelli tali che
 $$f(\bar x,\bar u)=\bar x\iff f(\bar x,\bar u)-\bar x=0$$
-## Stato di equilibrio stabile
-Uno stato di equilibrio $\bar x$ si dice stabile se
-$$\forall \epsilon>0,\ \ \exists\delta>0:||x(0)-\bar x||<\delta\Rightarrow||x(t)-\bar x||<\epsilon\ \ \forall t\ge 0$$
-In poche parole se, perturbando minimamente lo stato di equilibrio, il sistema, nel tempo, assumerà stati che non si discosteranno mai troppo dallo stato di equilibrio. (Esempio una pallina nel fondo di una bacinella. Se la muovo un po’ si muoverà tendendo a tornare sempre  sul fondo).
+# Diversi tipi di equilibri
+>[!def] Stato di equilibrio stabile
+>Uno stato di equilibrio $\bar x$ si dice stabile se
+>$$\forall \epsilon>0,\ \ \exists\delta>0:||x(0)-\bar x||<\delta\Rightarrow||x(t)-\bar x||<\epsilon\ \ \forall t\ge 0$$
+>In poche parole se, perturbando minimamente lo stato di equilibrio, il sistema, nel tempo, assumerà stati che non si discosteranno mai troppo dallo stato di equilibrio.
+>![[Equilibrio stabile.excalidraw]]
 
-![[Equilibrio stabile.excalidraw]]
+^a3abc3
+
+>[!def] Stato di equilibrio convergente
+>Uno stato di equilibrio $\bar x$ si dice convergente se
+>$$\exists \delta>0:||x(0)-\bar x||<\delta\Rightarrow\lim_{t\to{\infty}}||x(t)-\bar x||=0$$
+>In poche parole se, perturbando minimamente lo stato di equilibrio, il sistema, nel tempo, tornerà allo stato di equilibrio.
+>Un esempio può essere una pallina in fondo ad un avvallamento. Se le cambiamo posizione, essa tornerà all’equilibrio in fondo all’avvallamento.
+
+^8441cb
+# Stabilità
+![[Stabilità dei sistemi dinamici]]
 
 
 
+ 
 
 
 
