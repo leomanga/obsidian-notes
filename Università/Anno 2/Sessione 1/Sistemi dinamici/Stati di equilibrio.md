@@ -17,11 +17,7 @@ Nel caso di un sistema tempo invariante avremo $x(k+1)=f(x(k),u(k))$
 Dato $u(k)=\bar u\ \ \forall k\ge 0$, gli stati di equilibrio saranno quelli tali che
 $$f(\bar x,\bar u)=\bar x\iff f(\bar x,\bar u)-\bar x=0$$
 # Diversi tipi di equilibri
->[!def] Stato di equilibrio stabile
->Uno stato di equilibrio $\bar x$ si dice stabile se
->$$\forall \epsilon>0,\ \ \exists\delta>0:||x(0)-\bar x||<\delta\Rightarrow||x(t)-\bar x||<\epsilon\ \ \forall t\ge 0$$
->In poche parole se, perturbando minimamente lo stato di equilibrio, il sistema, nel tempo, assumerà stati che non si discosteranno mai troppo dallo stato di equilibrio.
->![[Equilibrio stabile.excalidraw]]
+![[Stabilità dei sistemi dinamici#^3ca209]]
 
 ^a3abc3
 

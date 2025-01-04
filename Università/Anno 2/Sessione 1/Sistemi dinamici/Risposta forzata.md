@@ -21,7 +21,7 @@ $$y_{f}(t)=y_{imp}(t)*\mathbb{1}(t)=\int_{0}^{t}y_{imp}(\tau)d\tau$$
 Quindi la **risposta al gradino** è l’integrale della [[#Risposta impulsiva]].
 
 Ci chiediamo cosa succede per $\lim_{t\to \infty}y(t)$.
-Vogliamo che questo limite esista finito, e questo vale per i poli a parte reale negativa, tranne al più un solo polo in 0. ([[Modi di un sistema dinamico lineare#Convergenti|(1)]] [^1])
+Vogliamo che questo limite esista finito, e questo vale per i poli a parte reale negativa, tranne al più un solo polo in 0. ([[Modi di un sistema dinamico lineare a tempo continuo#Convergenti|(1)]] [^1])
 Dato che il polo in 0 viene già “occupato” da $\frac{1}{s}$, vogliamo che **$G(s)$ abbia tutti i poli a parte negativa**.
 Allora, da [[Trasformata di Laplace#^f408f6]]
 $$\lim_{t\to \infty}y_{f}(t) = \lim_{s\to 0}s\cdot G(s)\cdot \frac{1}{s}=G(0)$$
