@@ -1,0 +1,1 @@
+Sia $\bar x$ uno [[Stati di equilibrio|stato di equilibrio]] di un sistema lineare 
