@@ -18,7 +18,9 @@ $$f(\bar x,\bar u)=\bar x\iff f(\bar x,\bar u)-\bar x=0$$
 ## Stato di equilibrio stabile
 Uno stato di equilibrio $\bar x$ si dice stabile se
 $$\forall \epsilon>0,\ \ \exists\delta>0:||x(0)-\bar x||<\delta\Rightarrow||x(t)-\bar x||<\epsilon\ \ \forall t\ge 0$$
+In poche parole se, perturbando minimamente lo stato di equilibrio, il sistema, nel tempo, assumerà stati che non si discosteranno mai troppo dallo stato di equilibrio. (Esempio una pallina nel fondo di una bacinella. Se la muovo un po’ si muoverà tendendo a tornare sempre  sul fondo).
 
+![[Equilibrio stabile.excalidraw]]
 
 
 
