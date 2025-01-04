@@ -70,6 +70,30 @@ nel tempo discreto il sistema è:
 - Se $\bar x=0$ è stato di equilibrio convergente, allora è anche stabile e quindi asintoticamente stabile.
 - Se $\bar x=0$ è asintoticamente stabile, allora è anche [[#^3e6b69|GAS]].
 
+# Stabilità esterna
+Fin ora abbiamo studiato la stabilità interna, che riguarda i sistemi nella [[Rappresentazione ingresso-stato-uscita]], ora studiamo i sistemi nella [[Rappresentazione ingresso-uscita]]
+
+>[!def] Stabilità in senso ILUL
+>Un sistema dinamico è stabile in senso ILUL(ingresso limitato, uscita limitata)(in inglese BIBO, bounded-input, bounded-output) se
+>$$\forall U>0,\ \exists Y>0:\ ||u(t)||\le U\ \ \forall t\ge 0\Rightarrow ||y(t)||\le Y\ \forall t\ge 0$$
+>Come per definizione del nome infatti abbiamo che se l’ingresso è l’imitato, anche l’uscita è limitata.
+
+^ef9adb
+
+Abbiamo che,
+in un sistema a tempo continuo, dato che $Y(s)=G(s)U(s)$, allora se per ogni polo di $G(s)$ a parte reale nulla, $\exists$ un ingresso $u(t)$ limitato che genera un $y(t)$ divergente, allora deduciamo che
+
+>[!prp]
+>Un sistema a tempo continuo è [[#^ef9adb|stabile in senso ILUL]] se e solo se tutti i poli di $G(s)$ hanno parte reale negativa.
+
+Invece, nel caso del tempo discreto
+>[!prp]
+>Un sistema a tempo discreto è [[#^ef9adb|stabile in senso ILUL]] se e solo se tutti i poli di $G(s)$ hanno modulo minore di 1.
+
+>[!lemma]
+>Se un sistema è asintoticamente stabile internamente, allora è ILUL stabile, perché i poli della funzione di trasferimento sono un sottoinsieme degli autovalori di $A$. 
+>Inoltre si ha che il viceversa non è vero perché potrebbero esserci autovalori di $A$ non convergenti, ma che si cancellano con uno zero.
+
 [^1]:[[Modi di un sistema dinamico lineare a tempo continuo#Convergenti]], [[Modi di un sistema dinamico lineare a tempo discreto]]
 [^2]:[[Modi di un sistema dinamico lineare a tempo continuo#Limitati non convergenti]], [[Modi di un sistema dinamico lineare a tempo discreto]]
 [^3]:[[Modi di un sistema dinamico lineare a tempo continuo#Divergenti]], [[Modi di un sistema dinamico lineare a tempo discreto]]
