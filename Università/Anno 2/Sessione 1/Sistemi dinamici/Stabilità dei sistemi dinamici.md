@@ -31,6 +31,8 @@
 >$$\forall x(0)\in \mathbb{R}^{n}\quad \lim_{t\to +\infty}||x(t)-\bar x||=0$$
 >
 
+^3e6b69
+
 ![[Criterio ridotto di Lyapunov]]
 
 # Studio della stabilità
@@ -62,6 +64,11 @@ nel tempo discreto il sistema è:
 	- $\forall \lambda_{i}$ tale che $|\lambda_{i}|=1$ allora [[Autovettori - autovalori - autospazi#Molteplicità algebrica|ma]]$(\lambda_{i})$ = [[Autovettori - autovalori - autospazi#Molteplicità geometrica di $ lambda$|mg]]$(\lambda_i )$
 - **Instabile** negli altri casi
 
+# Proprietà dei sistemi lineari
+- Nei sistemi autonomi ($u(t)=0\forall t$), $\bar x=0$ è sempre stato di equilibrio.
+- Il sistema può essere asintoticamente stabile solo se $\bar x=0$ è l’unico stato di equilibrio.
+- Se $\bar x=0$ è stato di equilibrio convergente, allora è anche stabile e quindi asintoticamente stabile.
+- Se $\bar x=0$ è asintoticamente stabile, allora è anche [[#^3e6b69|GAS]].
 
 [^1]:[[Modi di un sistema dinamico lineare a tempo continuo#Convergenti]], [[Modi di un sistema dinamico lineare a tempo discreto]]
 [^2]:[[Modi di un sistema dinamico lineare a tempo continuo#Limitati non convergenti]], [[Modi di un sistema dinamico lineare a tempo discreto]]

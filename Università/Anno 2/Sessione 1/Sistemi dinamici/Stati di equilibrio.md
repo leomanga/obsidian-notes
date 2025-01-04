@@ -29,7 +29,8 @@ $$f(\bar x,\bar u)=\bar x\iff f(\bar x,\bar u)-\bar x=0$$
 
 ^8441cb
 # Studio degli stati di equilibrio
-Se consideriamo un sistema autonomo a tempo continuo
+### Sistemi autonomi
+Consideriamo un sistema autonomo a tempo continuo
 $$\dot x(t)=A\cdot x(t)$$
 Gli stati di equilibrio saranno $\bar x:A\cdot \bar x=0$
 Risolvendo il sistema lineare di $n$ equazioni in $n$ incognite si ha che
@@ -43,6 +44,19 @@ Risolvendo il sistema lineare di $n$ equazioni in $n$ incognite si ha che
 - Se $\det(I-A)\not = 0$ allora $\bar x=0$ è l’unico stato di equilibrio
 - Se $\det(I-A)=0$ allora esistono infiniti stati di equilibrio $\bar x\in \ker(I-a)$. ($\ker$ è il [[Kernel di una funzione lineare|Kernel]])
 
+### Sistemi non autonomi
+Consideriamo un sistema autonomo a tempo continuo
+$$\dot x(t)=A\cdot x(t)+B\cdot u(t)$$
+con $u(t)=\bar u\ \ \forall t$. 
+Gli stati i equilibrio saranno
+$$\bar x:A\cdot \bar x+B\cdot \bar u =0$$
+Avremo un sistema di $n$ equazioni in $n$ incognite
+$$A\cdot \bar x=-B\cdot \bar u$$
+Si ha che
+- Se $\det(A)\not = 0$ allora $\bar x=-A^{-1}\cdot B\cdot \bar u$ è l’unico stato di equilibrio
+- Se $det(A)=0$ allora
+	- esistono infiniti stati di equilibrio se $-B\cdot \bar u\in Im(A)$
+	- non esistono stati di equilibrio se $-B\cdot \bar u\not\in Im(A)$
 # Stabilità
 ![[Stabilità dei sistemi dinamici]]
 
