@@ -28,4 +28,6 @@ Sistemare dalla trasformata Zeta in poi
 [[Analisi modale nello spazio degli stati per sistemi a tempo discreto]]
 [[Diagrammi di Bode]]
 [[Sistemi non lineari]]
-[[Stati di equilibrio]] Da pag 102. 38 pagine di appunti rimanenti
+[[Stati di equilibrio]]
+[[Stabilità dei sistemi dinamici]]
+[[Proprietà strutturali dei sistemi dinamici]]
