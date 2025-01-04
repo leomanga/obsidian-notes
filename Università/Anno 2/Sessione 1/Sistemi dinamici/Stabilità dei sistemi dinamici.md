@@ -1,6 +1,8 @@
 >[!def] Stato di equilibrio asintoticamente stabile
 >Uno stato di equilibrio $\bar x$ si dice asintoticamente stabile se è sia [[Stati di equilibrio#^a3abc3|stabile]] che [[Stati di equilibrio#^8441cb|convergente]].
 
+^9f43ed
+
 >[!def] Stato instabile
 >Sia $\bar x$ uno stato di equilibrio. 
 >Si ha che se $\bar x$ non è [[Stati di equilibrio#^a3abc3|stabile]] , allora si dice instabile
@@ -20,3 +22,8 @@
 >
 
 ![[Criterio ridotto di Lyapunov]]
+
+# Studio della stabilità
+Chiamiamo traiettoria del sistema lineare la risposta libera e si ha che, da [[Analisi modale nello spazio degli stati per sistemi a tempo discreto|(L1)]] e [[Analisi modale nello spazio degli stati per sistemi a tempo continuo|(L2)]]
+- nel tempo continuo $x(t)=e^{At}\cdot x(0)$
+- nel tempo discreto $x(k)$

@@ -32,6 +32,21 @@ $$f(\bar x,\bar u)=\bar x\iff f(\bar x,\bar u)-\bar x=0$$
 >Un esempio può essere una pallina in fondo ad un avvallamento. Se le cambiamo posizione, essa tornerà all’equilibrio in fondo all’avvallamento.
 
 ^8441cb
+# Studio degli stati di equilibrio
+Se consideriamo un sistema autonomo a tempo continuo
+$$\dot x(t)=A\cdot x(t)$$
+Gli stati di equilibrio saranno $\bar x:A\cdot \bar x=0$
+Risolvendo il sistema lineare di $n$ equazioni in $n$ incognite si ha che
+- Se $\det(A)\not = 0$ allora $\bar x=0$ è l’unico stato di equilibrio
+- Se $\det(A)=0$ allora esistono infiniti stati di equilibrio $\bar x\in \ker(A)$. ($\ker$ è il [[Kernel di una funzione lineare|Kernel]])
+
+Se consideriamo un sistema autonomo a tempo discreto
+$$x(k+1)=A\cdot x(k)$$
+Gli stati di equilibrio saranno $\bar x:A\cdot \bar x=\bar x\iff (I-A)\cdot \bar x=0$
+Risolvendo il sistema lineare di $n$ equazioni in $n$ incognite si ha che
+- Se $\det(I-A)\not = 0$ allora $\bar x=0$ è l’unico stato di equilibrio
+- Se $\det(I-A)=0$ allora esistono infiniti stati di equilibrio $\bar x\in \ker(I-a)$. ($\ker$ è il [[Kernel di una funzione lineare|Kernel]])
+
 # Stabilità
 ![[Stabilità dei sistemi dinamici]]
 
