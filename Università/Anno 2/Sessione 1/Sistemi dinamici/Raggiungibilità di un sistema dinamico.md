@@ -29,6 +29,8 @@ dove $x\in \mathbb{R}^{n}$, $u\in \mathbb{R}^{m}$ e $\mathcal{R}_{T}\in \mathbb{
 B&&AB&&A^{2}B\ \cdots \ A^{T-1}B
 \end{bmatrix}$$
 
+^e41c75
+
 Dal [[Teorema di Rouchè-Capelli]], il problema ammette soluzione se e solo se 
 $$x_{fin}-A^{T}x_{ini}\in Im(\mathcal{R}_{T})$$
 (Se non appartenesse all’immagine, la matrice completa avrebbe un rango maggiore di quella incompleta e il sistema non sarebbe risolubile)
@@ -38,5 +40,8 @@ $$x_{fin}-A^{T}x_{ini}\in Im(\mathcal{R}_{T})$$
 
 ^f26ad0
 
->[!prp]
->Lo stato $\bar x$ è [[#^f26ad0|raggiungibile in $k$ passi]] 
+>[!prp] Raggiungibilità di uno stato
+>Lo stato $\bar x$ è [[#^f26ad0|raggiungibile in $k$ passi]]  se e solo se $\bar x\in Im(\mathcal{R}_{k})$ dove $\mathcal{R}_{k}$ è la [[#^e41c75|matrice di raggiungibilità in $k$ passi]].
+
+L’insieme degli stati raggiungibili in $k$ passi è il sottospazio
+$$X_{k}^{\mathcal{R}}=Im(\mathcal{R}_{k})$$
