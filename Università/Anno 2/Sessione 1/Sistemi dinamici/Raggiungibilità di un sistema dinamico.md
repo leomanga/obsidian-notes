@@ -1,3 +1,11 @@
+---
+
+---
+Notazioni:
+In questo documento $T$ viene usata come numero, quindi $A^{T}$ è una matrice elevata alla $T$. Per il simbolo del trasposto si usa $'$.
+
+--- 
+
 >[!def] Raggiungibilità in un sistema dinamico a tempo discreto
 >Uno stato si dice raggiungibile in $k$ passi (dallo stato zero), se assumendo $x(0)=0$, esiste una sequenza di passi $u(0),u(1),\ldots,u(k-1)$ tale che $x(k)=\bar x$.
 
@@ -63,6 +71,8 @@ $$X_{1}^{\mathcal{R}}\subseteq X_{2}^{\mathcal{R}}\subseteq X_{3}^{\mathcal{R}}\
 >ovvero $$rank(\mathcal{R}_{k})=n$$
 >dove $n$ è il numero di stati.
 
+^04bbfd
+
 Enunciando
 
 >[!thm] Teorema di Cayley-Hamilton
@@ -86,4 +96,19 @@ Consideriamo l’equazione [[#^9e9296]]
 $$\mathcal{R}_{T}\cdot\underbrace{\begin{bmatrix}u(T-1)\\u(T-2)\\\vdots\\u(0)\end{bmatrix}}_{\mathcal{U}}=\underbrace{x_{fin}-A^{T}\cdot x_{in}}_{v}\iff\mathcal{R}_{T}\cdot U_{T}=v$$
 dove $\mathcal{R}_{T}\in \mathbb{R}^{n\times Tm}$, $U_{T}\in \mathbb{R}^{mT\times 1}$ e $v\in \mathbb{R}^{n\times 1}$
 Consideriamo diversi casi
-- 
+- $m=1$ e $T=n$ ($1$ ingresso e $T$ passi). Avremo $\mathcal{R}\in \mathbb{R}^{n\times n}$. Se $rank(\mathbb{R}_{n})=n$ allora il sistema è [[#^04bbfd|completamente raggiungibile]] ed esiste un unica soluzione.$$\mathcal{U}=\mathbb{R}_{n}^{-1}v$$
+- il caso generale $mT>n$ . Avremo che se il sistema è [[#^04bbfd|completamente raggiungibile]], allora si hanno $\infty^{mT-n}$ soluzioni.
+Studiando il caso generale avremo
+#da-finire pag 109
+Chiamando $\bar{\mathcal{U}}$ una soluzione particolare,
+
+$$
+\bar{\mathcal{U}}=\mathcal{R}_{T}'({R}_{T}{R}_{T}')^{-1}v
+$$
+
+^f9ca0f
+
+# Problema del controllo a minima energia
+Dovrebbe essere ![[#^f9ca0f]]
+#da-finire pag 110
+
