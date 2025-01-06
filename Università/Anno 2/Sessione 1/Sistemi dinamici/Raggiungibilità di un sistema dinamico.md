@@ -112,3 +112,4 @@ $$
 Dovrebbe essere ![[#^f9ca0f]]
 #da-finire pag 110
 
+[[Decomposizione di raggiungibilità]]
