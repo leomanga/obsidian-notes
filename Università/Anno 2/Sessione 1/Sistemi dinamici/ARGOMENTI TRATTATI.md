@@ -30,5 +30,6 @@ Sistemare dalla trasformata Zeta in poi
 [[Diagrammi di Bode]]
 [[Sistemi non lineari]]
 [[Stati di equilibrio]]
+[[Sistemi algebricamente equivalenti]]
 [[Stabilità dei sistemi dinamici]]
 [[Proprietà strutturali dei sistemi dinamici]]
