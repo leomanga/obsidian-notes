@@ -51,7 +51,7 @@ Modulo:
 	- $-40\mu dB/dec$ per ogni coppia di poli complessi di molteplicità $\mu$
 
 Fase:
-1) Si parte con una semiretta orizzontale da $\mu = 0$, quindi da $\log_{10}\omega=-\infty$ fino al primo punto di rottura, di valore pari a $\begin{cases}-90°\cdot g\quad \mbox{se }k_{B}>0\\ -90°\cdot g-180°\quad \mbox{se }k_{B}<0\end{cases}$
+1) Si parte con una semiretta orizzontale da $\omega = 0$, quindi da $\log_{10}\omega=-\infty$ fino al primo punto di rottura, di valore pari a $\begin{cases}-90°\cdot g\quad \mbox{se }k_{B}>0\\ -90°\cdot g-180°\quad \mbox{se }k_{B}<0\end{cases}$
 2) Si riportano in ascissa gli stessi punti di rottura del diagramma del modulo.
 3) Procedendo da sinistra a destra, in corrispondenza dei punti di rottura, si varia la fase di
 	- $+90°\mu$ per ogni zero reale negativo o polo reale positivo di molteplicità $\mu$
