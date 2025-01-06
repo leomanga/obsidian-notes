@@ -32,4 +32,4 @@ Sistemare dalla trasformata Zeta in poi
 [[Stati di equilibrio]]
 [[Sistemi algebricamente equivalenti]]
 [[Stabilità dei sistemi dinamici]]
-[[Proprietà strutturali dei sistemi dinamici]]
+[[Proprietà strutturali dei sistemi dinamici]] COntinua da osservabilità
