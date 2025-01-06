@@ -15,12 +15,17 @@ $$x(k)=x_{l}(k)+x_{f}(k)=A^{k}x(0)+\sum_{i=0}^{k-1}A^{k-1-i}Bu(i)$$
 
 Possiamo imporre $$A^{T}x_{ini}+\sum_{i=0}^{T-1}A^{T-1-i}Bu(t)=x_{fin}$$
 Riscrivendo in forma matriciale abbiamo
-$$\underbrace{\begin{bmatrix}
+$$
+\underbrace{\begin{bmatrix}
 B&&AB&&A^{2}B\ \cdots \ A^{T-1}B
 \end{bmatrix}}_{\mathcal{R}_{T}}
 \begin{bmatrix}
 u(T-1) \\ u(T-2) \\ \vdots  \\ u(0)
-\end{bmatrix}=x_{fin}-A^{T}x_{ini}$$
+\end{bmatrix}=x_{fin}-A^{T}x_{ini}
+$$
+
+^9e9296
+
 dove $x\in \mathbb{R}^{n}$, $u\in \mathbb{R}^{m}$ e $\mathcal{R}_{T}\in \mathbb{R}^{n\times Tm}$ e viene definita
 
 >[!def] Matrice di raggiungibilità in $T$ passi
@@ -45,3 +50,40 @@ $$x_{fin}-A^{T}x_{ini}\in Im(\mathcal{R}_{T})$$
 
 L’insieme degli stati raggiungibili in $k$ passi è il sottospazio
 $$X_{k}^{\mathcal{R}}=Im(\mathcal{R}_{k})$$
+Quindi il sottospazio raggiungibile in un passo sarà $$X_{1}^{\mathcal{R}}=Im(R_{1})=Im(B)$$quello raggiungibile in due passi sarà
+$$X_{2}^{\mathcal{R}}=Im(R_{2})=Im\begin{bmatrix}B&AB\end{bmatrix}\supseteq X_{1}^{\mathcal{R}}$$
+quello raggiungibile in tre passi sarà
+$$X_{3}^{\mathcal{R}}=Im(R_{3})=Im\begin{bmatrix}B&AB&A^{2}B\end{bmatrix}\supseteq X_{2}^{\mathcal{R}}$$
+e così via.
+Avremo quindi in generale che 
+$$X_{1}^{\mathcal{R}}\subseteq X_{2}^{\mathcal{R}}\subseteq X_{3}^{\mathcal{R}}\subseteq\ldots X_{k}^{\mathcal{R}}\subseteq X_{k+1}^{\mathcal{R}}\subseteq \ldots$$
+
+>[!def] Sistema completamente raggiungibile
+>Im sistema si dice completamente raggiungibile se $$\exists k:X_{k}^{\mathcal{R}}=\mathbb{R}^{n}$$
+>ovvero $$rank(\mathcal{R}_{k})=n$$
+>dove $n$ è il numero di stati.
+
+Enunciando
+
+>[!thm] Teorema di Cayley-Hamilton
+>Data $A\in \mathbb{R}^{n\times n}$, sia $$p(\lambda)=\det(\lambda I-A)=\lambda^{n}+\alpha_{n-1}\lambda^{n-1}+\ldots +\alpha_{0}$$
+>Allora $$A^{n}+\alpha_{n-1}A^{n-1}+\ldots+\alpha_{0}I=0$$
+
+Pag 107 per spieazione #da-finire 
+
+>[!prp]
+>L’insieme degli stati raggiungibili in un qualunque numero di passi coincide con $$X_{n}^{\mathcal{R}}=Im(\mathcal{R}_{n})$$
+
+>[!def] Matrice di raggiungibilità del sistema
+>$$\mathcal{R}:=\mathcal{R}_{n}$$ si dice matrice di raggiungibilità del sistema.
+
+>[!def] Sottospazio raggiungibile del sistema
+>$$X^{R}:=Im (\mathcal{R})$$
+>si dice sottospazio raggiungibile del sistema.
+
+# Calcolo della sequenza di ingressi
+Consideriamo l’equazione [[#^9e9296]]
+$$\mathcal{R}_{T}\cdot\underbrace{\begin{bmatrix}u(T-1)\\u(T-2)\\\vdots\\u(0)\end{bmatrix}}_{\mathcal{U}}=\underbrace{x_{fin}-A^{T}\cdot x_{in}}_{v}\iff\mathcal{R}_{T}\cdot U_{T}=v$$
+dove $\mathcal{R}_{T}\in \mathbb{R}^{n\times Tm}$, $U_{T}\in \mathbb{R}^{mT\times 1}$ e $v\in \mathbb{R}^{n\times 1}$
+Consideriamo diversi casi
+- 
