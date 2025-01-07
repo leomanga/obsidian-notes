@@ -1,4 +1,4 @@
-![[Magnetostatica nel vuoto#^b6258f]]
+![[Magnetostatica nel vuoto#^b6258f]] ^39e67d
 
 Per trovare $\vec{B}(\vec{r})$ basta integrare.
 
