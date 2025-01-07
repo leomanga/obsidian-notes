@@ -87,6 +87,8 @@ Nel vuoto, dove $\vec{M}=0$ si avrà $$\vec{B}(\vec{r})=\mu_{0}\vec{H}(\vec{r})$
 >$$\iint_S\nabla\times \vec{H}(\vec{r})\hat n ds = \iint_{S}\vec{J}(\vec{r})\hat n\hat ds=\oint_{C}\vec{H}(\vec{r})d\vec{l}=I$$
 >Dove $\vec{H}$ è il [[Vettore campo magnetico]], $\vec{J}$ è la [[Densità di corrente elettrica]] e $I$ è la [[Corrente elettrica]].
 
+^78a52c
+
 # Suscettività e permeabilità magnetica
 Per i materiali omogenei, lineari e isotropi si ha 
 $$\vec{M}(\vec{r})=\chi_{m}\vec{H}(\vec{r})$$
