@@ -22,9 +22,27 @@ $$L=\frac{\Phi[\vec{B}(\vec{r},t)]}{I}\quad [\frac{Wb}{A}][H]$$
 L’unità di misura è in Henry.
 Dalla legge di [[Legge di Faraday-Neumann-Lenz]] si autoinduce una [[Generatore di forza elettromotrice#^6d2e46|forza elettromotrice]] 
 $$\epsilon_{i}(t)=-L\frac{dI(t)}{dt}$$
-# Caso spira
-![[Spira-Induttanza.excalidraw]]
+# Caso solenoide
+![[Solenoide-Induttanza.excalidraw]]
 
 Abbiamo come dato il numero di spire al metro $N [\frac{sp}{m}]$
-Tramite [[Magnetostatica nei mezzi materiali#^78a52c]] troviamo che
+Tramite [[Magnetostatica nei mezzi materiali#^78a52c]] e dal fatto che avremo $N$ superfici, troviamo che
 $$H(t)=NI(t)$$
+Allora, da [[Vettore campo magnetico]] e visto che siamo nel vuoto, $$B(t)=\mu_{0}\vec{H}(t)=\mu_{0}NI(t)$$
+Calcoliamo il flusso di una spira
+$$\Phi_{sp}(t)=\pi a^{2}\mu_{0}NI(t)$$
+Essendoci $Nl$ spire nel nostro sistema, avremo che il flusso totale è
+$$\Phi_{T}=Nl\Phi_{sp}=\mu_{0}N^{2}\pi a^{2}lI(t)$$
+In questo caso allora avremo $$L=\frac{\Phi_{T}(t)}{I(t)}=\mu_{0}N^{2}\pi a^{2}l$$
+
+Ora se colleghiamo il solenoide ad un circuito con una certa resistenza ed un generatore di tensione ($\epsilon$), da [[Legge di Faraday-Neumann-Lenz]] si genera una $\epsilon_{i}=-L\frac{dI(t)}{dt}$, quindi possiamo vedere il solenoide come un generatore messo con i capi al contrario.
+
+Usando la [[Legge di Ohm]] 
+$$\epsilon+\epsilon_{i}=RI(t)$$
+Otteniamo l’equazione differenziale $$\epsilon=RI(t)+L\frac{dI(t)}{dt}$$
+che ha come soluzione $$I(t)=\frac{\epsilon}{R}(1-e^{-\frac{R}{L}t})$$
+Avremo quindi che ad infinito il circuito si comporterà come se il solenoide fosse un filo, quindi $I_{\infty}=\frac{\epsilon}{R}$.
+Avremo che il circuito avrà questo comportamento dopo $5\tau$, dove $\tau=\frac{L}{R}$.
+Se cortocircuitassimo il generatore di tensione, il circuito impiegherebbe sempre $5\tau$ ad avere corrente pari a zero.
+
+Se invece aprissimo un interruttore sul circuito, avremmo una resistenza incredibilmente grande, tau tenderebbe a 0 e verrebbe provocata una scintilla.
