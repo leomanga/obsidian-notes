@@ -1,0 +1,2 @@
+![[Mutua induzione.excalidraw]]
+
