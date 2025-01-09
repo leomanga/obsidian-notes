@@ -39,4 +39,24 @@ Possiamo definire il sottospazio
 >[!def] Insieme degli stati non osservabili in $k$ passi
 >$$\mathcal{X}_{k}^{no}=\ker\mathcal{O}_{k} $$
 
-Quindi il sottospazio osservabile in $1$ passo sarà$$\mathcal{X}$$
+Quindi il sottospazio osservabile in $1$ passo sarà$$\mathcal{X}_{1}^{no}=\ker\mathcal{O}_{1}=\ker[C]$$
+quello osservabile in due passi sarà
+$$\mathcal{X}_{2}^{no}=\ker\mathcal{O}_{2}=\ker\begin{bmatrix}C\\CA\end{bmatrix}\subseteq\mathcal{X_{1}^{no}}$$
+e così via.
+In generale avremo che 
+$$\mathcal{X}_{1}^{no}\supseteq\mathcal{X}_{2}^{no }\supseteq\ldots\supseteq\mathcal{X}_{k}^{no }\supseteq\mathcal{X}_{k+1}^{no }\supseteq\ldots$$
+>[!def] Sistema completamente osservabile
+>Un sistema si dice completamente osservabile se $$\exists\bar k:\mathcal{X}_{\bar k}^{no}=0$$
+>ovvero
+>$$\ker \mathcal{O}_{k}=0\iff rank(\mathcal{O}_{k})=n$$
+>
+
+Per il [[Raggiungibilità di un sistema dinamico#^6af30f|teorema di Caley-Hamilton]], allora $CA^{n}$ è combinazione lineare di $C,CA,CA^{2}\ldots CA^{n-1}$
+allora $$\mathcal{X}_{n+h}^{no}=\mathcal X_{n}^{no}\quad \forall h>0$$
+Allora
+>[!prp] Insieme degli stati osservabili in un qualunque numero di passi
+>L’insieme degli stati osservabili in un qualunque numero di passi coincide con
+>$$\mathcal{X}^{no}=\ker \mathcal{O}_{n}$$
+
+>[!def] Matrice di osservabilità del sistema
+>$$\mathcal{O}=\mathcal{O}_{n}=\begin{bmatrix}C\\CA\\CA^{2}\\\vdots\\CA^{n-1}\end{bmatrix}$$

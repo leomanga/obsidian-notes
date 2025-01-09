@@ -70,7 +70,7 @@ Avremo quindi in generale che
 $$X_{1}^{\mathcal{R}}\subseteq X_{2}^{\mathcal{R}}\subseteq X_{3}^{\mathcal{R}}\subseteq\ldots X_{k}^{\mathcal{R}}\subseteq X_{k+1}^{\mathcal{R}}\subseteq \ldots$$
 
 >[!def] Sistema completamente raggiungibile
->Im sistema si dice completamente raggiungibile se $$\exists k:X_{k}^{\mathcal{R}}=\mathbb{R}^{n}$$
+>Un sistema si dice completamente raggiungibile se $$\exists k:X_{k}^{\mathcal{R}}=\mathbb{R}^{n}$$
 >ovvero $$rank(\mathcal{R}_{k})=n$$
 >dove $n$ è il numero di stati.
 
@@ -82,9 +82,11 @@ Enunciando
 >Data $A\in \mathbb{R}^{n\times n}$, sia $$p(\lambda)=\det(\lambda I-A)=\lambda^{n}+\alpha_{n-1}\lambda^{n-1}+\ldots +\alpha_{0}$$
 >Allora $$A^{n}+\alpha_{n-1}A^{n-1}+\ldots+\alpha_{0}I=0$$
 
-Pag 107 per spieazione #da-finire 
+^6af30f
 
->[!prp]
+Pag 107 per spiegazione #da-finire 
+
+>[!prp] Insieme degli stati raggiungibili in un qualunque numero di passi
 >L’insieme degli stati raggiungibili in un qualunque numero di passi coincide con $$X_{n}^{\mathcal{R}}=Im(\mathcal{R}_{n})$$
 
 >[!def] Matrice di raggiungibilità del sistema
