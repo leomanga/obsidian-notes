@@ -60,3 +60,5 @@ Allora
 
 >[!def] Matrice di osservabilità del sistema
 >$$\mathcal{O}=\mathcal{O}_{n}=\begin{bmatrix}C\\CA\\CA^{2}\\\vdots\\CA^{n-1}\end{bmatrix}$$
+
+[[Decomposizione di osservabilità]]
