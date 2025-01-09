@@ -7,7 +7,7 @@ In questo documento $T$ viene usata come numero, quindi $A^{T}$ è una matrice e
 --- 
 
 >[!def] Raggiungibilità in un sistema dinamico a tempo discreto
->Uno stato si dice raggiungibile in $k$ passi (dallo stato zero), se assumendo $x(0)=0$, esiste una sequenza di passi $u(0),u(1),\ldots,u(k-1)$ tale che $x(k)=\bar x$.
+>Uno stato $\bar x \in \mathbb{R}^{n}$ si dice raggiungibile in $k$ passi (dallo stato zero) se, assumendo $x(0)=0$, esiste una sequenza di passi $u(0),u(1),\ldots,u(k-1)$ tale che $x(k)=\bar x$.
 
 ## Studio della raggiungibilità | problema del controllo
 Dato un sistema [[Sistemi lineari tempoinvarianti|LTI]] a tempo discreto
@@ -37,7 +37,7 @@ $$
 dove $x\in \mathbb{R}^{n}$, $u\in \mathbb{R}^{m}$ e $\mathcal{R}_{T}\in \mathbb{R}^{n\times Tm}$ e viene definita
 
 >[!def] Matrice di raggiungibilità in $T$ passi
->La matrice di raggiungibilità è la matrice 
+>La matrice di raggiungibilità è la matrice $\mathcal{R}_{T}\in \mathbb{R}^{n\times Tm}$
 >$$\mathcal{R}_{T}=\begin{bmatrix}
 B&&AB&&A^{2}B\ \cdots \ A^{T-1}B
 \end{bmatrix}$$
@@ -56,9 +56,12 @@ $$x_{fin}-A^{T}x_{ini}\in Im(\mathcal{R}_{T})$$
 >[!prp] Raggiungibilità di uno stato
 >Lo stato $\bar x$ è [[#^f26ad0|raggiungibile in $k$ passi]]  se e solo se $\bar x\in Im(\mathcal{R}_{k})$ dove $\mathcal{R}_{k}$ è la [[#^e41c75|matrice di raggiungibilità in $k$ passi]].
 
-L’insieme degli stati raggiungibili in $k$ passi è il sottospazio
+Definiamo il sottospazio
+>[!def] Insieme degli stati raggiungibili in $k$ passi
 $$X_{k}^{\mathcal{R}}=Im(\mathcal{R}_{k})$$
-Quindi il sottospazio raggiungibile in un passo sarà $$X_{1}^{\mathcal{R}}=Im(R_{1})=Im(B)$$quello raggiungibile in due passi sarà
+
+Quindi il sottospazio raggiungibile in un passo sarà 
+$$X_{1}^{\mathcal{R}}=Im(R_{1})=Im(B)$$quello raggiungibile in due passi sarà
 $$X_{2}^{\mathcal{R}}=Im(R_{2})=Im\begin{bmatrix}B&AB\end{bmatrix}\supseteq X_{1}^{\mathcal{R}}$$
 quello raggiungibile in tre passi sarà
 $$X_{3}^{\mathcal{R}}=Im(R_{3})=Im\begin{bmatrix}B&AB&A^{2}B\end{bmatrix}\supseteq X_{2}^{\mathcal{R}}$$
