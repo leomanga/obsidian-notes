@@ -6,6 +6,7 @@ I condensatori sono [[Materiali conduttori]], caratterizzati da:
 # Tipi
 ## Condensatore sferico
 ![[Condensatore sferico.excalidraw]]
+
 Dato che questo conduttore è messo a terra avremo un [[Potenziale elettrostatico]] $V(R_{2})=V(R_{3})=0$
 Invece $V(R_{1})-V(R_{2})?-\int_{R_{2}}^{R_{1}}k_{e}\frac{Q_{1}}{r^{2}}\hat{r}\cdot \hat{r}\cdot dr = k_{e}Q_{1}(\frac{R_{2}-R_{1}}{R_{1}R_{2}})$
 
