@@ -58,4 +58,3 @@ Fase:
 	- $-90°\mu$ per ogni zero reale positivo o polo reale negativo di molteplicità $\mu$
 	- $+180°\mu$ per ogni coppia di zeri complessi a parte reale negativa o poli complessi a parte reale positiva di molteplicità $\mu$
 	- $-180°\mu$ per ogni coppia di zeri complessi a parte reale positiva o poli complessi a parte reale negativa di molteplicità $\mu$
-- 
