@@ -24,4 +24,5 @@ $$e^{At}:=\sum_{k=0}^{+\infty}\frac{A^{k}t^{k}}{k!}=I+At+A^{2}\frac{t^2}{2}+\ldo
       $$\exists T, \det(T)\not=0:A=TJT^{-1}$$
       dove $J$ è la [[Matrice di Jordan o Forma di Jordan|forma di Jordan]].
       Allora avremo che $e^{At} = Te^{Jt}T^{-1}$, dove $$e^{Jt}=\begin{bmatrix}e^{J_{1}t}&0&\ldots&0\\0&e^{J_{2}t}&\ddots&\vdots\\\vdots&\ddots&\ddots&0\\0&\ldots&0&e^{J_{r}t}\end{bmatrix}$$
-      $$e^{J_{i}t}=\begin{bmatrix}e^{\lambda_{i}t}&te^{\lambda_{i}t}&\ldots&e^{\lambda_{i}t}\frac{t^{m_{i}}}{}\end{bmatrix}$$
+      $$e^{J_{i}t}=\begin{bmatrix}e^{\lambda_{i}t}&te^{\lambda_{i}t}&\ldots&\ldots&e^{\lambda_{i}t}\frac{t^{m_{i}-1}}{(m_{i}-1)!}\\0& e^{\lambda_{i}t}&te^{\lambda_{i}t}& & \vdots\\0&0&\ddots&\ddots& \vdots\\\vdots& & \ddots&\ddots&te^{\lambda_{i}t}\\0&\ldots&\ldots&0&e^{\lambda_{i}t}\end{bmatrix}\in \mathbb{R}^{m_{i}\times m_{i}}$$
+      
