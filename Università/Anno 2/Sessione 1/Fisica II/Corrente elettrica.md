@@ -3,7 +3,7 @@ Gli elettroni in un corpo [[Materiali conduttori|conduttore]] sono liberi di muo
 Gli elettroni si muovono in modo disordinato urtando gli ioni che scambiano a loro volta elettroni.
 Si può calcolare la velocità media di ogni elettrone è detta velocità termica,
 $$v_{T}^{m}\simeq\sqrt{\frac{3kT}{m_{e}}}$$
-dove $m_{e}$ è la massa di un elettrone.
+dove $m_{e}$ è la massa di un elettrone, $T$ la temperatura e $k$ la costante di Boltzmann.
 Indichiamo inoltre con $\tau$ il tempo medio tra un urto e il successivo e con $l$ il libero cammino medio tra due urti successivi. Allora avremo $\tau = \frac{l}{v_{t}^{m}}$.
 Indichiamo con $\vec{v}_{i}$ la velocità di un elettrone subito dopo un urto.
 Dopo ogni urto, la distribuzione di velocità è casuale, quindi facendo la media su un corpo, quindi con molti elettroni avremo
