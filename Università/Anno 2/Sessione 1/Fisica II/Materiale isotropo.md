@@ -1,0 +1,1 @@
+Un materiale si dice isotropo se le sue proprietà meccaniche e termiche non variano in base alle direzioni. (Acciaio) (Un controesempio è il legno, dato che presenta venature)

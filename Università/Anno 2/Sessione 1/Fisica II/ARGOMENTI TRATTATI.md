@@ -30,3 +30,7 @@
 - [[Convertitore lavoro meccanico-lavoro elettrico]]
 - [[Induttanza]]
 - [[Coefficiente di mutua induzione]]
+
+</br>
+[[Materiale isotropo]]
+[[Materiale omogeneo]]
