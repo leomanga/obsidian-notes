@@ -40,3 +40,7 @@ Alla fine, invece di $y = f(x)$ si ottiene $\tilde y = \tilde g(x+\delta x)$
 >Un algoritmo si dice stabile se amplifica poco (relativamente alle caratteristiche del calcolatore) gli errori di arrotondamento introdotti nelle singole operazioni.
 
 [[Algoritmi]]
+
+# Propagazione degli errori
+Nella [[Aritmetica finita#Somma algebrica $ oplus$]] si ha una grande amplificazione degli errori sui dati quando si sommano numeri quasi uguali in modulo ma opposti di segno. (CANCELLAZIONE NUMERICA)
+
