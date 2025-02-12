@@ -6,6 +6,7 @@ $$\begin{split}\forall \epsilon>0\ \exists \delta_\epsilon>0:|f(\bar x)-f(y)|<\e
 &\forall y\in B_{\delta}(x)\\
 \end{split}$$
 $$\begin{split}\iff \forall \mbox{ successione } (x^{m}\subseteq\mathbb{R}^{n}:x^{m}\to x\\\mbox{ per } m\to+\infty\mbox{ si ha }f(x^{m})\to f(x)\end{split}$$
+
 ---
 Nel caso generale in cui $f:X\subseteq{\mathbb{R}^n}\to\mathbb{R}^{k}$
 possiamo dire che $f$ è continua se e solo se
