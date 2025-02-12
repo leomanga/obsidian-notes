@@ -4,4 +4,13 @@ dove $fl$ è un’approssimazione per [[Rappresentazione numeri nei calcolatori#
 
 # Somma algebrica $\oplus$
 Si trasforma il numero con caratteristica minore in modo che i $2$ numeri abbiano la stessa caratteristica $e$ (esponente).
-Si sommano le mantisse
+Si sommano le mantisse.
+Si ricava il floating del risultato.
+# Prodotto $\otimes$ o divisione $\oslash$ 
+Si esegue il prodotto/divisione delle mantisse e si sommano/sottraggono le caratteristiche.
+Si ricava il floating del risultato.
+
+# Osservazioni
+Non valgono più tutte le proprietà delle quattro operazioni, non potremmo più usare la proprietà associativa e distributiva. Continua a valere quella commutativa.
+
+
