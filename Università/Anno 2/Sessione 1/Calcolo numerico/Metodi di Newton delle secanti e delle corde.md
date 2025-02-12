@@ -21,3 +21,10 @@ $$x_{i+1}=x_{i}-\frac{f(x_{i})}{f^{'}(x_{i})}$$
 ## Convergenza
 Abbiamo una convergenza locale ed un aumento del costo computazionale, però la [[Metodi numerici per equazioni non lineari#^d65c76|velocità di convergenza]] è di ordine superiore al primo. (In generale è quadratica).
 
+>[!thm] convergenza globale
+>Sia $f\in C^{2}[\alpha,\alpha+\rho]$ tale che
+>$f(x)f''(x)>0$ in ($\alpha, \alpha+\rho$)
+>$f’(x)\not = 0$ in ($\alpha,\alpha+\rho$)
+>Allora $\forall x_{0}\in (\alpha, \alpha +\rho]$ la successione originata dal metodo di Newton DECRESCE monotonicamente ad $\alpha$.
+>Per gli intorni sinistri $[\alpha-\rho,\alpha]$ si ottiene una successione che converge in modo monotono CRESCENTE ad $\alpha$.
+
