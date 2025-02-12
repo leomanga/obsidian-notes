@@ -5,9 +5,13 @@ Si commettono quindi necessariamente degli errori.
 >Data una grandezza $z$ ed una sua approssimazione $\tilde z$, definizamo l’errore assoluto come:
 >$$\delta z=\tilde z-z$$ 
 
+^0c317c
+
 >[!def] Errore relativo
 >Data una grandezza $z$ ed una sua approssimazione $\tilde z$, definizamo l’errore assoluto come:
 >$$\epsilon_{z}=\frac{\tilde z-z}{z}$$
+
+^0f475d
 
 # Tipi di errori
 >[!def] Errore inerente
