@@ -1,0 +1,35 @@
+I calcolatori non hanno a disposizione un numero finito di bits, solo un sottoinsieme dei numeri reali è rappresentabile in un computer.
+Questo sottoinsieme è detto **insieme dei numeri di macchina**.
+Rappresentiamo i numeri reali con il sistema  posizionale a virgola mobile normalizzata
+$$\pm(0.d_1d_2\ldots)\beta^{e}$$
+dove $d_{1}\not = 0$.
+L’insieme dei numeri macchina si rappresenta come
+$$F(\beta, t,L,U)$$
+in cui $\beta$ è la base, $t$ è la mantissa, $L$ è il minimo esponente e $M$ il massimo esponente.
+$$\min F(\beta, t, L ,U)=\pm(0.d_{1}d_{2}\ldots d_{t})\beta^ {L\quad}\max F(\beta, t, L ,U)=\pm(0.d_{1}d_{2}\ldots d_{t})\beta^{U}$$
+
+>[!nota]
+>Come detto $d_{1}\not = 0$, quindi in base $2$ necessariamente $d_{1}=1$ che viene chiamato bit fantasma.
+
+Chiaramente se $x\in \mathbb{R}$ necessita per la sua rappresentazione in virgola mobile normalizzata, più di $t$ cifre di mantissa sarà necessaria un’approssimazione per arrotondamento o troncamento.
+Rappresentiamo l’approssimazione come
+$$\bar x = fl(x)$$
+Avremo
+>[!def] Approssimazione per troncamento
+>$$fl(x)=\pm(0.d_1d_{2}\ldots d_{t})\beta^{e}$$
+>
+
+>[!def] Approssimazione per arrotondamento
+>$$fl(x)=\begin{cases}\pm(0.d_1d_2\ldots d_{t})\quad &dt_{t+1}<\frac{\beta}{2}\\
+>\pm(0.d_1d_2\ldots(d_{t}+1)\quad &d_{t+1}>\frac{\beta}{2} \end{cases}$$
+>Se $d_{t+1}=\frac{\beta}{2}$ si applica il cosiddetto “round to even”, ovvero si sceglie di rendere $d_{t}$ pari.
+
+L’approssimazione genera certamente errori di rappresentazione:
+- Errori di underflow: $e< L$
+- Errori di overflow: $e>U$
+- Errori di arrotondamento: $L\le e\le U$ ma il numero di cifre è maggiore di $t$
+
+Il numero di cifre che l’elaboratore riserva alla mantissa determina
+
+
+
