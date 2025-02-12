@@ -23,6 +23,8 @@ Sarà necessario, per poter innescare il procedimento $x_{0}$
 >[!def] Convergenza locale
 >Un metodo converge localmente ad $\alpha$ se la convergenza della successione $\{x_i\}_{i=1,2,\ldots}$ dipende in modo critico dalla vicinanza di $x_{0}$ a $\alpha$
 
+^7b166b
+
 >[!def] Convergenza globale
 >Un metodo converge localmente ad $\alpha$ quando la convergenza non dipende da quanto $x_{0}$ sia vicino ad $\alpha$.
 
@@ -31,6 +33,8 @@ Sarà necessario, per poter innescare il procedimento $x_{0}$
 >Se esistono due numeri reali $p$ e $C$ tali che sia 
 >$$\lim_{i\to\infty}\frac{|e_{i+1}|}{|e_{i}|^{p}}=C$$
 >si dice che la successione ha ordine di convergenza $p$ e fattore di convergenza $C$.
+
+^d65c76
 
 ## Criteri di arresto
 Non è chiaramente possibile generare infinite iterate della successione, il metodo dovrebbe arrestarsi ad ina certa tolleranza
@@ -52,4 +56,5 @@ In questo caso però
 
 # Lista di metodi
 [[Metodo di bisezione]]
-[[Metodo di newton e delle corde]]
+[[Metodi di Newton delle secanti e delle corde]]
+[[Metodo delle iterate]]
