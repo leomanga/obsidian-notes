@@ -48,4 +48,6 @@ Dove chiamiamo $\epsilon_{m}$ **precisione di macchina**.
 >[!def] Precisione di macchina
 >$$\epsilon_{m}=\beta^{1-t}$$
 
+^ff68fc
+
 
