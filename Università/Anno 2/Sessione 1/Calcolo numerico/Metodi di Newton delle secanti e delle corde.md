@@ -26,5 +26,5 @@ Abbiamo una convergenza locale ed un aumento del costo computazionale, però la 
 >$f(x)f''(x)>0$ in ($\alpha, \alpha+\rho$)
 >$f’(x)\not = 0$ in ($\alpha,\alpha+\rho$)
 >Allora $\forall x_{0}\in (\alpha, \alpha +\rho]$ la successione originata dal metodo di Newton DECRESCE monotonicamente ad $\alpha$.
->Per gli intorni sinistri $[\alpha-\rho,\alpha]$ si ottiene una successione che converge in modo monotono CRESCENTE ad $\alpha$.
+>Per gli intorni sinistri $[\alpha-\rho,\alpha)$ si ottiene una successione che converge in modo monotono CRESCENTE ad $\alpha$.
 
