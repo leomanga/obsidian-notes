@@ -2,4 +2,5 @@
 [[Rappresentazione numeri nei calcolatori]]
 [[Aritmetica finita]]
 [[Metodi numerici per equazioni non lineari]]
+[[Interpolazione]]
 [[Matlab]]
