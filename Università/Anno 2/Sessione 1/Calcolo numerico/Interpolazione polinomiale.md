@@ -22,4 +22,4 @@ Abbiamo che
 $$e(x)=w_{n+1}(x)R(x)$$
 dove $R(x)=\frac{f^{n+1}(\epsilon)}{(n+1)!}\le \frac{M}{(n+1)!}$
 se $\forall x\in [a,b]$ si ha $f^{(n+1)(x)}\le M$
-Questo se $f\in C^{n+1}[a,b]$, sennò se $f\not \in $
+Questo se $f\in C^{n+1}[a,b]$, sennò se $f\not \in C^{n+1}[a,b]$ abbiamo $f[x_{0},x_{1},\ldots,x_{n},x]$. ([[Classi di funzioni]])
