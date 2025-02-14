@@ -4,4 +4,5 @@
 [[Metodi numerici per equazioni non lineari]]
 [[Interpolazione]]
 [[Localizzazione degli autovalori]]
+[[Metodi iterativi]]
 [[Matlab]]
