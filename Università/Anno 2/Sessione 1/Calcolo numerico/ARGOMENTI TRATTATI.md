@@ -3,4 +3,5 @@
 [[Aritmetica finita]]
 [[Metodi numerici per equazioni non lineari]]
 [[Interpolazione]]
+[[Localizzazione degli autovalori]]
 [[Matlab]]
