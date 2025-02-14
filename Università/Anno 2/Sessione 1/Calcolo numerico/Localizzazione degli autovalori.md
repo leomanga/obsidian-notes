@@ -15,3 +15,18 @@
 >[!thm] Gershgorin III
 >Sia $A$ [[Matrice irriducibile|irriducibile]] e sia $\lambda$ autovalore di $A$. Se $\lambda$ appartiene alla frontiera dell’unione dei cerchi di Gershgorin, allora $\lambda$ appartiene alla frontiera di tutti i cerchi.
 
+# Proprietà
+>[!lemma]
+>Se $A$ è [[Matrice diagonale dominante|diagonale dominante]] in senso forte(stretto) allora $A$ è non è [[Matrice singolare|singolare]]
+
+>[!lemma]
+>Se $A$ è [[Matrice diagonale dominante|diagonale dominante]] e [[Matrice irriducibile|irriducibile]] allora $A$ è non [[Matrice singolare|singolare]]
+
+>[!lemma]
+>Se $A$ è [[Funzioni simmetriche ed hermitiane#Definizione matrici Matrice simmetrica|simmetrica]], è [[Matrice diagonale dominante|diagonale dominante]] in senso debole e $a_{ii}>0$, allora $A$ è [[Matrice definita positiva|semidefinita positiva]]
+
+>[!lemma]
+>Se $A$ è [[Funzioni simmetriche ed hermitiane#Definizione matrici Matrice simmetrica|simmetrica]], è [[Matrice diagonale dominante|diagonale dominante]] in senso forte(stretto) e $a_{ii}>0$, allora $A$ è [[Matrice definita positiva|definita positiva]]
+
+>[!lemma]
+>Se $A$ è [[Funzioni simmetriche ed hermitiane#Definizione matrici Matrice simmetrica|simmetrica]], è [[Matrice diagonale dominante|diagonale dominante]] in senso debole e $a_{ii}>0$, ed è [[Matrice irriducibile|irriducibile]], allora $A$ è [[Matrice definita positiva|definita positiva]]
