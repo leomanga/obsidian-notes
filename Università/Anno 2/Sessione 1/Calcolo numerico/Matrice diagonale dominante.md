@@ -9,5 +9,5 @@
 >[!def] Matrice diagonale dominante
 >Una matrice si dice diagonale dominante se
 >$$|a_{ii}|\ge\sum_{j=1,j\not=i}^{n}|a_{ij}|$$
->e $$\exists k:|a_{kk}|>\sum_{i=1, j\not=k}|a_{kj}|$$
+>e $$\exists k:|a_{kk}|>\sum_{i=1, j\not=k}^{n}|a_{kj}|$$
 
