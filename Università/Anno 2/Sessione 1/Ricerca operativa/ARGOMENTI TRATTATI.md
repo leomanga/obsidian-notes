@@ -15,3 +15,4 @@
 [[Ottimizzazione vincolata]]
 [[Cenni sugli algoritmi di ottimizzazione vincolata]]
 [[Programmazione lineare]]
+[[Poliedri]]
