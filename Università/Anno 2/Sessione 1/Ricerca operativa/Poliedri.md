@@ -38,11 +38,13 @@ Se studiamo l’insieme ammissibile di un problema di [[Programmazione lineare|P
 >[!def] Soluzione di base ammissibile
 >Una soluzione di base si dice ammissibile se $B^{-1}b\ge0\iff x_{b}\ge 0$
 
+^166e60
+
 >[!thm]
 >Un punto appartenente ad un poliedro è suo vertice se e solo se è una soluzione di base ammissibile.
 
 >[!def] Soluzione degenere
 >Una soluzione di base ammissibile si dice degenere se $x_{b}=B^{-1}b$ ha componenti nulle.
 
-
+[[Metodo del simplesso]]
 
