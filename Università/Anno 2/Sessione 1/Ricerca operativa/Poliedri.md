@@ -27,9 +27,22 @@ Se studiamo l’insieme ammissibile di un problema di [[Programmazione lineare|P
 >$$\forall x\in P, \exists \lambda_{1},\lambda_{2},\ldots,\lambda_{k}\ge 0;\sum_{i=1}^{k}\lambda_{i}=1$$ tali che $x=\lambda_{1}x^{1}+\lambda_{2}x^{2}+\ldots+\lambda_{k}x^{k}$
 
 >[!thm]
->Dato un problema di programmazione lineare in $\min c^{T}x$, $x\in P$ in cui $P$ è un politopo. Alora esiste se
+>Dato un problema di programmazione lineare in $\min c^{T}x$, $x\in P$ in cui $P$ è un politopo. Allora esiste sempre un vertice di $P,x^{*} \in P$, soluzione ottima del problema.
+>ù
+>
 
+>[!def] Soluzione di base
+>Dato un poliedro ed una base della matrice $A$, la soluzione $x=\begin{bmatrix}x_{b}\\ x_{f}\end{bmatrix}=\begin{bmatrix}B^{-1}b\\ 0\end{bmatrix}$ ($x_{f}=0$) si dice **soluzione di base** rispetto alla base $B$. $x_{b}$ sono le $x$ relative alle colonne di $A$ usate per la base, mentre $x_f$ sono le $x$ fuori base.
+>
 
+>[!def] Soluzione di base ammissibile
+>Una soluzione di base si dice ammissibile se $B^{-1}b\ge0\iff x_{b}\ge 0$
+
+>[!thm]
+>Un punto appartenente ad un poliedro è suo vertice se e solo se è una soluzione di base ammissibile.
+
+>[!def] Soluzione degenere
+>Una soluzione di base ammissibile si dice degenere se $x_{b}=B^{-1}b$ ha componenti nulle.
 
 
 
