@@ -1,5 +1,6 @@
 [[Esperimento]]
 [[Probabilità]]
+[[Leggi di De-Morgan]]
 [[Prove ripetute]]
 [[Formula di De-Moire Laplace]]
 [[Legge dei grandi numeri]]

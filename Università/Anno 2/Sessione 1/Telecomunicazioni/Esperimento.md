@@ -1,5 +1,5 @@
-Un esperimento è definito da uno [[Spazio dei possibili risultati]] $S$, da uno [[Spazio degli eventi]] $\xi\subset S$ e da una [[Probabilità]] $P$.
-$$\epsilon : (S,\xi,P)$$
+Un esperimento è definito da uno [[Spazio dei possibili risultati]] $S$, il quale definisce lo [[Spazio degli eventi]] $\Omega$ $(S = \Omega)$, da un evento $A\subseteq \Omega$ e da una [[Probabilità]] $P$
+$$\epsilon : (\Omega,A,P)$$
 >[!N.B]
 >$S$ può essere o uno spazio discreto(limitato o numerabile) o continuo($R^{n}$)
 
