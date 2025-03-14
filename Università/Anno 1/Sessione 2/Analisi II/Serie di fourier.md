@@ -64,7 +64,7 @@ collegamenti:
 >[[Dimostrazione per induzione]] a pag 5 appunti argomento4c
 
 >[!prp] Disuguaglianza di Bessel
->Supponiamo $f:[-\pi,\pi]\to\mathbb{R}$ funzione limitata ed [[Integrabile secondo Rienmann - spazi metrici|Integrabile secondo RIenmann]].
+>Supponiamo $f:[-\pi,\pi]\to\mathbb{R}$ funzione limitata ed [[Integrabile secondo Rienmann - spazi metrici|Integrabile secondo Rienmann]].
 >Se $a_{0},a_{k},b_{k}$ sono i coefficienti di Fourier, si ha$$\frac{a_{0}^{2}}{2}+\sum_{k\ge 1}\left(a_{k}^{2}+b_{k}^{2}\right)\le \frac{1}{\pi}\int_{-\pi}^{\pi}|f(x)|^{2}dx$$
 >
 >---

@@ -80,6 +80,7 @@ Fin ora abbiamo studiato la stabilità interna, che riguarda i sistemi nella [[R
 
 ^ef9adb
 
+![[Sistemi in telecomunicazioni#^1c640e]]
 
 Abbiamo che,
 in un sistema a tempo continuo, dato che $Y(s)=G(s)U(s)$, allora se per ogni polo di $G(s)$ a parte reale nulla, $\exists$ un ingresso $u(t)$ limitato che genera un $y(t)$ divergente, allora deduciamo che
