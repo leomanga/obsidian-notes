@@ -4,7 +4,6 @@ Sia $T_{0}$ il periodo di campionamento, il segnale a tempo discreto sarà $x[n]
 
 I segnali a tempo discreto a valori complessi si rappresentano tramite il loro modulo e fase.
 ![[Serie di fourier#^88ecc8|Segnale periodico]]
-Nel nostro caso $f: \mathbb{R}\to \mathbb{C}$ in generale.
 
 # Segnale sinusoidale a tempo continuo
 $x(t)=A\cos(2\pi f_{0}t+\phi)$, dove $f_{0}=\frac{1}{T_{0}}$
@@ -50,5 +49,12 @@ $x(t+T_{0})=Ae^{j\phi}e^{j(2\pi f_{0}t)}e^{j(2\pi f_{0}T_{0})}=x(0)$
 >Dove $E_{x,t}$ è definita in [[#^f4d1be]]
 
 >[!prp]
->I segnali ad energia finita hanno potenza media nu
->
+>I segnali ad energia finita hanno potenza media nulla.
+>Esempio $x(t)=\begin{cases}2 \quad 0<t<5\\ 0 \quad \mbox{altrimenti}\end{cases}$
+>$E_{x}=20$, $P_{x}=0$
+
+>[!prp] Potenza media su segnale periodico
+>$x(t)$ è un [[Serie di fourier#^88ecc8|segnale periodico]], allora
+>$$P_{x}= \frac{1}{T_{0}}\int_{\frac{-T_{0}}{2}}^{\frac{T_{0}}{2}}|x(t)|^{2}dt$$
+
+![[Segnali canonici#Segnali utili per telecomunicazioni]]
