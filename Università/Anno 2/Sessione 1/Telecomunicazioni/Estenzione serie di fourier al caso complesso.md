@@ -16,4 +16,4 @@ Supponiamo che $x(t)$ soddisfi le condizioni di Dirichlet
 allora il segnale periodico si può esprimere come somma pesata di infiniti segnali esponenziali complessi di frequenza multipla di $\frac{1}{T_{0}}$
 $$x(t)=\sum_{n=-\infty}^{\infty}x_{n}e^{j2\pi \frac{n}{T_{0}}t}$$
 dove $$x_{n}=\frac{1}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}x(t)e^{-j2\pi\frac{n}{T_{0}}t}dt$$
-$x_{n}, n\in \mathbb{Z}$
+$x_{n}, n\in \mathbb{Z}$ sono i coefficienti dell’espansione in serie di Fourier del segnale periodico $x(t)$.
