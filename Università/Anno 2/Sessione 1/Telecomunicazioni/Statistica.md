@@ -8,3 +8,4 @@
 [[Distribuzione di probabilità]]
 [[Densità di probabilità]]
 [[Funzione gaussiana]]
+[[Teorema di Huygens]]
