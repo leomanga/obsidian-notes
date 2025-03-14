@@ -47,6 +47,20 @@ Definendo $x_{n} = \begin{cases}e^{\frac{-t}{n}} \quad t> 0 \\ 0 \quad t=0\\ -e^
 $$sgn(t)=\lim_{n\to \infty} x_{n}(t)$$
 
 ### Sinc
-$$sinc(t)=\begin{cases}\frac{\sin(\pi t)}{}\end{cases}$$
+$$sinc(t)=\begin{cases}\frac{\sin(\pi t)}{\pi t} \quad t\not = 0\\ 1\quad t=0\end{cases}$$
+La proprietà è che si annulla $\forall t\in \mathbb{Z}, T\not = 0$
+
+```functionplot
+---
+title: Sinc
+xLabel: 
+yLabel: 
+bounds: [-10,10,-0.5,1]
+disableZoom: true
+grid: true
+---
+f(x) = sin(3.14 * x)/(3.14*x)
+```
+
 # Tempo discreto
 $$r_{n}(k)=\binom{k}{n}\mathbb{1}(k)$$
