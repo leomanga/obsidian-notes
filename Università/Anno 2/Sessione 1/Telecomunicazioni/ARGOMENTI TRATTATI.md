@@ -1,1 +1,2 @@
 [[Statistica]]
+[[Segnali]]
