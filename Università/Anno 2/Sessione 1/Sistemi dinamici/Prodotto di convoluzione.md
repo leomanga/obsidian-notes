@@ -2,6 +2,8 @@ Date due funzioni $f(t)$ e $g(t)$, si definisce il **prodotto di convoluzione** 
 $$
 h(t)=f(t) * g(t) =\int_{0}^{t}f(t-\tau)g(\tau)d\tau=g(t)*f(t)
 $$
+In generale la definizione è
+$$g(t)*f(t)=f(t)*g(t)=\int_{-\infty}^{\infty}g(\tau)f(t-\tau)d\tau$$
 
 # Tempo discreto
 

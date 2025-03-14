@@ -23,8 +23,8 @@ collegamenti:
 ^3892cb
 
 >[!def] Funzione periodica
-> $f:\mathbb{R}\to \mathbb{R}$ si dice periodica se $$\exists T>0: f(x)=f(x+T)\ \forall x\in \mathbb{R}$$ $T$ si chiama periodo.
-> Se $f:\mathbb{R}\to \mathbb{R}$ è periodica di periodo $T>0$, posso definire $\widehat f:\mathbb{R}\to \mathbb{R}=f(\frac{xT}{2\pi})$ e $f$ risulterà periodica di periodo $2\pi$.
+> $f:\mathbb{R}\to \mathbb{C}$ si dice periodica se $$\exists T>0: f(x)=f(x+T)\ \forall x\in \mathbb{R}$$ $T$ si chiama periodo.
+> Se $f:\mathbb{R}\to \mathbb{C}$ è periodica di periodo $T>0$, posso definire $\widehat f:\mathbb{R}\to \mathbb{C}=f(\frac{xT}{2\pi})$ e $f$ risulterà periodica di periodo $2\pi$.
 > Se $f:[-\pi,\pi]\to \mathbb{R}$, possiamo definire la sua estensione periodica di periodo $2\pi$ come $\bar f(x)=\widehat f(x-2k\pi)\mbox{ se } x\in[-\pi+2k\pi,\pi+2k\pi]\ \forall k\in \mathbb{Z}$.   
 
 ^88ecc8
