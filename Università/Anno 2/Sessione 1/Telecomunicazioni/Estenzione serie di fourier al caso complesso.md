@@ -28,4 +28,10 @@ Inoltre, sia $x(t)\in \mathbb{R}$ periodico di periodo $T_{0}$ e sviluppabile in
  Allora la sequenza dei coefficienti $|x_n|$ ha simmetria pari: $|x_{n}| = |x_{-n}|$ e la sequenza dei coefficienti $\measuredangle x_{n}$ ha simmetria dispari: $\measuredangle x_{n}= -\measuredangle x_{-n}$
   
  Definendo allora $x_{n}= \frac{a_{n}-jb_{n}}{2}$ si ha che $x_{-n}=\frac{a_{n}+jb_{n}}{2}$
- Allora per $n\ge 1$
+ Per $n\ge 1$, avremo
+ $$x_{n}e^{j2\pi \frac{n}{T_{0}}t}+x_{-n}e^{-j2\pi\frac{n}{T_{0}}t}=a_{n}\cos(2\pi\frac{n}{T_{0}}t)+b_{n}\sin(2\pi\frac{n}{T_{0}}t)$$
+ ovviamente $x_{0}=\frac{a_{0}}{2}$, allora
+ $$x(t)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}[a_{n}\cos(2\pi\frac{n}{T_{0}}t)+b_{n}\sin(2\pi\frac{n}{T_{0}}t)]$$
+ E qui si arriva a ciò che abbiamo visto in [[Serie di fourier]], ma in modo esteso
+ TODO pag 10
+ 
