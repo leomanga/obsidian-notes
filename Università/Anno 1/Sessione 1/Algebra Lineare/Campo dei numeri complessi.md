@@ -31,7 +31,7 @@ $z\in \mathbb{X}\quad z= \underbrace{x}_{parte\ reale}+\underbrace{y}_{parte\ im
 Se $x=0$ allora $z=yi$ e viene chiamato numero immaginario puro.
 
 - Coniugato
-Se $z=x+yi\in \mathbb{C}$ allora $\bar z=x-yi\in\mathbb{C}$ e viene detto coniugato di $z$.
+Se $z=x+yi\in \mathbb{C}$ allora $\bar z=x-yi\in\mathbb{C}$ e viene detto coniugato di $z$. ^b34f54
 
 # Definizione | Funzione di coniugio
 $\sigma: \mathbb{C}\to\mathbb{C}$
