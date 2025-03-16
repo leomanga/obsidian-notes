@@ -85,7 +85,14 @@ $$\measuredangle x_{n}= -\arctan(\frac{b_{n}}{a_{n}})$$
 >$$y(t)=T\{x(t)\}=\sum_{n=-\infty}^{\infty}x_{n}T\left\{ e^{j2\pi \frac{n}{T_{0}}t} \right\}=\sum_{n=-\infty}^{\infty}x_{n}H(\frac{n}{T_{0}})e^{j2\pi \frac{n}{T_{0}}t}$$
 >dove $H(f)=\int_{-\infty}^{\infty}h(t)e^ {-j2\pi ft}dt$, da ([[Sistemi in telecomunicazioni#Risposta a un segnale esponenziale complesso]])
 >Perciò anche l’uscita $y(t)$ è periodica di periodo $T_{0}$.
+>$y_{n}=x_{n}H\left(\frac{n}{T_{0}}\right)$
 >
+
+>[!thm] Relazione di Parseval
+>$$\frac{1}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}|x(t)|^{2}dt=\sum_{n=-\infty}^{+\infty}|x_{n}|^{2}$$
+>Possiamo quindi dire che la potenza del segnale è la somma della serie dei moduli al quadrato dei coefficienti della serie di Fourier.
+
+^b91efd
 
 
 
