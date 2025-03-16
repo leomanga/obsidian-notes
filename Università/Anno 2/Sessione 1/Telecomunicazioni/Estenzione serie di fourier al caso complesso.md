@@ -14,7 +14,12 @@ Supponiamo che $x(t)$ soddisfi le condizioni di Dirichlet
 > - Il numero di discontinuità di $x(t)$ nel periodo è finito.
 
 allora il segnale periodico si può esprimere come somma pesata di infiniti segnali esponenziali complessi di frequenza multipla di $\frac{1}{T_{0}}$
-$$x(t)=\sum_{n=-\infty}^{\infty}x_{n}e^{j2\pi \frac{n}{T_{0}}t}$$
+$$
+x(t)=\sum_{n=-\infty}^{\infty}x_{n}e^{j2\pi \frac{n}{T_{0}}t}
+$$
+
+^09ce92
+
 dove 
 $$
 x_{n}=\frac{1}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}x(t)e^{-j2\pi\frac{n}{T_{0}}t}dt
@@ -72,4 +77,15 @@ $$\measuredangle x_{n}= -\arctan(\frac{b_{n}}{a_{n}})$$
 >Questo perchè $x(t)\cos(2\pi \frac{n}{T_{0}}t)$ è dispari.
 >Quindi possiamo scrivere 
 >$$x(t)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}b_{n}\sin(2\pi\frac{n}{T_{0}}t)$$
+
+>[!prp] Risposta di un sistema [[LTI]] ad un segnale periodico
+>Abbiamo che $x(t)$ è rappresentabile in serie di Fourier.
+>![[#^09ce92]]
+>L’uscita del segnale [[Sistemi lineari tempoinvarianti|LTI]] caratterizzato da una [[Risposta forzata#Risposta impulsiva|risposta impulsiva]] $h(t)$,sarà allora
+>$$y(t)=T\{x(t)\}=\sum_{n=-\infty}^{\infty}x_{n}T\left\{ e^{j2\pi \frac{n}{T_{0}}t} \right\}=\sum_{n=-\infty}^{\infty}x_{n}H(\frac{n}{T_{0}})e^{j2\pi \frac{n}{T_{0}}t}$$
+>dove $H(f)=\int_{-\infty}^{\infty}h(t)e^ {-j2\pi ft}dt$, da ([[Sistemi in telecomunicazioni#Risposta a un segnale esponenziale complesso]])
+>Perciò anche l’uscita $y(t)$ è periodica di periodo $T_{0}$.
+>
+
+
 
