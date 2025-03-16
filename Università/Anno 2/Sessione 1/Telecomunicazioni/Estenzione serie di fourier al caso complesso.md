@@ -15,7 +15,13 @@ Supponiamo che $x(t)$ soddisfi le condizioni di Dirichlet
 
 allora il segnale periodico si può esprimere come somma pesata di infiniti segnali esponenziali complessi di frequenza multipla di $\frac{1}{T_{0}}$
 $$x(t)=\sum_{n=-\infty}^{\infty}x_{n}e^{j2\pi \frac{n}{T_{0}}t}$$
-dove $$x_{n}=\frac{1}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}x(t)e^{-j2\pi\frac{n}{T_{0}}t}dt$$
+dove 
+$$
+x_{n}=\frac{1}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}x(t)e^{-j2\pi\frac{n}{T_{0}}t}dt
+$$
+
+^4b4265
+
 $x_{n}, n\in \mathbb{Z}$ sono i coefficienti dell’espansione in serie di Fourier del segnale periodico $x(t)$.
 
 Sia $l\in \mathbb{Z}$, allora riarrangiando, 
@@ -32,6 +38,38 @@ Inoltre, sia $x(t)\in \mathbb{R}$ periodico di periodo $T_{0}$ e sviluppabile in
  $$x_{n}e^{j2\pi \frac{n}{T_{0}}t}+x_{-n}e^{-j2\pi\frac{n}{T_{0}}t}=a_{n}\cos(2\pi\frac{n}{T_{0}}t)+b_{n}\sin(2\pi\frac{n}{T_{0}}t)$$
  ovviamente $x_{0}=\frac{a_{0}}{2}$, allora
  $$x(t)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}[a_{n}\cos(2\pi\frac{n}{T_{0}}t)+b_{n}\sin(2\pi\frac{n}{T_{0}}t)]$$
- E qui si arriva a ciò che abbiamo visto in [[Serie di fourier]], ma in modo esteso
- TODO pag 10
- 
+ E qui si arriva a ciò che abbiamo visto in [[Serie di fourier]], ma in modo esteso.
+ Inoltre, per calcolare i coefficienti $a_{n}$ e $b_{n}$ avremo, da [[#^4b4265]]
+ $$\begin{split}&x_{n}= \frac{a_{n}-jb_{n}}{2}=\frac{1}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}x(t) e^{-j2\pi \frac{n}{T_{0}}t}dt=\\&= \frac{1}{T_{0}}\int_{\alpha}^{\alpha + T_{0}}x(t)\cos(2\pi\frac{n}{T_{0}}t)dt-\frac{j}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}x(t)\sin(2\pi \frac{n}{T_{0}}t)dt\end{split}$$
+ quindi
+ $$
+ a_{n}= \frac{2}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}x(t)\cos(2\pi \frac{n}{T_{0}}t)dt
+ $$
+
+^a7e737
+
+ $$
+ b_{n}=\frac{2}{T_{0}}\int_{\alpha}^{\alpha+T_{0}}x(t)\sin(2\pi\frac{n}{T_{0}}t)dt
+ $$
+
+^af8531
+
+Un’altra espressione della serie di Fourier può anche essere
+$$x(t)=x_{0}+2\sum_{n=1}^{\infty}|x_{n}| \cos(2\pi\frac{n}{T_{0}}t+\measuredangle x_{n}) $$
+dove $$|x_{n}| = \frac{1}{2}\sqrt{s_{n}^{2}+b_{n}^{2}}$$
+$$\measuredangle x_{n}= -\arctan(\frac{b_{n}}{a_{n}})$$
+>[!prp] Fourier per segnali pari
+>Se $x(t)=x(-t)\ \forall t$, allora da [[#^af8531]]
+>$$b_{n}= \frac{2}{T_{0}}\int_{-\frac{T_{0}}{2}}^{\frac{T_{0}}{2}}x(t)\sin(2\pi\frac{n}{T_{0}}t)dt=0$$
+>Questo perché $x(t)\sin(2\pi\frac{n}{T_{0}}t)$ è dispari.
+>Quindi possiamo scrivere
+>$$x(t)= \frac{a_{0}}{2}+\sum_{n=1}^{\infty}a_{n}\cos(2\pi\frac{n}{T_{0}}t)$$
+>
+
+>[!prp] Fourier per segnali dispari
+>Se $x(t)=-x(-t)\ \forall t$, allora da [[#^a7e737]]
+>$$a_{n}=\frac{2}{T_{0}}\int_{-\frac{T_{0}}{2}}^{\frac{T_{0}}{2}}x(t)\cos(2\pi \frac{n}{T_{0}}t)dt= 0$$
+>Questo perchè $x(t)\cos(2\pi \frac{n}{T_{0}}t)$ è dispari.
+>Quindi possiamo scrivere 
+>$$x(t)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}b_{n}\sin(2\pi\frac{n}{T_{0}}t)$$
+
