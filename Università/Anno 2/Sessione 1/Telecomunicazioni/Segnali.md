@@ -56,5 +56,6 @@ $x(t+T_{0})=Ae^{j\phi}e^{j(2\pi f_{0}t)}e^{j(2\pi f_{0}T_{0})}=x(0)$
 >[!prp] Potenza media su segnale periodico
 >$x(t)$ è un [[Serie di fourier#^88ecc8|segnale periodico]], allora
 >$$P_{x}= \frac{1}{T_{0}}\int_{\frac{-T_{0}}{2}}^{\frac{T_{0}}{2}}|x(t)|^{2}dt$$
+>[[Estenzione serie di fourier al caso complesso#^b91efd]]
 
 ![[Segnali canonici#Segnali utili per telecomunicazioni]]
