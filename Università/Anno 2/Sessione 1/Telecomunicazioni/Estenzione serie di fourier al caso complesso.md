@@ -13,6 +13,8 @@ Supponiamo che $x(t)$ soddisfi le condizioni di Dirichlet
 > - Il numero di massimi e minimi di $x(t)$ nel periodo è finito.
 > - Il numero di discontinuità di $x(t)$ nel periodo è finito.
 
+^ee6f2e
+
 allora il segnale periodico si può esprimere come somma pesata di infiniti segnali esponenziali complessi di frequenza multipla di $\frac{1}{T_{0}}$
 $$
 x(t)=\sum_{n=-\infty}^{\infty}x_{n}e^{j2\pi \frac{n}{T_{0}}t}
