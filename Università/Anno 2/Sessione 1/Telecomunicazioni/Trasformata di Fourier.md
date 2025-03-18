@@ -15,6 +15,10 @@ La trasformata di Fourier è necessaria per lo studio di segnali non periodici. 
 ## Trasformata della segnale impulsivo
 [[Segnale impulsivo]]
 $$\mathcal{F}\{\delta(t)\}=1$$
+
+Possiamo anche trasformare $\sum_{n=-\infty}^{\infty}\delta(t-nT_{0})$ passando per la [[Estenzione serie di fourier al caso complesso|serie di Fourier]]
+$$\mathcal{F}\left\{\sum_{n=-\infty}^{\infty}\delta(t-nT_{0})\right\})=\frac{1}{T_0}\sum_{n=-\infty}^{\infty}\delta(d- \frac{n}{T_{0}})$$
+
 ## Trasformata del rettangolo
 [[Segnali canonici#Rettangolo]]
 $$\mathcal{F}\{rect(t)\}=\frac{sen(\pi f)}{\pi f}=sinc(f)$$
@@ -34,6 +38,12 @@ Il $sinc$ non è assolutamente integrabile, quindi non rispetta le [[Estenzione 
 
 ## Trasformata del segnale gaussiano
 Data $x(t)= e^{-\pi t^{2}}$, la sua trasformata è $e^{-\pi f^{2}}$
+
+## Segnale periodico
+Sia $x(t)$ periodico di periodo $T_{0}$ della forma
+$$x(t)=\sum_{n=-\infty}^{\infty}x_{n}e^{j2\pi \frac{n}{T_{0}}t}$$
+allora
+$$\mathcal{F}\{x(t)\}=X(f)=\sum_{n=-\infty}^{\infty}x_{n}\delta(f- \frac{n}{T_{0}})$$
 # Proprietà
 
 >[!prp] Proprietà di un segnale reale

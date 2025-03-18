@@ -96,5 +96,13 @@ $$\measuredangle x_{n}= -\arctan(\frac{b_{n}}{a_{n}})$$
 
 ^b91efd
 
+>[!prp] Calcolo alternativo dei coefficienti della serie di Fourier
+> Sia $x(t)$ periodico di periodo $x(t)$, allora definiamo $x_{T_{0}}=\begin{cases}x(t) \quad -\frac{T_{0}}{2}<t \le \frac{T_{0}}{2}\\ 0\quad \mbox{altrimenti}\end{cases}$
+> Allora $$x_{n}=\frac{1}{T_{0}}X_{T_{0}}(\frac{n}{T_{0}})$$
+> dove $X_{T_{0}}$ è la [[Trasformata di Fourier]] di $x_{T_{0}}(t)$
+
+
+>  
+
 
 
