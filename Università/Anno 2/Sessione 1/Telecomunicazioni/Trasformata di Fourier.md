@@ -1,3 +1,4 @@
+La trasformata di Fourier è necessaria per lo studio di segnali non periodici. Per lo studio di quelli periodici può anche bastare la serie di Fourier [[Estenzione serie di fourier al caso complesso]]
 ![[Estenzione serie di fourier al caso complesso#^ee6f2e]]
 
 >[!def] Trasformata di Fourier
@@ -18,6 +19,21 @@ $$\mathcal{F}\{\delta(t)\}=1$$
 [[Segnali canonici#Rettangolo]]
 $$\mathcal{F}\{rect(t)\}=\frac{sen(\pi f)}{\pi f}=sinc(f)$$
 Dove $sinc$ è [[Segnali canonici#Sinc]]
+
+## Trasformata del segno
+[[Segnali canonici#Segno]]
+Usiamo il fatto che $sgn(t)=\lim_{n\to\infty}x_{n}(t)$ dove $x_{n} = \begin{cases}e^{\frac{-t}{n}} \quad t> 0 \\ 0 \quad t=0\\ -e^{\frac{t}{n}}\quad t<0\end{cases}$
+$$\mathcal{F}\{sgn(t)\}=\frac{1}{j\pi f}$$
+## Trasformata del gradino
+[[Gradino unitario]]
+Si usa il fatto che $\mathbb{1}(t)=\frac{1}{2}+\frac{1}{2}sgn(t)$
+Allora
+$$\mathcal{F}\{\mathbb{1}(t)\}=\frac{1}{2}\delta(f)+\frac{1}{j2\pi f}$$
+## Trasformata del sinc
+Il $sinc$ non è assolutamente integrabile, quindi non rispetta le [[Estenzione serie di fourier al caso complesso#^ee6f2e|condizioni di Dirichlet]] e non si può calcolare la trasformata.
+
+## Trasformata del segnale gaussiano
+Data $x(t)= e^{-\pi t^{2}}$, la sua trasformata è $e^{-\pi f^{2}}$
 # Proprietà
 
 >[!prp] Proprietà di un segnale reale
@@ -49,7 +65,7 @@ Dove $sinc$ è [[Segnali canonici#Sinc]]
 
 ^26c916
 
->[!def] Modulazione nel tempo
+>[!def] Traslazione in frequenza
 >$$\mathcal{F}\{x(t)\}=X(f)\Rightarrow \mathcal{F}\{x(t)e^{j2\pi f_{0}t}\}=X(f-f_{0})$$
 
 >[!prp] Relazione di Parseval nella trasformata di Fourier
@@ -70,4 +86,10 @@ Dove $sinc$ è [[Segnali canonici#Sinc]]
 >In generale
 >$$\frac{d^{n}}{df^{n}}X(f)=\left(\frac{2\pi}{j}\right)^{n}\mathcal{F}\{t^{n}x(t)\}$$
 
-continua da pag 25
+>[!prp] Trasformata dell’integrale
+>$$\mathcal{F}\{\int_{-\infty}^{t}x(\tau)d\tau\}=\frac{X(f)}{j2\pi f} + \frac{1}{2}X(0)\delta(f)$$
+
+>[!prp] Momento n-esimo
+>Comodo per [[Momento n-esimo]]
+>$$\int_{-\infty}^{\infty}t^{n}x(t)dt=\left[\left(\frac{j}{2\pi}\right)^{n}\frac{d^{n}}{df^{n}}X(f)\right]_{f=0}$$
+

@@ -9,3 +9,4 @@
 [[Densità di probabilità]]
 [[Funzione gaussiana]]
 [[Teorema di Huygens]]
+[[Momento n-esimo]]
