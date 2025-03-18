@@ -47,9 +47,27 @@ Dove $sinc$ è [[Segnali canonici#Sinc]]
 >[!prp] Convoluzione
 >$$\mathcal{F}\{x(t)*y(t)\}=\mathcal{F}\{x(t)\}\mathcal{F}\{y(t)\}=X(f)Y(f)$$
 
+^26c916
+
 >[!def] Modulazione nel tempo
 >$$\mathcal{F}\{x(t)\}=X(f)\Rightarrow \mathcal{F}\{x(t)e^{j2\pi f_{0}t}\}=X(f-f_{0})$$
 
 >[!prp] Relazione di Parseval nella trasformata di Fourier
 >$$\int_{-\infty}^{\infty}x(t)y^{*}(t)dt=\int_{-\infty}^{\infty}X(f)Y^{*}(f)df$$
 
+>[!prp] Funzione di autocorrelazione temporale
+>$$R_{x}(\tau)=\int_{-\infty}^{\infty}x(t)x^{*}(t-\tau)dt=x(\tau)*x^{*}(-\tau)$$
+>dunque, da [[#^26c916]] abbiamo
+>$$\mathcal{F}\{R_{x}(\tau)\}=X(f)X^{*}(f)=|X(f)|^{2}$$
+
+>[!prp] Derivazione nel tempo
+>$$\mathcal{F}\{\frac{d}{dt}x(t)\}=j2\pi fX(f)$$
+>In generale 
+>$$\mathcal{F}\{\frac{d^{n}}{dt^{n}}x(t)\}=(j2\pi f)^{n}X(f)$$
+
+>[!prp] Derivazione in frequenza
+>$$\frac{d}{df}X(f)=\frac{2\pi}{j}\mathcal{F}\{tx(t)\}$$
+>In generale
+>$$\frac{d^{n}}{df^{n}}X(f)=\left(\frac{2\pi}{j}\right)^{n}\mathcal{F}\{t^{n}x(t)\}$$
+
+continua da pag 25
