@@ -85,6 +85,8 @@ $$\mathcal{F}\{x(t)\}=X(f)=\sum_{n=-\infty}^{\infty}x_{n}\delta(f- \frac{n}{T_{0
 >$$R_{x}(\tau)=\int_{-\infty}^{\infty}x(t)x^{*}(t-\tau)dt=x(\tau)*x^{*}(-\tau)$$
 >dunque, da [[#^26c916]] abbiamo
 >$$\mathcal{F}\{R_{x}(\tau)\}=X(f)X^{*}(f)=|X(f)|^{2}$$
+>Inoltre, per segnali [[Segnali caratterizzati in energia o in potenza#^57d0e5|caratterizzati in energia]] si ha che
+>$$R_{x}(0)=E_{x}$$
 
 >[!prp] Derivazione nel tempo
 >$$\mathcal{F}\{\frac{d}{dt}x(t)\}=j2\pi fX(f)$$
