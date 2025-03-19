@@ -48,6 +48,8 @@ $x(t+T_{0})=Ae^{j\phi}e^{j(2\pi f_{0}t)}e^{j(2\pi f_{0}T_{0})}=x(0)$
 >$$P_{x}=\lim_{T\to \infty} \frac{1}{T}\int_{\frac{-T}{2}}^{\frac{T}{2}}|x(t)|^{2}dt=\lim_{T\to \infty}\frac{E_{x,T}}{T}$$
 >Dove $E_{x,t}$ è definita in [[#^f4d1be]]
 
+^5a2215
+
 >[!prp]
 >I segnali ad energia finita hanno potenza media nulla.
 >Esempio $x(t)=\begin{cases}2 \quad 0<t<5\\ 0 \quad \mbox{altrimenti}\end{cases}$
@@ -59,3 +61,5 @@ $x(t+T_{0})=Ae^{j\phi}e^{j(2\pi f_{0}t)}e^{j(2\pi f_{0}T_{0})}=x(0)$
 >[[Estenzione serie di fourier al caso complesso#^b91efd]]
 
 ![[Segnali canonici#Segnali utili per telecomunicazioni]]
+
+![[Segnali caratterizzati in energia o in potenza]]
