@@ -62,7 +62,7 @@ $$\mathcal{F}\{x(t)\}=X(f)=\sum_{n=-\infty}^{\infty}x_{n}\delta(f- \frac{n}{T_{0
 >$$\mathcal{F}\{ax_1(t)+bx_2(t)\}=a\mathcal{F}\{x_{1}(t)\}+b\mathcal{F}\{x_{2(t)}\}\quad \forall a,b\in \mathbb{C}$$
 
 >[!prp] Dualità
->$$X(f)=\mathcal{F}\{x(t)\}\Rightarrow x(f)=\mathcal{F}^{-1}\{X(t)\}, X(t)=\mathcal{x(-f)}$$
+>$$X(f)=\mathcal{F}\{x(t)\}\Rightarrow x(f)=\mathcal{F}\{X(-t)\}, \mathcal{F}\{X(t)\}=x(-f)$$
 
 >[!prp] Traslazione
 >$$\mathcal{F}\{x(t-t_{0})\}= e^{-j2\pi ft_{0}}\mathcal{F}\{x(t)\}\ \forall t_{0} $$
