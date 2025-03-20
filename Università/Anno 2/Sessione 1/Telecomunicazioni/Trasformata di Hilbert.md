@@ -13,4 +13,30 @@ Alla frequenza $-f_{0}<0$ (rotazione oraria)
 
 Nel dominio di Fourier(in frequenza) possiamo scrivere
 $$\mathcal{F}\{\hat x(t)\}=\begin{cases}-j\mathcal{F}\{x(t)\}\quad f>0\\j\mathcal{F}\{x(t)\}\quad f<0\end{cases}=-jsgn(f)\mathcal{F}\{x(t)\}=-jsgn(f)X(f)$$
-Poichè $\mathcal{F}\{sgn(t)\}=\frac{1}{j\pi f}$, da 
+Poichè $\mathcal{F}\{sgn(t)\}=\frac{1}{j\pi f}$, allora $\mathcal{F}\{\frac{1}{j\pi t}\}=sgn(-f)=-sgn(f)$ da [[Trasformata di Fourier#^6317a1]].
+Allora $\mathcal{F}\{\frac{1}{\pi t}\}=-jsgn(f)$
+
+Quindi, in definitiva
+$$\mathcal{F}\{\hat x(t)\}=\mathcal{F}\{\frac{1}{\pi t}\}\mathcal{F}\{x(t)\}$$
+Allora
+$$\hat x(t)=x(t)*\frac{1}{\pi t}=\frac{1}{\pi}\int_{-\infty}^{\infty}\frac{x(\tau)}{t-\tau}d\tau$$
+>[!prp]
+>Se $x(t)=A\cos(2\pi f_{0} t + \phi)\Rightarrow \hat x(t)=A\sin(2\pi f_{0} t + \phi)$
+
+>[!prp]
+>Se $x(t)$ pari allora $\hat x(t)$ è dispari
+
+>[!prp]
+>Se $x(t)$ dispari allora $\hat x(t)$ è pari
+
+>[!prp]
+>$$\hat{\hat x(t)}=-x(t)$$
+
+>[!prp]
+>$$E_{x}=E_{\hat{x}}$$
+>Dove $E$ è l’[[Segnali#^f4d1be|energia del segnale]]
+
+>[!prp] Ortogonalità
+>$$\int_{-\infty}^{\infty}x(t)\hat x(t)dt=0$$
+
+Continua da pag 4
