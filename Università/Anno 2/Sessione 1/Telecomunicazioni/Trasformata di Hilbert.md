@@ -39,4 +39,3 @@ $$\hat x(t)=x(t)*\frac{1}{\pi t}=\frac{1}{\pi}\int_{-\infty}^{\infty}\frac{x(\ta
 >[!prp] Ortogonalità
 >$$\int_{-\infty}^{\infty}x(t)\hat x(t)dt=0$$
 
-Continua da pag 4
