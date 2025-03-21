@@ -16,6 +16,8 @@ $$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^
 >>[!prp]
 >>$$R_X(t_{1},t_{2})=R_X(t_2,t_1)$$
 
+^2bc971
+
 >[!def] Funzione di (auto)covarianza
 >$$C_{X}(t_1,t_{2})=E[(X(t_1)-m_x(t_{1}))(X(t_2)-m_X(t_2))]$$
 
@@ -25,6 +27,41 @@ $$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^
 >
 >Es: Il rumore bianco fa parte dei processi stazionari
 
-> 
+>[!def] Processi stazionari in senso lato
+>$X(t)$ si dice che è stazionario in senso lato se soddisfa le seguenti proprietà:
+>- $m_X(t)=m_{X}\ \forall t$
+>- $R_X(t_1,t_2)=R_X(t_1+\tau,t_1)=R_{X}(\tau)\ \forall t_{1}$ con $\tau =t_1-t_2$
+>
+>Di conseguenza, per un processo stazionario in senso lato
+>- $R_{X(\tau)}=R_{X}(-\tau)\ \forall \tau$
+>- $R_{X}(\tau)\le R_{X}(0)\ \forall \tau$
+>- $E[X^{2}(t)]=R_{X}(0)\ \forall t$ (potenza media di $X(t)$
+>- 
 
+>[!def] Cross-correlazione di due processi
+>Siano $X(t)$ e $Y(t)$ due processi, allora la funzione di cross-correlazione fra di essi è definita come
+>$$R_{XY}(t_1,t_2)=E[X(t_1)Y(t_2)]$$
+>[[#^2bc971]]
 
+>[!def] Cross-covarianza di due processi
+>Siano $X(t)$ e $Y(t)$ due processi, allora la funzione di cross-covarianza fra di essi è definita come
+>$$C_{XY}(t_1,t_2)=E[(X(t_1)-m_X(t_1))(Y(t_2)-m_{Y}(t_{2}))]$$
+
+>[!def] Processi indipendenti
+>$X(t)$ e $Y(t)$ sono indipendenti se $\forall m,n,\forall t_1,t_2,\ldots,t_{n}, \forall T_1,T_{2},\ldots,T_{m}$ i vettori aleatori
+>$$[X(t_1),\ldots,X(t_{n})], [Y(T_{1),}\ldots, Y(T_{m})]$$
+>sono indipendenti.
+
+>[!def] Processi incorrelati
+>#TODO guarda appunti statistica per finire(stesasa cosa dei processi indipendenti)
+
+>[!def] Processi congiuntamente stazionari in senso lato
+>$X(t)$ e $Y(t)$ si dicono congiuntamente stazionari in senso lato se
+>1) $X(t), Y(t)$ sono entrambi stazionari in senso lato
+>2) $R_{XY}(t_1,t_2)=R_{XY}(t_1-t_2)=R_{XY}(\tau)$
+
+>[!prp] Somma di segnali aleatori congiuntamente stazionari
+>Se $X(t)$ e $Y(t)$ sono segnali aleatori a valori reali, congiuntamente stazionari in senso lato, allora
+>1) $Z(t)=X(t)+Y(t)$ è stazionario in senso lato
+>2) $R_{Z}(\tau)=R_{X}(\tau)+R_{Y}(\tau)+R_{XY}(\tau)+R_{XY}(-\tau)$
+>
