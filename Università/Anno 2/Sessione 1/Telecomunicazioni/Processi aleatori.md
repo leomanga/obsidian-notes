@@ -10,15 +10,21 @@ Si dice che una caratterizzazione è di ordine $M$ se sono note le probabilità 
 
 Spesso, nei sistemi di telecomunicazioni è sufficiente una caratterizzazione del secondo ordine
 
-## Funzione di autorrelazione
+>[!def] Funzione di autorrelazione
+>Per un processo $X(t)$ reale, la sua funzione di autocorrelazione è
+$$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x_{1}x_{2}f_{X(t_{1}),X(t_{2})}(x_{1},x_{2})dx_{1}dx_{2}$$
+>>[!prp]
+>>$$R_X(t_{1},t_{2})=R_X(t_2,t_1)$$
 
-Per un processo $X(t)$ reale, la sua funzione di autocorrelazione è
-$$R_{x}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}x_{1}x_{2}f_{X(t_{1}),X(t_{2})}(x_{1},x_{2})dx_{1}dx_{2}$$
->[!prp]
->$$R_X(t_{1},t_{2})=R_X(t_2,t_1)$$
+>[!def] Funzione di (auto)covarianza
+>$$C_{X}(t_1,t_{2})=E[(X(t_1)-m_x(t_{1}))(X(t_2)-m_X(t_2))]$$
 
-## Funzione di (auto)covarianza
-$$C_{X}(t_1,t_{2})=E[(X(t_1)-m_x(t_{1}))(X(t_2)-m_X(t_2))]$$
+>[!def] Processi stazionari
+>Si dice che $X(t)$ è stazionario in senso stretto se $\forall(t_1,t_2,\ldots,t_{n}) \mbox{ e }\forall \Delta$ 
+>$$f_{X(t_1),X(t_2),\ldots,X(t_{n})}(x_1,x_2,\ldots,x_n)=f_{X(t_1+\Delta),X(t_2+\Delta),\ldots, X(t_n+\Delta)}(x_1,x_2,\ldots,x_{n})$$
+>
+>Es: Il rumore bianco fa parte dei processi stazionari
+
+> 
 
 
-COntinua da processi stazionari pag 5
