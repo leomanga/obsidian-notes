@@ -28,7 +28,10 @@
 >$$R_{x}(0)=\lim_{T\to \infty}\frac{1}{T}\int_{-\frac{T}{2}}^{\frac{T}{2}}|x(t)|^{2}dt=P_{x}$$
 >
 
+^bb4353
+
 >[!def] Densità spettrale di potenza per segnali [[#^65ebe9|caratterizzati in potenza]]
+>$R_{x}(\tau)$ la [[#^bb4353|media temporale della funzione di autocorrelazione]]
 >$$\mathcal{S}(f)=\mathcal{F}\{R_{x}(\tau)\}$$
 >$$\int_{-\infty}^{\infty}\mathcal{S}_{x}(f)df=P_{x}$$
 

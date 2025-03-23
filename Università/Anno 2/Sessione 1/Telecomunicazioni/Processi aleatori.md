@@ -59,12 +59,13 @@ $$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^
 >[!def] Processi congiuntamente stazionari in senso lato
 >$X(t)$ e $Y(t)$ si dicono congiuntamente stazionari in senso lato se
 >1) $X(t), Y(t)$ sono entrambi stazionari in senso lato
->2) $R_{XY}(t_1,t_2)=R_{XY}(t_1-t_2)=R_{XY}(\tau)$
+>2) $R_{XY}(t_1,t_2)=R_{XY}(t_1-t_2)=R_{XY}(\tau)$ (La cross-correlazione dipende solo da $\tau$)
 
 >[!prp] Somma di segnali aleatori congiuntamente stazionari
 >Se $X(t)$ e $Y(t)$ sono segnali aleatori a valori reali, congiuntamente stazionari in senso lato, allora
 >1) $Z(t)=X(t)+Y(t)$ è stazionario in senso lato
 >2) $R_{Z}(\tau)=R_{X}(\tau)+R_{Y}(\tau)+R_{XY}(\tau)+R_{XY}(-\tau)$
+>3) $S_{z}(f)=S_{X}(f)+S_{Y}(f)+S_{XY}(f)+\underbrace{S_{YX}(f)}_{S^{*}_{XY}(f)}=S_{X}(f)+S_{Y}(f)+2Re[S_{XY}(f)]$ 
 
 >[!thm] Caratterizzazione in frequenza di un processo stazionario (Teorema di Wiener-Khinchin)
 >Sia $X(t)$ un processo [[#^6ade42|stazionario]].
@@ -77,4 +78,5 @@ $$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^
 >>- $P_{(f_{1},f_{2})}=2\int_{f_{1}}^{f_{2}}S_{X}(f) df$, $0\le f_{1}<f_{2}$
 >>- $S_{X}(f)\ge 0\ \forall f$
 
-
+[[Processi Gaussiani]]
+[[Processi bianchi]]
