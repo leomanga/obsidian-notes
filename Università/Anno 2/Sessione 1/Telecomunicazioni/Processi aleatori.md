@@ -27,6 +27,8 @@ $$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^
 >
 >Es: Il rumore bianco fa parte dei processi stazionari
 
+^6ade42
+
 >[!def] Processi stazionari in senso lato
 >$X(t)$ si dice che è stazionario in senso lato se soddisfa le seguenti proprietà:
 >- $m_X(t)=m_{X}\ \forall t$
@@ -36,7 +38,6 @@ $$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^
 >- $R_{X(\tau)}=R_{X}(-\tau)\ \forall \tau$
 >- $R_{X}(\tau)\le R_{X}(0)\ \forall \tau$
 >- $E[X^{2}(t)]=R_{X}(0)\ \forall t$ (potenza media di $X(t)$
->- 
 
 >[!def] Cross-correlazione di due processi
 >Siano $X(t)$ e $Y(t)$ due processi, allora la funzione di cross-correlazione fra di essi è definita come
@@ -64,4 +65,16 @@ $$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^
 >Se $X(t)$ e $Y(t)$ sono segnali aleatori a valori reali, congiuntamente stazionari in senso lato, allora
 >1) $Z(t)=X(t)+Y(t)$ è stazionario in senso lato
 >2) $R_{Z}(\tau)=R_{X}(\tau)+R_{Y}(\tau)+R_{XY}(\tau)+R_{XY}(-\tau)$
->
+
+>[!thm] Caratterizzazione in frequenza di un processo stazionario (Teorema di Wiener-Khinchin)
+>Sia $X(t)$ un processo [[#^6ade42|stazionario]].
+>Allora $$S_{X}(f)=\mathcal{F}\{R_{X}(\tau)\}=\int_{-\infty}^{\infty}R_{X}(\tau)e^{-j2\pi f\tau}d\tau$$
+>$$R_{X}(0)=P_{m}=E[X^{2}(t)]=\int_{-\infty}^{\infty}S_{X}(f)df$$
+>Dove $S_X(f)$ è la [[Segnali caratterizzati in energia o in potenza#^af7d4c|densità spettrale di potenza]] del processo $X(t)$
+>>[!prp]
+>>- $S_{X}(f)\in \mathbb{R}$
+>>- $S_{X}(f)=S_{X}(-f)\ \forall f$
+>>- $P_{(f_{1},f_{2})}=2\int_{f_{1}}^{f_{2}}S_{X}(f) df$, $0\le f_{1}<f_{2}$
+>>- $S_{X}(f)\ge 0\ \forall f$
+
+
