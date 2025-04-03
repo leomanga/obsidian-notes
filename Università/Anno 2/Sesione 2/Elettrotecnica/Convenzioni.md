@@ -1,0 +1,2 @@
+Per la convenzione degli utilizzatori(resistenze, induttori, ecc), fissato il verso di $v(t)$, prenderemo $i(t)$ tale che entra dal morsetto $+$ ed esce dal $-$.
+Per la convenzione dei generatori, fissato il verso di $v(t)$, prenderemo $i(t)$ tale che entra dal morsetto $-$ ed esce dal $+$.
