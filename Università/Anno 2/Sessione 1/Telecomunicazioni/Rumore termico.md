@@ -13,3 +13,5 @@
 >$T$ è la temperatura
 >$k=1,38\cdot 10^{-23} \frac{J}{K}$ è la costante di Boltzamann
 >
+
+^40364f
