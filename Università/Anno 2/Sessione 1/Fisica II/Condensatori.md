@@ -48,3 +48,20 @@ Un’altra scrittura (guarda appunti 15/11/2024) è
 $$U=\frac{1}{2}\epsilon_{0}E^{2}\cdot s\cdot d=u\cdot s\cdot d$$
 Dove $E$ è il campo espresso in modulo, $s$ è la superficie del condensatore e $d$ è l’altezza del condensatore.(vale chiaramente per i [[#Condensatore piano|condensatori piani]])
 $u=\frac{1}{2}\epsilon_{0}E^{2}\quad [\frac{J}{m^{2}}]$ è costante all’interno del condensatore e prende il nome di **densità di energia elettrostatica**.
+
+Il condensatore è un elemento conservativo, immagazzina sotto forma di energia del campo elettrico tutta l’energia elettrica assorbita.
+
+# Parte di elettrotecnica
+
+>[!prp] Relazione costitutiva
+>Da [[Materiali conduttori#Capacità]]
+>$$q(t)=Cv(t)$$
+>Allora, dato che $i(t)=\frac{dq(t)}{dt}$
+>$$i(t)=C\cdot \frac{dv(t)}{dt}$$
+>Oppure
+>$$v(t)=v(0)+\frac{1}{C}\int_{0}^{t}i(\tau)d\tau$$
+
+^bb070a
+
+Dalla relazione costitutiva si vede che il condensatore è un elemento con memoria. Per conoscere $v(t)$ devo conoscere lo stato iniziale $v(0)$ e l’andamento di $i(t)$.
+

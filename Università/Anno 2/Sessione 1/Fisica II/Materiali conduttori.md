@@ -35,6 +35,9 @@ Abbiamo quindi che nel corpo piccolo c’è una maggiore densità di carica.
 - **Gabbia di faraday**: Se collego un conduttore cavo a terra, il potenziale totale diventerà quello della terra, essendo molto grandi si assume come costante. Quindi tutto quello che succede all’interno della cavità non viene percepito dall’esterno.
 
 # Capacità
+
+^0a935e
+
 Si definisce capacità, ed è costante per ogni conduttore
 $$c=\frac{Q}{\Delta V}$$
 Dove $Q$ è la [[Carica elettrica]] del conduttore e $\Delta V$ è la differenza [[Potenziale elettrostatico]].
