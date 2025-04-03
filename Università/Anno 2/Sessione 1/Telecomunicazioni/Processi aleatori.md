@@ -80,3 +80,4 @@ $$R_{X}(t_{1}, t_{2})=E[X(t_{1})X(t_{2})]=\int_{-\infty}^{\infty}\int_{-\infty}^
 
 [[Processi Gaussiani]]
 [[Processi bianchi]]
+[[Filtraggio di processi Gaussiani e bianchi]]
