@@ -21,4 +21,12 @@ $$\begin{split}V(f)&=\frac{1}{2}[U(f-f_{c})+U(f+f_{c})]=\\&=\frac{A_{c}}{4}[M(f-
 e a questo punto, dato che LP prende solo frequenze $|f|<W$, i prodotti fa $M(f\pm2f_{c})H(f\pm f_c)$ saranno 0, inoltre in questo range $H$ è costante, quindi:
 $$V_{l}(f)=\frac{A_{c}}{4}M(f)[H(f-f_c)+H(f+f_c)]=AM(f)$$
 Vediamo quindi che il segnale dopo essere demodulato ha ricevuto una certa distorsione.
-Abbiamo detto che $H$ è costante, questo chiaramente nella realtà non è possibile, il filtro però funziona lo stesso, perchè, come possiamo vedere nel disegno, 
+Abbiamo detto che $H$ è costante, questo chiaramente nella realtà non è possibile, il filtro però funziona lo stesso, perché, come possiamo vedere nel disegno, $H(f-f_c)+H(f+f_c)$ si può considerare costante per $|f|<W$.
+
+![[Pasted image 20250409184657.png]]
+
+(Grafico di $H(f)$ reale generico nel caso di banda laterale superiore (a destra) Vale la stessa cosa per banda laterale inferiore)
+
+![[Pasted image 20250409184709.png]]
+
+(Grafico della somma di $H(f-f_c)+H(f+f_c)$)

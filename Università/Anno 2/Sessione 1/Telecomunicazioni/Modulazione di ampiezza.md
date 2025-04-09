@@ -9,5 +9,6 @@ Ci sono diversi modi
 2) [[AM]]
 3) [[SSB]]
 4) [[VSB]]
-5) wd
-6) 
+
+# Effetto di rumore sulle modulazioni analogiche
+
