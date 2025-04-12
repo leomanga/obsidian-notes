@@ -30,7 +30,6 @@ $$P= (V_{A}-V_{B})I=RI^{2}=\frac{(\Delta V)^{2}}{R}\quad [W]$$
 
 # Parte di elettrotecnica
 Parliamo di resistori ideali. Ogni resistore ideale è passivo se e solo se $R\ge 0$. Nella realtà lo è sempre, quindi le resistenze sono sempre bipoli passivi. Questo è dato da [[#^2b0c5c]] in cui si vede che la potenza è sempre positiva se $R\ge 0$ e da [[Bipolo#^bc5df0]] si trae la conclusione.
-
-
+#TODO Trasformazione triangolo-stella
 
 

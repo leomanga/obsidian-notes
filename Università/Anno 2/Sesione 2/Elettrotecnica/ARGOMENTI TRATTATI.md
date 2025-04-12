@@ -24,4 +24,8 @@ Richiami con [[Università/Anno 2/Sessione 1/Fisica II/ARGOMENTI TRATTATI|ARGOME
 # N-Poli
 [[n-polo]]
 
+[[Resistenza equivalente]]
+
+
+
 [[Grafo associato a un circuito]]
