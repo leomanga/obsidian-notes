@@ -25,7 +25,8 @@ Richiami con [[Università/Anno 2/Sessione 1/Fisica II/ARGOMENTI TRATTATI|ARGOME
 [[n-polo]]
 
 [[Resistenza equivalente]]
-
+[[Teorema di Thevenin]]
+[[Teorema di Norton]]
 
 
 [[Grafo associato a un circuito]]
