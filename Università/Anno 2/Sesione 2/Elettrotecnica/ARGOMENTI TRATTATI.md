@@ -8,5 +8,7 @@ Richiami con [[Università/Anno 2/Sessione 1/Fisica II/ARGOMENTI TRATTATI|ARGOME
 [[Circuito aperto]]
 [[Condensatori]]
 [[Induttori]]
+[[Leggi di Kirchhoff]]
+
 
 [[Grafo associato a un circuito]]

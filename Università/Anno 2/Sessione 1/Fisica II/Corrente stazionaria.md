@@ -10,8 +10,14 @@ $$\oint_S \vec{J}(t)\cdot \hat n\cdot ds=\frac{dQ}{dt}=0=I$$
 >
 >(Vengono assunte positive le correnti uscenti da un nodo e negative quelle entranti)
 
+^f508df
+
+
 >[!prp] Seconda legge di Kirchhof
 >$$\sum f_{i}=\sum_{k}R_{k}I_{k}=\sum_{k}\Delta V_{k}$$
 >dove $f_{i}$ sono le varie [[Generatore di forza elettromotrice#^6d2e46|forze motrici]], $R_{k}$ le varie [[Resistenze]], $I_{k}$ le [[Corrente elettrica|correnti]] e $\Delta V_{k}$ le differenze di [[Potenziale elettrostatico]] ai vari capi.
+
+^4ba903
+
 
 
