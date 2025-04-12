@@ -3,3 +3,4 @@ Una rete a due porte (doppio bipolo) è un quadripolo tale che la coppia di mors
 
 ![[Rete due porte.excalidraw]]
 
+#TODO Aggiungi reti fatte lezione 3
