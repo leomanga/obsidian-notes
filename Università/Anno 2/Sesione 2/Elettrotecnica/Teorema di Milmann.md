@@ -1,0 +1,2 @@
+Se abbiamo $n$ [[Generatore reale di tensione|generatori reali di tensione]] in parallelo fra loro, allora possiamo calcolare la tensione $v_{AB}$ ai capi di essi con la formula
+$$v_{AB}=\frac{v_{g1}G_{1}+\ldots+v_{g_{n}}G_{n}}{G_{1}+\ldots+G_{n}}$$

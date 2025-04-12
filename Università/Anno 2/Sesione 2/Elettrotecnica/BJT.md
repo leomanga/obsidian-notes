@@ -1,0 +1,4 @@
+---
+aliases:
+  - bipolar junction transistor
+---
