@@ -9,3 +9,4 @@ $$i=\frac{E}{r+r_s}$$
 $$p=ri^2=\frac{rE^2}{(r+r_s)^2}$$
 che ha un massimo per $r=r_{s}>0$
 La potenza massima vale $$p_{max}=\frac{E^2}{4r_{s}}\ [W]$$
+La resistenza che assorbe la massima potenza sarà $r=r_{s}$.
