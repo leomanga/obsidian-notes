@@ -2,3 +2,4 @@ Interconnettendo bipoli elementari([[Resistenze]],[[Condensatori]], [[Induttori]
 
 [[Generatore reale di tensione]]
 [[Generatore reale di corrente]]
+[[Amplificatore operazionale ideale]]
