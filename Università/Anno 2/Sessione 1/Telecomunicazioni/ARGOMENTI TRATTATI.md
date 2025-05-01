@@ -8,5 +8,5 @@
 [[Segnali passa-basso e passa-banda]]
 [[Processi aleatori]]
 [[Modulazioni]]
-[[Segnale digitale]]
+[[Segnali digitali]]
 [[Sistema di comunicazione digitale]]
