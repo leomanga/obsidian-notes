@@ -28,3 +28,7 @@ $$m\iff S_{m}(t), \quad m=1,\ldots, M$$
 Ricordando che il rumore AWGN è additivo, avremo che nel canale avremo un segnale del tipo
 $$\mathbb{r}(t)=S_{m}(t)+\mathbb{n}(t)$$
 dove $\mathbb{n}(t)$ è il rumore.
+
+[[Rappresentazione vettoriale di un segnale]]
+[[Modulazione binaria]]
+[[Modulazione di M forme d’onda]]

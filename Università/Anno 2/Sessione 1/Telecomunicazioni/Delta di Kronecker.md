@@ -1,0 +1,1 @@
+$$\delta_{n,m}=\begin{cases}1,\quad \mbox{se }i=j, \\ 0\quad \mbox{altrimenti} \end{cases}$$
