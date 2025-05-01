@@ -5,7 +5,7 @@
   "viewImageWithLink": true,
   "viewImageOther": true,
   "pinMaximum": 3,
-  "pinCoverMode": true,
+  "pinCoverMode": false,
   "imageMoveSpeed": 10,
   "imgTipToggle": true,
   "imgFullScreenMode": "FIT",

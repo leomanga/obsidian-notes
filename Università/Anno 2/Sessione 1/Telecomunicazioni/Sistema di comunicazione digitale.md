@@ -1,1 +1,1 @@
-![[Comunicazione digitale.excalidraw|{width:700}]]
+![wdd|1000](Comunicazione_digitale.excalidraw)
