@@ -18,3 +18,7 @@ I nostri obiettivi sono:
 4) Espandere la banda del segnale per ridurre gli effetti negativi della trasmissione su canali rumorosi. (Gli obiettivi 1-3 sono possibili solo con la modulazione di ampiezza)
 
 [[Modulazione di ampiezza]]
+
+# Modulazione digitale
+Studieremo le modulazioni digitali in canali affetti da disturbo [[AWGN]].
+Questo modello è adatto alle linee cablate e ad alcuni canali radio.
