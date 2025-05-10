@@ -37,3 +37,12 @@ Supponiamo $i(t)=I_{M}\cos(\omega t+\phi_{i})$, allora dalla legge di Ohm
 $$v(t)=V_M\cos(\omega t+\phi_v)=Ri(t)=RI_{M}\cos(\omega t+\phi_{i})$$
 Allora $$V_M=RI_{M},\quad \phi_v=\phi_i$$
 
+>[!def] Relazione costitutiva nel dominio dei fasori
+>[[Fasori]]
+>$$\bar V = R\bar I$$
+>
+>![[Resistenza-fasori.excalidraw]]
+
+
+
+

@@ -7,8 +7,10 @@ Di seguito verrà trattato il comportamento dei principali bipoli ideali in regi
 ![[Resistenze#Regime sinusoidale]]
 
 - Induttori
-![[Induttori]]
+![[Induttori#Regime sinusoidale]]
 
+- Condensatori
+![[Condensatori#Regime sinusoidale]]
 
 
 

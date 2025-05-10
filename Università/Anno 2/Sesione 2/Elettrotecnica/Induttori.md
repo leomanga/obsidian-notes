@@ -24,3 +24,12 @@ Allora
 $$\begin{split}v(t)&=V_M \cos(\omega t+\phi_v)=L\frac{d}{dt}i(t)\\ &-\omega LI_{M} \sin(\omega t+\phi_{i})=\omega L I_{M}\cos(\omega t+\phi_{i}+\frac{\pi}{2})\end{split}$$
 quindi $$V_{M}=\omega LI_{M}=X_{L}I_{M}\quad \phi_{v}=\phi_{i} + \frac{\pi}{2}$$
 dove $X_{L}$ è la [[Reattanza]]
+
+>[!def] Relazione costitutiva nel dominio dei fasori
+>[[Fasori]]
+>$$\bar V = j\omega L\bar I=jX_{L}\bar I=\bar Z_{L}\bar I$$
+>$X_{L}$ è la [[Reattanza]]
+>
+>Si definisce da qui l’[[Impedenza]] dell’induttore.
+>
+>![[Resistenza-fasori.excalidraw]]
