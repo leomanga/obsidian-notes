@@ -84,4 +84,4 @@ dove $X_C$ è la [[Reattanza]]
 >
 >Si definisce da qui l’[[Impedenza]] e l’[[Ammettenza]] del condensatore
 >
->![[Induttanza-Fasori.excalidraw]]
+>
