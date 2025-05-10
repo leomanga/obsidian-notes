@@ -6,7 +6,7 @@ noteID: 883af0bc-7714-4160-aa0c-5d91ff2e82ea
 
 ---
 # Filosofia
-![[Home filosofia]]
+![[Home filosofia.mdenc]]
 
 ---
 # Diario

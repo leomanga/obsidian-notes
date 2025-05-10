@@ -1,5 +1,5 @@
 {
-  "confirmPassword": true,
+  "confirmPassword": false,
   "rememberPassword": true,
   "rememberPasswordTimeout": 30,
   "rememberPasswordLevel": "vault",
