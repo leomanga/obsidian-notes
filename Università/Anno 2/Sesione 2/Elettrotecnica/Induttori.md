@@ -30,6 +30,6 @@ dove $X_{L}$ è la [[Reattanza]]
 >$$\bar V = j\omega L\bar I=jX_{L}\bar I=\bar Z_{L}\bar I$$
 >$X_{L}$ è la [[Reattanza]]
 >
->Si definisce da qui l’[[Impedenza]] dell’induttore.
+>Si definisce da qui l’[[Impedenza]] e l’[[Ammettenza]] dell’induttore
 >
 >![[Resistenza-fasori.excalidraw]]
