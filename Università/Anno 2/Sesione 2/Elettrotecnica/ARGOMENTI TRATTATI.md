@@ -31,3 +31,7 @@ Richiami con [[Università/Anno 2/Sessione 1/Fisica II/ARGOMENTI TRATTATI|ARGOME
 
 [[Grafo associato a un circuito]]
 [[Metodo delle maglie fondamentali]]
+
+# Regime sinusoidale
+[[Fasori]]
+[[Studio dei circuiti a regime sinusoidale]]
