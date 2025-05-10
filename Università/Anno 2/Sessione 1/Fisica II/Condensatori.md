@@ -76,3 +76,12 @@ Se applichiamo una tensione alternata sinusoidale del tipo $v(t)=V_{M}\cos(\omeg
 $$i(t)=I_{M}\cos(\omega t+\phi _{i})=C\frac{dv}{dt}=\omega CV_{M}\sin(\omega t+\phi_v)= \omega CV_{M}\cos(\omega t+\phi_v+\frac{\pi}{2})$$
 quindi $$I_{M} =\omega CV_M =\frac{V_M}{X_{c}} \quad \phi_{i}= \phi_{v}+\frac{\pi}{2}$$
 dove $X_C$ è la [[Reattanza]]
+
+>[!def] Relazione costitutiva nel dominio dei fasori
+>[[Fasori]]
+>$$\bar I = j\omega C\bar V=\frac{j}{X_{C}}\bar V= \frac{1}{\bar Z_{C}}\bar I$$
+>$X_{C}$ è la [[Reattanza]].
+>
+>Si definisce da qui l’[[Impedenza]] e l’[[Ammettenza]] del condensatore
+>
+>![[Induttanza-Fasori.excalidraw]]

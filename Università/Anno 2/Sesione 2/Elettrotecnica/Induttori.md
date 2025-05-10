@@ -32,4 +32,6 @@ dove $X_{L}$ è la [[Reattanza]]
 >
 >Si definisce da qui l’[[Impedenza]] e l’[[Ammettenza]] dell’induttore
 >
->![[Resistenza-fasori.excalidraw]]
+>![[Induttanza-Fasori.excalidraw]]
+
+

@@ -1,2 +1,2 @@
-$$\bar Z_{L}=j\omega L=jX_{L} \quad \ohm$$
-$X_{L}$ è la [[Reattanza]]
+$$\bar Z_{L}=j\omega L=jX_{L} \quad \bar Z_{C}=\frac{1}{j\omega C}=-j\frac{1}{\omega C}=-jX_{C}\ohm$$
+$X_{C}$ è la [[Reattanza]]
