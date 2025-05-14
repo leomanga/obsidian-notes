@@ -35,3 +35,4 @@ Richiami con [[Università/Anno 2/Sessione 1/Fisica II/ARGOMENTI TRATTATI|ARGOME
 # Regime sinusoidale
 [[Fasori]]
 [[Studio dei circuiti a regime sinusoidale]]
+[[Potenza]]

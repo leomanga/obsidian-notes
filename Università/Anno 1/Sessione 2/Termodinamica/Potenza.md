@@ -9,3 +9,7 @@ $d\vec{s}$ è lo [[Legge oraria|Spostamento]] infinitesimo e $\vec{v}$ la [[Velo
 $J$ sono i Joule, $s$ i secondi e $W$ i Watt. 
 $I$ è la [[Corrente elettrica]] e $V_A$ e $V_{B}$ sono i [[Potenziale elettrostatico|potenziali]] di due estremità di un conduttore.
 
+# Potenza nel regime sinusoidale
+Parte di elettrotecnica.
+
+Facciamo uso della definizione di [[Valore efficace]]
