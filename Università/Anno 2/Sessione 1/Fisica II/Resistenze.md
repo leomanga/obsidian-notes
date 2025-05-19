@@ -32,4 +32,17 @@ $$P= (V_{A}-V_{B})I=RI^{2}=\frac{(\Delta V)^{2}}{R}\quad [W]$$
 Parliamo di resistori ideali. Ogni resistore ideale è passivo se e solo se $R\ge 0$. Nella realtà lo è sempre, quindi le resistenze sono sempre bipoli passivi. Questo è dato da [[#^2b0c5c]] in cui si vede che la potenza è sempre positiva se $R\ge 0$ e da [[Bipolo#^bc5df0]] si trae la conclusione.
 #TODO Trasformazione triangolo-stella
 
+## Regime sinusoidale
+Supponiamo $i(t)=I_{M}\cos(\omega t+\phi_{i})$, allora dalla legge di Ohm
+$$v(t)=V_M\cos(\omega t+\phi_v)=Ri(t)=RI_{M}\cos(\omega t+\phi_{i})$$
+Allora $$V_M=RI_{M},\quad \phi_v=\phi_i$$
+
+>[!def] Relazione costitutiva nel dominio dei fasori
+>[[Fasori]]
+>$$\bar V = R\bar I$$
+>
+>![[Resistenza-fasori.excalidraw]]
+
+
+
 

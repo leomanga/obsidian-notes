@@ -25,6 +25,7 @@ dove $S$ è la superficie del condensatore
 
 ## Condensatore cilindrico ideale
 ![[Condensatore cilindrico.excalidraw]]
+
 La carica sarà
 $$c=\frac{2\pi\epsilon_{0}L}{\ln[\frac{R_{2}}{R_{1}}]}$$
 
@@ -65,3 +66,22 @@ Il condensatore è un elemento conservativo, immagazzina sotto forma di energia 
 
 Dalla relazione costitutiva si vede che il condensatore è un elemento con memoria. Per conoscere $v(t)$ devo conoscere lo stato iniziale $v(0)$ e l’andamento di $i(t)$.
 
+## Regime sinusoidale
+Dalla sua [[#^bb070a]] si ha che
+$$i(t)=C\frac{dv}{dt}=\frac{dq_c}{dt}$$
+dove $q_{c}=Cv$ è la carica sulle sue armature.
+
+Se applicassimo una tensione costante, avremo $i(t)=0$, quindi il condensatore si comporterà come circuito aperto.
+Se applichiamo una tensione alternata sinusoidale del tipo $v(t)=V_{M}\cos(\omega t+\phi_v)$, avremo
+$$i(t)=I_{M}\cos(\omega t+\phi _{i})=C\frac{dv}{dt}=\omega CV_{M}\sin(\omega t+\phi_v)= \omega CV_{M}\cos(\omega t+\phi_v+\frac{\pi}{2})$$
+quindi $$I_{M} =\omega CV_M =\frac{V_M}{X_{c}} \quad \phi_{i}= \phi_{v}+\frac{\pi}{2}$$
+dove $X_C$ è la [[Reattanza]]
+
+>[!def] Relazione costitutiva nel dominio dei fasori
+>[[Fasori]]
+>$$\bar I = j\omega C\bar V=\frac{j}{X_{C}}\bar V= \frac{1}{\bar Z_{C}}\bar I$$
+>$X_{C}$ è la [[Reattanza]].
+>
+>Si definisce da qui l’[[Impedenza]] e l’[[Ammettenza]] del condensatore
+>
+>
